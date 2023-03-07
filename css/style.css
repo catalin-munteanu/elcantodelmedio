@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Gill Sans';
-    src: url('fonts/GILLSANS.ttf');
+    src: url('../fonts/GLSNECB.ttf');
 }
 
 h1,
@@ -39,23 +39,22 @@ body {
 }
 
 section:nth-child(1) {
-    background-image: url('../img/mobile/ARTBOARD-FONDO.png');
+    background-image: url('../img/mobile/cuerpo-originario-2.png');
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     height: 100vh;
     padding: 7%;
 }
 
-#cuerpoOriginario {
-    width: 90vw;
-}
-
-h1 {
+h1.elementoSeccion1 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 #tipito {
@@ -67,6 +66,15 @@ h2 {
     font-weight: 400;
 }
 
+.elementoSeccion1 {
+    margin: 3vh 0;
+}
+
+#paulaNaanim:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+
 /* SECCIÓN 2 FORMACIÓN */
 
 section:nth-child(2) {
@@ -75,12 +83,18 @@ section:nth-child(2) {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    min-height: 100vh;
     padding: 7%;
 }
 
 section:nth-child(2) h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
     font-size: 40px;
+}
+
+section:nth-child(2) article h3 {
+    text-transform: uppercase;
 }
 
 /* SECCIÓN 3 ASESORÍAS */
@@ -96,6 +110,8 @@ section:nth-child(3) {
 }
 
 section:nth-child(3) h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
     font-size: 40px;
 }
 
@@ -108,10 +124,16 @@ section:nth-child(4) {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    min-height: 100vh;
     padding: 7%;
 }
 
 section:nth-child(4) h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
     font-size: 40px;
+}
+
+section:nth-child(4) img {
+    width: 87vw;
 }
