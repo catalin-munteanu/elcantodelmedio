@@ -47,19 +47,11 @@
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
                 <p>Conocé el programa completo</p>
+                <p class="importantP">Próximo curso en abril 2023</p>
             </article>
 
-            <article>
-
-                <h3>Próximo curso en abril 2023</h3>
-
-                <p>Nivel 1</p>
-
-                <p>Iniciación al Canto Consciente</p>
-
-            </article>
-
-            <article>
+            <button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
+            <article class="panel">
                 <p>Este curso teórico - práctico está pensado para que aprendas las bases funcionales esenciales de la emisión neurofisiológica. Dichas funciones permiten la activación del canal principal, el canal del medio, desde el cual potenciamos el desarrollo de un canto consciente, saludable y musicalmente eficiente.</p>
 
                 <p>Modalidad : presencial y grupal<br>
@@ -72,12 +64,30 @@
 
                 <p>Inicia el lunes 3 de abril</p>
 
-                <p>Si querés conocer los contenidos del curso, hace click acá. (el aca te lleva al enlace del programa completo, donde está la descripción del nivel 1 completa. Los enlaces los puse al final)</p>
+                <p>Si querés conocer los contenidos del curso, hace click acá.</p>
 
                 <p>(*) El curso cuatrimestral de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
 
                 <p>Reservá tu lugar</p>
             </article>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
         </section>
 
         <section id="consultoriaVoz">
