@@ -29,13 +29,19 @@
 
         <section>
 
-            <h1 class="elementoSeccion1">El canto del medio</h1>
+            <img src="wp-content\themes\cantodelmedio\img\mobile\TEXTO PRINCIPAL.png" id="logoCuerpoOrig">
 
-            <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
+            <article>
 
-            <h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela de Canto Consciente y Visionario</span>
-                <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a>
-            </h2>
+                <h1 class="elementoSeccion1">El canto del medio</h1>
+
+                <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
+
+                <h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela de Canto Consciente y Visionario</span>
+                    <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a>
+                </h2>
+
+            </article>
 
         </section>
 
@@ -54,11 +60,11 @@
             <article class="panel">
                 <p>Este curso teórico - práctico está pensado para que aprendas las bases funcionales esenciales de la emisión neurofisiológica. Dichas funciones permiten la activación del canal principal, el canal del medio, desde el cual potenciamos el desarrollo de un canto consciente, saludable y musicalmente eficiente.</p>
 
-                <p>Modalidad : presencial y grupal<br>
-                    Duración : 4 meses (Abril - Julio 2023)<br>
-                    Cursada : Lunes de 19hs a 21hs<br>
-                    Lugar : Estudio Neo Baladi (zona Parque Centenario)<br>
-                    Valor : $6000 mensual</p>
+                <p>Modalidad: presencial y grupal<br>
+                    Duración: 4 meses (Abril - Julio 2023)<br>
+                    Cursada: Lunes de 19hs a 21hs<br>
+                    Lugar: Estudio Neo Baladi (zona Parque Centenario)<br>
+                    Valor: $6000 mensual</p>
 
                 <p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación</p>
 
@@ -66,7 +72,7 @@
 
                 <p>Si querés conocer los contenidos del curso, hace click acá.</p>
 
-                <p>(*) El curso cuatrimestral de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
+                <p>(*) El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
 
                 <p>Reservá tu lugar</p>
             </article>
