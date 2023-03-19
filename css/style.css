@@ -10,6 +10,12 @@
     outline: none;
 }
 
+/* Estilos generales */
+
+* {
+    scroll-behavior: smooth;
+}
+
 /* Fuentes */
 
 @font-face {
@@ -22,20 +28,58 @@ h2,
 h3,
 section,
 p {
-    font-family: 'Cabin', Arial, sans-serif;
+    font-family: 'Quicksand', Arial, sans-serif;
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 
 /* Fondo */
 
 /* la imagen no me da bola */
 
+/* HEADER */
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    background-color: rgba(32,27,31,0.60);
+}
+
+#menuRedesHeader {
+    display: flex;
+    align-items: center;
+}
+
+#logoYoutubeHeader,
+#logoInstagramHeader,
+#logoWhatsAppHeader,
+#burgerMenuImg {
+    width: 45px;
+    padding: 10px;
+    display: block;
+}
+
+#burgerMenu {
+    background-color: transparent;
+}
+
 /* SECCIÓN 1 INTRO */
 
 body {
     min-height: 100vh;
-    background-color: #000000;
+    background-image: url('../img/mobile/ARTBOARD-FONDO.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    margin: 0 5vw;
+    padding: 5%;
 }
 
 section:nth-child(1) {
@@ -47,22 +91,23 @@ section:nth-child(1) {
     align-items: center;
     justify-content: flex-end;
     height: 100vh;
-    padding: 7%;
 }
 
 h1.elementoSeccion1 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
+    text-shadow: 2px 2px 1px #201B1F;
 }
 
 #tipito {
     width: 20vw;
+    margin: 2vh 0;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -70,21 +115,28 @@ h2 {
     margin: 3vh 0;
 }
 
+#escuelaCantoTitulo {
+    font-weight: 600;
+}
+
+#paulaNaanim {
+    color: #FFFFFF;
+}
+
 #paulaNaanim:hover {
     font-weight: 800;
     cursor: pointer;
 }
 
-/* SECCIÓN 2 FORMACIÓN */
+/* SECCIÓN 2 FORMACIÓN INTEGRAL */
 
 section:nth-child(2) {
-    background-color: #666633;
+    background-color: #4C562B;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
-    padding: 7%;
 }
 
 section:nth-child(2) h2 {
@@ -97,16 +149,21 @@ section:nth-child(2) article h3 {
     text-transform: uppercase;
 }
 
+#formacionIntegral p,
+#consultoriaVoz p,
+#cierre p {
+    margin: 1em 0;
+}
+
 /* SECCIÓN 3 ASESORÍAS */
 
 section:nth-child(3) {
-    background-color: #000000;
+    background-color: #201B1F;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    padding: 7%;
 }
 
 section:nth-child(3) h2 {
@@ -125,15 +182,38 @@ section:nth-child(4) {
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
-    padding: 7%;
 }
 
-section:nth-child(4) h2 {
+#nombrePaula {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 25px;
+}
+
+#hola {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
+    line-height: 0.8em;
+    text-shadow: 2px 2px 1px #201B1F;
 }
 
-section:nth-child(4) img {
-    width: 87vw;
+#imagenBio {
+    width: 100%;
+    padding: 5% 5% 0;
+}
+
+/* SECCIÓN 5 CIERRE */
+
+#cierre {
+    background-color: #4C562B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+#cierre article p strong {
+    font-weight: 700;
 }
