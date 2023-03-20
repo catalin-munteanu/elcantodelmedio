@@ -127,7 +127,8 @@
             <br>
             <p>Es mi deseo que descubras, percibas e integres los beneficios del canto para expandirlos, potenciarlos y
                 aplicarlos en tu vida artística y creativa.</p>
-
+            
+            <article id="galeriaFotosBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01.jpeg" class="fotoGaleriaBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02.jpeg" class="fotoGaleriaBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio"></article>
         </section>
 
         <section id="cierre">

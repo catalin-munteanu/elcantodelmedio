@@ -47,8 +47,7 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    height: 46px;
-    background-color: rgba(32,27,31,0.60);
+    padding: 10px;
 }
 
 #menuRedesHeader {
@@ -214,6 +213,16 @@ section:nth-child(4) {
 #imagenBio {
     width: 100%;
     padding: 5% 5% 0;
+}
+
+#galeriaFotosBio {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.fotoGaleriaBio {
+    max-width: 33%;
 }
 
 /* SECCIÓN 5 CIERRE */
