@@ -138,7 +138,14 @@
                 </p>
                 <p>¡Te espero!</p>
             </article>
-
+            
+            <article id="galeriaFotosServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-04.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05.jpeg" class="fotoGaleriaServicios">
+            </article>
             <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
 
             <article>
