@@ -38,7 +38,9 @@ h3,
 section,
 p,
 button,
-li {
+li
+h3,
+h4 {
     font-family: 'Quicksand', Arial, sans-serif;
     color: white;
     text-align: center;
@@ -52,7 +54,8 @@ li {
 /* HEADER */
 
 header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 2;
     width: 100vw;
     display: flex;
@@ -193,7 +196,8 @@ section:nth-child(2) article h3 {
 
 #formacionIntegral p,
 #consultoriaVoz p,
-#cierre p {
+#cierre p,
+#descripcionNivelUno p {
     margin: 1em 0;
 }
 
@@ -326,6 +330,52 @@ section:nth-child(4) {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+/* NUEVA PESTAÑA */
+
+#progCompleto {
+        font-family: 'Gill Sans';
+        letter-spacing: 0.1em;
+        font-size: 35px;
+        font-weight: 400;
+        text-shadow: 2px 2px 1px #201B1F;
+        margin: 0.5em;
+    }
+
+#tablaProgCompleto {
+    margin: 1em;
+}
+
+table,
+td,
+th {
+    font-family: 'Quicksand', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+table {
+    margin: 2em;
+}
+
+td,
+th {
+    padding: 0.5em;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*#sectConscienteNivelUno,
+#descripcionConscienteNivelUno,
+#contenidosConscienteNivelUno,
+#sectConscienteNivelDos,
+#descripcionConscienteNivelDos,
+#contenidosConscienteNivelDos {
+    margin: 0.2em;
+}*/
 
 /* MEDIA QUERIES */
 
