@@ -10,6 +10,15 @@
     outline: none;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+
 /* Estilos generales */
 
 * {
@@ -28,7 +37,8 @@ h2,
 h3,
 section,
 p,
-button {
+button,
+li {
     font-family: 'Quicksand', Arial, sans-serif;
     color: white;
     text-align: center;
@@ -68,6 +78,10 @@ header {
     background-color: transparent;
 }
 
+nav {
+    display: none;
+}
+
 /* SECCIÓN 1 INTRO */
 
 body {
@@ -94,7 +108,8 @@ section:nth-child(1) {
 }
 
 #logoCuerpoOrig {
-    width: 75vw;
+    width: 60vw;
+    text-shadow: 2px 2px 1px #201B1F
 }
 
 h1.elementoSeccion1 {
@@ -283,9 +298,73 @@ section:nth-child(4) {
 
 @media (min-width: 768px) {
 
+    /* HEADER */
+
+    #burgerMenu {
+        display: none;
+    }
+    
+    #mainMenu {
+        display: block;
+    }
+
+    #mainMenu ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0 2em;
+    }
+
+    #mainMenu ul li {
+        padding: 1em;
+    }
+
     /* SECCIÓN INTRO */
+
+    #presentacionSitio {
+        flex-direction: row;
+    }
+
+    #logoCuerpoOrig {
+        width: 40vw;
+    }
+
+    h1.elementoSeccion1 {
+        font-size: 50px;
+    }
+
+    /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
 #tipito {
     width: 10vw;
 }
+
+#formacionIntegral h2,
+#consultoriaVoz h2 {
+    font-size: 50px;
+}
+
+/* SECCIÓN BIO */
+
+#bio img {
+    float: right;
+    width: 30%;
+    padding: 0;
+}
+
+#presentacionFoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#nombrePaula {
+    font-size: 40px;
+}
+
+#hola {
+    font-size: 60px;
+}
+
 }

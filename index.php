@@ -17,19 +17,27 @@
 
     <header>
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\yt_logo_only.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-logo.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wa-logo.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\yt-prueba.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-prueba-2.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wpp-prueba.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
         <button id="burgerMenu"><img src="wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="burgerMenuImg"></button>
+
+        <nav id="mainMenu">
+            <ul>
+                <li><a href="#formacionIntegral">Formación</a></li>
+                <li><a href="#consultoriaVoz">Consultorías</a></li>
+                <li><a href="#bio">Bio</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
 
-        <section>
+        <section id="presentacionSitio">
 
-            <img src="wp-content\themes\cantodelmedio\img\mobile\TEXTO PRINCIPAL.png" id="logoCuerpoOrig">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\logo-color-2.png" id="logoCuerpoOrig">
 
             <article>
 
@@ -70,11 +78,11 @@
 
                 <p>Inicia el lunes 3 de abril</p>
 
-                <p>Si querés conocer los contenidos del curso, hace click acá.</p>
+                <p>Si querés conocer los contenidos del curso, <a href="wp-content\themes\cantodelmedio\programa-curso.php" target="_blank">hacé click acá.</a></p>
 
                 <p>(*) El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
 
-                <p>Reservá tu lugar</p>
+                <p><a href="https://wa.me/5491136148307" target="_blank">Reservá tu lugar</a></p>
             </article>
 
             <script>
@@ -99,15 +107,17 @@
         <section id="consultoriaVoz">
             <h2>Consultoría para la voz</h2>
 
-            <p>Solicitá tu consulta</p>
+            <p><a href="https://wa.me/5491136148307" target="_blank">Solicitá tu consulta</a></p>
         </section>
 
         <section id="bio">
 
-            <h2 id="hola">¡Hola!<br>
-                <strong id="nombrePaula">soy Paula Naanim Telis</strong>
-            </h2>
-            <img src="wp-content\themes\cantodelmedio\img\mobile\imagenBioRecortada.png" id="imagenBio">
+            <article id="presentacionFoto">
+                <h2 id="hola">¡Hola!<br>
+                    <strong id="nombrePaula">Soy Paula Naanim Telis</strong>
+                </h2>
+                <img src="wp-content\themes\cantodelmedio\img\mobile\imagenBioRecortada.png" id="imagenBio">
+            </article>
             <br>
             <p>Cantante y compositora de música urbana y tribal, escritora, artista de performance y practicante de danzas
                 orientales y contemplativas.</p>
@@ -127,8 +137,12 @@
             <br>
             <p>Es mi deseo que descubras, percibas e integres los beneficios del canto para expandirlos, potenciarlos y
                 aplicarlos en tu vida artística y creativa.</p>
-            
-            <article id="galeriaFotosBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01.jpeg" class="fotoGaleriaBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02.jpeg" class="fotoGaleriaBio"><img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio"></article>
+
+            <article id="galeriaFotosBio">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01b.jpeg" class="fotoGaleriaBio">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
+            </article>
         </section>
 
         <section id="cierre">
@@ -138,20 +152,20 @@
                 </p>
                 <p>¡Te espero!</p>
             </article>
-            
+
             <article id="galeriaFotosServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01b.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02b.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-04.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05b.jpeg" class="fotoGaleriaServicios">
             </article>
             <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
 
             <article>
                 <p><strong>Paula Naanim Telis</strong></p>
                 <p>info@elcantodelmedio.com.ar</p>
-                <p>1136148307</p>
+                <p><a href="https://wa.me/5491136148307" target="_blank">1136148307</a></p>
             </article>
         </section>
 
