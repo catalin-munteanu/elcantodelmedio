@@ -40,7 +40,7 @@
         body {
             min-height: 100vh;
             background-color: red;
-            background-image: url('../img/mobile/ARTBOARD-FONDO.png');
+            background-image: url('../img/mobile/ARTBOARD-FONDO.jpg');
             background-size: cover;
             background-attachment: fixed;
         }

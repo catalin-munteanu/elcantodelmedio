@@ -148,7 +148,7 @@ section:nth-child(3) h2 {
 /* SECCIÓN 4 BIO */
 
 section:nth-child(4) {
-    background-image: url('../img/mobile/ARTBOARD-FONDO.png');
+    background-image: url('../img/mobile/ARTBOARD-FONDO.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;

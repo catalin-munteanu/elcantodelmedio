@@ -17,7 +17,7 @@
 
     <header>
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\yt-prueba.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-yt-nv.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
             <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-prueba-2.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
             <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wpp-prueba.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
@@ -54,6 +54,9 @@
         </section>
 
         <section id="formacionIntegral">
+            <figure class="imgFondo">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-verde-nvo.svg" alt="" srcset="">
+            </figure>
 
             <h2>Formación integral</h2>
 
@@ -78,7 +81,7 @@
 
                 <p>Inicia el lunes 3 de abril</p>
 
-                <p>Si querés conocer los contenidos del curso, <a href="wp-content\themes\cantodelmedio\programa-curso.php" target="_blank">hacé click acá.</a></p>
+                <p>Si querés conocer los contenidos del curso, hacé click acá.</p>
 
                 <p>(*) El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
 
@@ -105,6 +108,10 @@
         </section>
 
         <section id="consultoriaVoz">
+            <figure class="imgFondo">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-negro.svg" alt="" srcset="">
+            </figure>
+
             <h2>Consultoría para la voz</h2>
 
             <p><a href="https://wa.me/5491136148307" target="_blank">Solicitá tu consulta</a></p>
@@ -146,6 +153,9 @@
         </section>
 
         <section id="cierre">
+            <figure class="imgFondo">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-verde-final.svg" alt="" srcset="">
+            </figure>
             <article>
                 <p>Gracias por tu interés en los servicios de<br>
                     <strong>El canto del medio<br>Escuela de Canto Consciente y Visionario.</strong>

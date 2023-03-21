@@ -57,6 +57,7 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
@@ -86,7 +87,7 @@ nav {
 
 body {
     min-height: 100vh;
-    background-image: url('../img/mobile/ARTBOARD-FONDO.png');
+    background-image: url('../img/mobile/ARTBOARD-FONDO.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -150,8 +151,8 @@ h2 {
 /* SECCIÓN 2 FORMACIÓN INTEGRAL */
 
 section:nth-child(2) {
-    background-image: url('../img/mobile/marco-flex-verde-prueba3.svg');
-    /* background-color: #4C562B; */
+    /*background-image: url('../img/mobile/fondo-verde-cuadrado.svg');*/
+    /*background-color: #54592C;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,12 +161,30 @@ section:nth-child(2) {
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
+    position: relative;
+}
+
+.imgFondo {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.imgFondo img {
+    width: 100%;
+    height: 100%;
 }
 
 section:nth-child(2) h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
+    z-index: 1;
+}
+
+section:nth-child(2) article {
+    z-index: 1;
 }
 
 section:nth-child(2) article h3 {
@@ -182,21 +201,27 @@ section:nth-child(2) article h3 {
     font-weight: 600;
 }
 
-/* SECCIÓN 3 ASESORÍAS */
+/* SECCIÓN 3 CONSULTORÍAS */
 
 section:nth-child(3) {
-    /*background-color: #201B1F*/
+    /* background-color: #2C282C; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
+    position: relative;
 }
 
 section:nth-child(3) h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
+    z-index: 1;
+}
+
+section:nth-child(3) p {
+    z-index: 1;
 }
 
 /* SECCIÓN 4 BIO */
@@ -243,12 +268,13 @@ section:nth-child(4) {
 /* SECCIÓN 5 CIERRE */
 
 #cierre {
-    background-color: #4C562B;
+    /*background-color: #54592C;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
+    position: relative;
 }
 
 #cierre article p strong {
@@ -267,6 +293,11 @@ section:nth-child(4) {
     max-width: 20%;
 }
 
+#cierre article,
+#tipito {
+    z-index: 1;
+}
+
 /* ACCORDION */
 
 .accordion {
@@ -280,21 +311,23 @@ section:nth-child(4) {
     outline: none;
     transition: 0.4s;
     font-weight: 600;
-  }
-  
-  .active, .accordion:hover {
+    position: relative;
+}
+
+.active,
+.accordion:hover {
     color: white;
-    background-color:  rgba(32,27,31,0.40);
-  }
-  
-  .panel {
+    background-color: rgba(32, 27, 31, 0.40);
+}
+
+.panel {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-  }
+}
 
-  /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 @media (min-width: 768px) {
 
@@ -303,7 +336,7 @@ section:nth-child(4) {
     #burgerMenu {
         display: none;
     }
-    
+
     #mainMenu {
         display: block;
     }
@@ -315,7 +348,15 @@ section:nth-child(4) {
         margin: 0 2em;
     }
 
+    #logoYoutubeHeader,
+    #logoInstagramHeader,
+    #logoWhatsAppHeader {
+        width: 80px;
+        padding: 20px;
+    }
+
     #mainMenu ul li {
+        font-size: 20px;
         padding: 1em;
     }
 
@@ -335,36 +376,36 @@ section:nth-child(4) {
 
     /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
-#tipito {
-    width: 10vw;
-}
+    #tipito {
+        width: 10vw;
+    }
 
-#formacionIntegral h2,
-#consultoriaVoz h2 {
-    font-size: 50px;
-}
+    #formacionIntegral h2,
+    #consultoriaVoz h2 {
+        font-size: 50px;
+    }
 
-/* SECCIÓN BIO */
+    /* SECCIÓN BIO */
 
-#bio img {
-    float: right;
-    width: 30%;
-    padding: 0;
-}
+    #bio img {
+        float: right;
+        width: 30%;
+        padding: 0;
+    }
 
-#presentacionFoto {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-}
+    #presentacionFoto {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
 
-#nombrePaula {
-    font-size: 40px;
-}
+    #nombrePaula {
+        font-size: 40px;
+    }
 
-#hola {
-    font-size: 60px;
-}
+    #hola {
+        font-size: 60px;
+    }
 
 }
