@@ -126,24 +126,65 @@
                 <img src="wp-content\themes\cantodelmedio\img\mobile\imagenBioRecortada.png" id="imagenBio">
             </article>
             <br>
-            <p>Cantante y compositora de música urbana y tribal, escritora, artista de performance y practicante de danzas
-                orientales y contemplativas.</p>
-            <br>
-            <p>Profesora de canto y Lic. En Musicoterapia (UBA) con perspectiva en género, comunidad, salud holística y
-                transpersonal.</p>
-            <br>
-            <p>Luego de más de 12 años de experiencia, más de 500 acompañamientos y del estudio comparado de usos y
-                funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para
-                difundir los hallazgos de mi investigación.</p>
-            <br>
-            <p>Considero que la práctica del canto consciente nos permite conocer y activar a nuestro canal central, desde
-                el cual es posible (re)unificarnos en la percepción de nuestro medio interno, externo y divino a partir del
-                uso de la voz. Ello nos pone en contacto con la emisión fisiológica, garantía de salud física y emocional al
-                servicio de la expresión, la comunicación y la creatividad. A partir de allí, también es posible desarrollar
-                un canto visionario.</p>
-            <br>
-            <p>Es mi deseo que descubras, percibas e integres los beneficios del canto para expandirlos, potenciarlos y
-                aplicarlos en tu vida artística y creativa.</p>
+            <p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y musicoterapeuta (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
+
+            <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
+
+                <!--ver más 1: --><h3>Trayectoria</h3>
+
+                <h4>Trayectoria como cantante</h4>
+
+                <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
+
+                <p>Link a Spotify:</p>
+
+                <h4>Trayectoria como artista de performance</h4>
+
+                <p>Luego de un primer acercamiento profesional como actriz de teatro, comedia musical y televisión, Paula conoce el arte performance y comienza a crear sus propios montajes en colaboración con movimientos activistas para la emancipación de las mujeres y del bienvivir en diversidad. Su obra “Mujer Basura” se destaca por haber sido espontáneamente replicada por artistas y activistas de Latinoamérica; además de haber sido exhibida en Berlín, Lituania y Argentina y de continuar inspirando la escritura de artículos y tesis a nivel nacional e internacional. Sus primeros libros -Mujer Basura, 2016 y Mujer Nueva, 2018- profundizan en estos temas. Hay un corto -El Rito Reciclaje, 2019- que documenta esta investigación. Desde el año 2014 hasta la actualidad, lleva desarrollados más de 12 montajes.</p>
+
+                <p>Archivo de Arte Performance en Youtube:</p>
+
+                <h4>Libros</h4>
+
+                <p>Paula escribió sobre su visión del arte performance y presentó las conclusiones de su obra “Mujer Basura” en el libro “Mujer Basura. Performance y feminismos” (Milena Caserola, 2016). Luego, complementó esta investigación con el desarrollo de la consigna LUCHA Y SANA y de la ritoperformatividad. Escribió sobre ello en “Mujer Nueva. Ritoperformance y femiconciencia” (Milena Cacerola, 2018). Estos materiales fueron presentados oficialmente en la Feria Internacional del Libro de Buenos Aires durante 3 años consecutivos.</p>
+
+                <p>Además, Paula ha co-escrito los artículos “Gritar o morir. Sobre el rol de las mujeres en el metal” (2017) y “Voces degeneradas” (2019) para la colección Cultura Metálica de Clara Beter Ediciones.</p>
+
+                <h4>Otras Artes</h4>
+
+                <p>En sus comienzos como actriz Paula ha participado en obras de teatro, comedia musical y filmaciones para televisión, destacándose su interpretación en “Mujeres que no callan” (Cosmopolitan TV, 2008) y “Los exitosos Pérez” para Méjico (2009).
+                Además, su interés en el arte corporal experimental y visual la ha invitado a realizar decenas de campañas fotográficas y a ser modelo vivo de artistas plásticos de distintas corrientes estéticas.</p>
+
+                <p>Ver Pinterest (proximamente)</p>
+
+                <h4>Trayectoria como docente y terapeuta</h4>
+
+                <p>Paula desarrolla su trabajo como docente particular de canto desde el año 2010 hasta la actualidad. Como terapeuta, desarrolla su trabajo desde el año 2018, especializándose en el acompañamiento a víctimas/sobrevivientes de abuso sexual y/o de poder. Además, ha ejercido como docente de música y teatro en jardines de infantes, como docente de canto de personas adultas con Sindrome de Down y ha sido terapeuta voluntaria en el Hospital J.T. Borda.</p>
+                <p>Actualmente sólo se dedica a la actividad profesional ofrecida desde El Canto del Medio.</p>
+
+                <h4>Estudios sobre la Voz</h4>
+
+                <p>Paula comenzó sus estudios de música y coro a la edad de 7 años en la Escuela de Música n°6. Desde los 14 a los 18 años estudió de forma personalizada con Nancy Endrizzi, quien le transmitió los conocimientos esenciales del Método Rabine-Educación Funcional de la Voz. Complementó su entrenamiento con profesores de distintos estilos y estéticas: Gladys Caldas y Cristina Dall (blues/jazz), Mariana Bianchini e Iván Sencion (rock/metal), Andrés Angeli y Juan Ignacio Orcajada (canto de armónicos), Miriam García (canto con caja), Martin Sacco y Carolina Gómez (canto académico).</p>
+
+                <h4>Pedagogía de la Voz</h4>
+
+                <p>Paula se capacitó en Pedagogía para la Enseñanza del Canto en los 3 seminarios facilitados por Eugene Rabine en sus visitas a la Argentina.</p>
+
+                <h4>Música e Instrumentos Complementarios</h4>
+
+                <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez</p>
+
+                <h4>Estudios sobre el Cuerpo</h4>
+
+                <p>Paula comenzó sus estudios de danza y rítmica a la edad de 7 años en la Escuela de Música n°6. A los 18 años inició un estudio más profundo en técnicas corporales aplicadas al movimiento, al arte escénico y a la salud integral, tomando clases de ballet, danza jazz, eutonía y esferodinamia. A los 25 años comienza a practicar BharataNatyam, danza clásica de la India y a los 27, danza tribal fusión. Actualmente practica Sama, giro sufi, con Paula Lema Karima y complementa su entrenamiento con Pilates.</p>
+
+                <h4>Estudios sobre Actuación e Interpretación</h4>
+
+                <p>Paula comenzó sus estudios de actuación en los cursos extracurriculares de su escuela secundaria. A los 18 años profundizó su formación teatral en el Centro Cultural San Martín y en actuación frente a cámara con Néstor Sacco y Mario Moscoso. También estudió Comedia Musical con Pepe Cibrián Campoy.</p>
+
+                <h4>Estudios sobre la Mente Holística y el Acompañamiento Emocional</h4>
+
+                <p>Paula se formó académicamente como Musicoterapeuta en la Universidad de Buenos Aires, integrando conocimientos sobre psicología, psicología social y comunitaria, antropología, neurociencias y música aplicada a los procesos de salud. Además, Paula se formó en radiestesia y armonización cuántica. Es lectora y canalizadora akáshica, practicante de Mindfulness y de Meditación en Movimiento.</p>
 
             <article id="galeriaFotosBio">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01b.jpeg" class="fotoGaleriaBio">

@@ -112,8 +112,8 @@ section:nth-child(1) {
 }
 
 #logoCuerpoOrig {
-    width: 60vw;
-    text-shadow: 2px 2px 1px #201B1F
+    padding-left: 5vw;
+    width: 62vw;
 }
 
 h1.elementoSeccion1 {
@@ -183,6 +183,7 @@ section:nth-child(2) h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
+    text-shadow: 2px 2px 1px #201B1F;
     z-index: 1;
 }
 
@@ -221,6 +222,7 @@ section:nth-child(3) h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
+    text-shadow: 2px 2px 1px #201B1F;
     z-index: 1;
 }
 
@@ -267,6 +269,18 @@ section:nth-child(4) {
 
 .fotoGaleriaBio {
     max-width: 33%;
+}
+
+#bio p {
+    margin: 16px;
+}
+
+#bio h3,
+#bio h4 {
+    margin: 16px;
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 25px;
 }
 
 /* SECCIÓN 5 CIERRE */
@@ -417,6 +431,7 @@ th {
     }
 
     #logoCuerpoOrig {
+        padding-left: 0;
         width: 40vw;
     }
 
@@ -458,4 +473,8 @@ th {
         font-size: 60px;
     }
 
+    #bio h3,
+    #bio h4 {
+        font-size: 40px;
+    }
 }
