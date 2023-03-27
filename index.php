@@ -65,7 +65,7 @@
 
             <img class="trazoDecorativo" src="wp-content\themes\cantodelmedio\img\mobile\trazo-1.svg" alt="" srcset="">
 
-            <article>
+            <article id="probandoCabin">
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
                 <p>Conocé el programa completo</p>
@@ -175,7 +175,7 @@
             <p>En sus comienzos como actriz Paula ha participado en obras de teatro, comedia musical y filmaciones para televisión, destacándose su interpretación en “Mujeres que no callan” (Cosmopolitan TV, 2008) y “Los exitosos Pérez” para Méjico (2009).
                 Además, su interés en el arte corporal experimental y visual la ha invitado a realizar decenas de campañas fotográficas y a ser modelo vivo de artistas plásticos de distintas corrientes estéticas.</p>
 
-            <p>Ver Pinterest (proximamente)</p>
+            <!--<p>Ver Pinterest (proximamente)</p>-->
 
             <h4>Trayectoria como docente y terapeuta</h4>
 
@@ -192,7 +192,7 @@
 
             <h4>Música e Instrumentos Complementarios</h4>
 
-            <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez</p>
+            <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez.</p>
 
             <h4>Estudios sobre el Cuerpo</h4>
 
