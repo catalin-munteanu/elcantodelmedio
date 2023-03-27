@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="wp-content\themes\cantodelmedio\css\style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700&family=Cabin:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="wp-content\themes\cantodelmedio\js\main.js"></script>
     <title>El canto del medio</title>
@@ -28,6 +29,7 @@
             <ul>
                 <li><a href="#formacionIntegral">Formación</a></li>
                 <li><a href="#consultoriaVoz">Consultorías</a></li>
+                <li><a href="#asesoriaVoz">Asesorías</a></li>
                 <li><a href="#bio">Bio</a></li>
             </ul>
         </nav>
@@ -54,11 +56,14 @@
         </section>
 
         <section id="formacionIntegral">
+
             <figure class="imgFondo">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-verde-nvo.svg" alt="" srcset="">
             </figure>
 
             <h2>Formación integral</h2>
+
+            <img class="trazoDecorativo" src="wp-content\themes\cantodelmedio\img\mobile\trazo-1.svg" alt="" srcset="">
 
             <article>
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
@@ -67,25 +72,17 @@
                 <p class="importantP">Próximo curso en abril 2023</p>
             </article>
 
+            <img class="trazoDecDos" src="wp-content\themes\cantodelmedio\img\mobile\trazo-2.svg" alt="" srcset="">
+
             <button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
             <article class="panel">
-                <p>Este curso teórico - práctico está pensado para que aprendas las bases funcionales esenciales de la emisión neurofisiológica. Dichas funciones permiten la activación del canal principal, el canal del medio, desde el cual potenciamos el desarrollo de un canto consciente, saludable y musicalmente eficiente.</p>
+                <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
 
-                <p>Modalidad: presencial y grupal<br>
-                    Duración: 4 meses (Abril - Julio 2023)<br>
-                    Cursada: Lunes de 19hs a 21hs<br>
-                    Lugar: Estudio Neo Baladi (zona Parque Centenario)<br>
-                    Valor: $6000 mensual</p>
+                <p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
 
-                <p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación</p>
+                <p>Te invitamos a conocer el programa completo acá</p>
 
-                <p>Inicia el lunes 3 de abril</p>
-
-                <p>Si querés conocer los contenidos del curso, hacé click acá.</p>
-
-                <p>(*) El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
-
-                <p><a href="https://wa.me/5491136148307" target="_blank">Reservá tu lugar</a></p>
+                <p>Próximo curso en agosto 2023</p>
             </article>
 
             <script>
@@ -114,7 +111,29 @@
 
             <h2>Consultoría para la voz</h2>
 
-            <p><a href="https://wa.me/5491136148307" target="_blank">Solicitá tu consulta</a></p>
+            <p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
+
+            <p>Modalidad : presencial y/u online</p>
+            <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
+            <p>Valor : $4000 el encuentro</p>
+            <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+
+        </section>
+
+        <section id="asesoriaVoz">
+            <figure class="imgFondo">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-naranja.svg" alt="" srcset="">
+            </figure>
+
+            <h2>Asesorías para cantantes y artistas de la voz</h2>
+
+            <p>El servicio de Asesoría es un espacio de acompañamiento individual creado para informar y orientar a cantantes y artistas de la Voz en la elección de técnicas, estrategias y procedimientos que sean coherentes con los objetivos de su formación y también con la creación de su identidad y recorrido profesional. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando el crecimiento o desarrollo artístico.</p>
+
+            <p>Modalidad : presencial y/u online</p>
+            <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
+            <p>Valor : $5000 el encuentro</p>
+            <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+
         </section>
 
         <section id="bio">
@@ -130,61 +149,62 @@
 
             <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 
-                <!--ver más 1: --><h3>Trayectoria</h3>
+            <!--ver más 1: -->
+            <h3>Trayectoria</h3>
 
-                <h4>Trayectoria como cantante</h4>
+            <h4>Trayectoria como cantante</h4>
 
-                <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
+            <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
 
-                <p>Link a Spotify:</p>
+            <p>Link a Spotify:</p>
 
-                <h4>Trayectoria como artista de performance</h4>
+            <h4>Trayectoria como artista de performance</h4>
 
-                <p>Luego de un primer acercamiento profesional como actriz de teatro, comedia musical y televisión, Paula conoce el arte performance y comienza a crear sus propios montajes en colaboración con movimientos activistas para la emancipación de las mujeres y del bienvivir en diversidad. Su obra “Mujer Basura” se destaca por haber sido espontáneamente replicada por artistas y activistas de Latinoamérica; además de haber sido exhibida en Berlín, Lituania y Argentina y de continuar inspirando la escritura de artículos y tesis a nivel nacional e internacional. Sus primeros libros -Mujer Basura, 2016 y Mujer Nueva, 2018- profundizan en estos temas. Hay un corto -El Rito Reciclaje, 2019- que documenta esta investigación. Desde el año 2014 hasta la actualidad, lleva desarrollados más de 12 montajes.</p>
+            <p>Luego de un primer acercamiento profesional como actriz de teatro, comedia musical y televisión, Paula conoce el arte performance y comienza a crear sus propios montajes en colaboración con movimientos activistas para la emancipación de las mujeres y del bienvivir en diversidad. Su obra “Mujer Basura” se destaca por haber sido espontáneamente replicada por artistas y activistas de Latinoamérica; además de haber sido exhibida en Berlín, Lituania y Argentina y de continuar inspirando la escritura de artículos y tesis a nivel nacional e internacional. Sus primeros libros -Mujer Basura, 2016 y Mujer Nueva, 2018- profundizan en estos temas. Hay un corto -El Rito Reciclaje, 2019- que documenta esta investigación. Desde el año 2014 hasta la actualidad, lleva desarrollados más de 12 montajes.</p>
 
-                <p>Archivo de Arte Performance en Youtube:</p>
+            <p>Archivo de Arte Performance en Youtube:</p>
 
-                <h4>Libros</h4>
+            <h4>Libros</h4>
 
-                <p>Paula escribió sobre su visión del arte performance y presentó las conclusiones de su obra “Mujer Basura” en el libro “Mujer Basura. Performance y feminismos” (Milena Caserola, 2016). Luego, complementó esta investigación con el desarrollo de la consigna LUCHA Y SANA y de la ritoperformatividad. Escribió sobre ello en “Mujer Nueva. Ritoperformance y femiconciencia” (Milena Cacerola, 2018). Estos materiales fueron presentados oficialmente en la Feria Internacional del Libro de Buenos Aires durante 3 años consecutivos.</p>
+            <p>Paula escribió sobre su visión del arte performance y presentó las conclusiones de su obra “Mujer Basura” en el libro “Mujer Basura. Performance y feminismos” (Milena Caserola, 2016). Luego, complementó esta investigación con el desarrollo de la consigna LUCHA Y SANA y de la ritoperformatividad. Escribió sobre ello en “Mujer Nueva. Ritoperformance y femiconciencia” (Milena Cacerola, 2018). Estos materiales fueron presentados oficialmente en la Feria Internacional del Libro de Buenos Aires durante 3 años consecutivos.</p>
 
-                <p>Además, Paula ha co-escrito los artículos “Gritar o morir. Sobre el rol de las mujeres en el metal” (2017) y “Voces degeneradas” (2019) para la colección Cultura Metálica de Clara Beter Ediciones.</p>
+            <p>Además, Paula ha co-escrito los artículos “Gritar o morir. Sobre el rol de las mujeres en el metal” (2017) y “Voces degeneradas” (2019) para la colección Cultura Metálica de Clara Beter Ediciones.</p>
 
-                <h4>Otras Artes</h4>
+            <h4>Otras Artes</h4>
 
-                <p>En sus comienzos como actriz Paula ha participado en obras de teatro, comedia musical y filmaciones para televisión, destacándose su interpretación en “Mujeres que no callan” (Cosmopolitan TV, 2008) y “Los exitosos Pérez” para Méjico (2009).
+            <p>En sus comienzos como actriz Paula ha participado en obras de teatro, comedia musical y filmaciones para televisión, destacándose su interpretación en “Mujeres que no callan” (Cosmopolitan TV, 2008) y “Los exitosos Pérez” para Méjico (2009).
                 Además, su interés en el arte corporal experimental y visual la ha invitado a realizar decenas de campañas fotográficas y a ser modelo vivo de artistas plásticos de distintas corrientes estéticas.</p>
 
-                <p>Ver Pinterest (proximamente)</p>
+            <p>Ver Pinterest (proximamente)</p>
 
-                <h4>Trayectoria como docente y terapeuta</h4>
+            <h4>Trayectoria como docente y terapeuta</h4>
 
-                <p>Paula desarrolla su trabajo como docente particular de canto desde el año 2010 hasta la actualidad. Como terapeuta, desarrolla su trabajo desde el año 2018, especializándose en el acompañamiento a víctimas/sobrevivientes de abuso sexual y/o de poder. Además, ha ejercido como docente de música y teatro en jardines de infantes, como docente de canto de personas adultas con Sindrome de Down y ha sido terapeuta voluntaria en el Hospital J.T. Borda.</p>
-                <p>Actualmente sólo se dedica a la actividad profesional ofrecida desde El Canto del Medio.</p>
+            <p>Paula desarrolla su trabajo como docente particular de canto desde el año 2010 hasta la actualidad. Como terapeuta, desarrolla su trabajo desde el año 2018, especializándose en el acompañamiento a víctimas/sobrevivientes de abuso sexual y/o de poder. Además, ha ejercido como docente de música y teatro en jardines de infantes, como docente de canto de personas adultas con Sindrome de Down y ha sido terapeuta voluntaria en el Hospital J.T. Borda.</p>
+            <p>Actualmente sólo se dedica a la actividad profesional ofrecida desde El Canto del Medio.</p>
 
-                <h4>Estudios sobre la Voz</h4>
+            <h4>Estudios sobre la Voz</h4>
 
-                <p>Paula comenzó sus estudios de música y coro a la edad de 7 años en la Escuela de Música n°6. Desde los 14 a los 18 años estudió de forma personalizada con Nancy Endrizzi, quien le transmitió los conocimientos esenciales del Método Rabine-Educación Funcional de la Voz. Complementó su entrenamiento con profesores de distintos estilos y estéticas: Gladys Caldas y Cristina Dall (blues/jazz), Mariana Bianchini e Iván Sencion (rock/metal), Andrés Angeli y Juan Ignacio Orcajada (canto de armónicos), Miriam García (canto con caja), Martin Sacco y Carolina Gómez (canto académico).</p>
+            <p>Paula comenzó sus estudios de música y coro a la edad de 7 años en la Escuela de Música n°6. Desde los 14 a los 18 años estudió de forma personalizada con Nancy Endrizzi, quien le transmitió los conocimientos esenciales del Método Rabine-Educación Funcional de la Voz. Complementó su entrenamiento con profesores de distintos estilos y estéticas: Gladys Caldas y Cristina Dall (blues/jazz), Mariana Bianchini e Iván Sencion (rock/metal), Andrés Angeli y Juan Ignacio Orcajada (canto de armónicos), Miriam García (canto con caja), Martin Sacco y Carolina Gómez (canto académico).</p>
 
-                <h4>Pedagogía de la Voz</h4>
+            <h4>Pedagogía de la Voz</h4>
 
-                <p>Paula se capacitó en Pedagogía para la Enseñanza del Canto en los 3 seminarios facilitados por Eugene Rabine en sus visitas a la Argentina.</p>
+            <p>Paula se capacitó en Pedagogía para la Enseñanza del Canto en los 3 seminarios facilitados por Eugene Rabine en sus visitas a la Argentina.</p>
 
-                <h4>Música e Instrumentos Complementarios</h4>
+            <h4>Música e Instrumentos Complementarios</h4>
 
-                <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez</p>
+            <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez</p>
 
-                <h4>Estudios sobre el Cuerpo</h4>
+            <h4>Estudios sobre el Cuerpo</h4>
 
-                <p>Paula comenzó sus estudios de danza y rítmica a la edad de 7 años en la Escuela de Música n°6. A los 18 años inició un estudio más profundo en técnicas corporales aplicadas al movimiento, al arte escénico y a la salud integral, tomando clases de ballet, danza jazz, eutonía y esferodinamia. A los 25 años comienza a practicar BharataNatyam, danza clásica de la India y a los 27, danza tribal fusión. Actualmente practica Sama, giro sufi, con Paula Lema Karima y complementa su entrenamiento con Pilates.</p>
+            <p>Paula comenzó sus estudios de danza y rítmica a la edad de 7 años en la Escuela de Música n°6. A los 18 años inició un estudio más profundo en técnicas corporales aplicadas al movimiento, al arte escénico y a la salud integral, tomando clases de ballet, danza jazz, eutonía y esferodinamia. A los 25 años comienza a practicar BharataNatyam, danza clásica de la India y a los 27, danza tribal fusión. Actualmente practica Sama, giro sufi, con Paula Lema Karima y complementa su entrenamiento con Pilates.</p>
 
-                <h4>Estudios sobre Actuación e Interpretación</h4>
+            <h4>Estudios sobre Actuación e Interpretación</h4>
 
-                <p>Paula comenzó sus estudios de actuación en los cursos extracurriculares de su escuela secundaria. A los 18 años profundizó su formación teatral en el Centro Cultural San Martín y en actuación frente a cámara con Néstor Sacco y Mario Moscoso. También estudió Comedia Musical con Pepe Cibrián Campoy.</p>
+            <p>Paula comenzó sus estudios de actuación en los cursos extracurriculares de su escuela secundaria. A los 18 años profundizó su formación teatral en el Centro Cultural San Martín y en actuación frente a cámara con Néstor Sacco y Mario Moscoso. También estudió Comedia Musical con Pepe Cibrián Campoy.</p>
 
-                <h4>Estudios sobre la Mente Holística y el Acompañamiento Emocional</h4>
+            <h4>Estudios sobre la Mente Holística y el Acompañamiento Emocional</h4>
 
-                <p>Paula se formó académicamente como Musicoterapeuta en la Universidad de Buenos Aires, integrando conocimientos sobre psicología, psicología social y comunitaria, antropología, neurociencias y música aplicada a los procesos de salud. Además, Paula se formó en radiestesia y armonización cuántica. Es lectora y canalizadora akáshica, practicante de Mindfulness y de Meditación en Movimiento.</p>
+            <p>Paula se formó académicamente como Musicoterapeuta en la Universidad de Buenos Aires, integrando conocimientos sobre psicología, psicología social y comunitaria, antropología, neurociencias y música aplicada a los procesos de salud. Además, Paula se formó en radiestesia y armonización cuántica. Es lectora y canalizadora akáshica, practicante de Mindfulness y de Meditación en Movimiento.</p>
 
             <article id="galeriaFotosBio">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01b.jpeg" class="fotoGaleriaBio">

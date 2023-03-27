@@ -35,13 +35,16 @@ a:hover {
 h1,
 h2,
 h3,
-section,
+h4,
 p,
+header,
+section,
 button,
-li
-h3,
-h4 {
-    font-family: 'Quicksand', Arial, sans-serif;
+li {
+    font-family: 'Alegreya', Arial, sans-serif;
+    /* font-family: 'Quicksand', Arial, sans-serif; */
+    /* font-family: 'Cabin', Arial, sans-serif; */
+    /*color: black;*/
     color: white;
     text-align: center;
     font-size: 16px;
@@ -54,7 +57,7 @@ h4 {
 /* HEADER */
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 2;
     width: 100vw;
@@ -86,7 +89,7 @@ nav {
     display: none;
 }
 
-/* SECCIÓN 1 INTRO */
+/* BODY Y SECCIONES EN GENERAL */
 
 body {
     min-height: 100vh;
@@ -100,10 +103,21 @@ section {
     padding: 5%;
 }
 
-section:nth-child(1) {
-    background-color: transparent;
-    background-size: cover;
-    background-position: center;
+.imgFondo {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.imgFondo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECCIÓN 1 INTRO - PRESENTACIÓN SITIO */
+
+section#presentacionSitio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,9 +167,7 @@ h2 {
 
 /* SECCIÓN 2 FORMACIÓN INTEGRAL */
 
-section:nth-child(2) {
-    /*background-image: url('../img/mobile/fondo-verde-cuadrado.svg');*/
-    /*background-color: #54592C;*/
+section#formacionIntegral {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,19 +179,7 @@ section:nth-child(2) {
     position: relative;
 }
 
-.imgFondo {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-}
-
-.imgFondo img {
-    width: 100%;
-    height: 100%;
-}
-
-section:nth-child(2) h2 {
+#formacionIntegral h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
@@ -187,11 +187,27 @@ section:nth-child(2) h2 {
     z-index: 1;
 }
 
-section:nth-child(2) article {
+.trazoDecorativo {
+    position: absolute;
+    left: -4%;
+    top: 15%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.trazoDecDos {
+    position: absolute;
+    right: -10%;
+    bottom: 25%;
+    width: 30%;
+    overflow: hidden;
+}
+
+#formacionIntegral article {
     z-index: 1;
 }
 
-section:nth-child(2) article h3 {
+#formacionIntegral article h3 {
     text-transform: uppercase;
 }
 
@@ -208,8 +224,7 @@ section:nth-child(2) article h3 {
 
 /* SECCIÓN 3 CONSULTORÍAS */
 
-section:nth-child(3) {
-    /* background-color: #2C282C; */
+section#consultoriaVoz {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,7 +233,7 @@ section:nth-child(3) {
     position: relative;
 }
 
-section:nth-child(3) h2 {
+#consultoriaVoz h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 40px;
@@ -226,13 +241,39 @@ section:nth-child(3) h2 {
     z-index: 1;
 }
 
-section:nth-child(3) p {
+#consultoriaVoz p {
     z-index: 1;
 }
 
-/* SECCIÓN 4 BIO */
+/* SECCIÓN 4 ASESORÍAS */
 
-section:nth-child(4) {
+section#asesoriaVoz {
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh; 
+    position: relative;
+}
+
+#asesoriaVoz h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #201b1f7a;
+}
+
+#asesoriaVoz h2,
+#asesoriaVoz p {
+    color: black;
+    z-index: 1;
+}
+
+/* SECCIÓN 5 BIO */
+
+section#bio {
     background-color: transparent;
     background-size: cover;
     display: flex;
@@ -426,7 +467,7 @@ th {
 
     /* SECCIÓN INTRO */
 
-    #presentacionSitio {
+    section#presentacionSitio {
         flex-direction: row;
     }
 
@@ -445,8 +486,11 @@ th {
         width: 10vw;
     }
 
+    /* SECCIÓN FORMACIÓN, CONSULTORÍA, ASESORÍA */
+
     #formacionIntegral h2,
-    #consultoriaVoz h2 {
+    #consultoriaVoz h2,
+    #asesoriaVoz h2 {
         font-size: 50px;
     }
 
@@ -477,4 +521,8 @@ th {
     #bio h4 {
         font-size: 40px;
     }
+}
+
+@media (min-width: 1024px) {
+
 }
