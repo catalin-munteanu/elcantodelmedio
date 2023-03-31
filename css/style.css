@@ -42,9 +42,6 @@ section,
 button,
 li {
     font-family: 'Alegreya', Arial, sans-serif;
-    /* font-family: 'Quicksand', Arial, sans-serif; */
-    /* font-family: 'Cabin', Arial, sans-serif; */
-    /*color: black;*/
     color: white;
     text-align: center;
     font-size: 16px;
@@ -65,6 +62,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: #201b1f81;
 }
 
 #menuRedesHeader {
@@ -169,11 +167,13 @@ h2 {
     cursor: pointer;
 }
 
-/* SECCIÓN 2 FORMACIÓN INTEGRAL */
-
-#probandoCabin p {
-    font-family: 'Cabin', Arial, sans-serif;
+.trazoSubUno {
+    height: 16px;
+    width: 45%;
+    position: relative;
 }
+
+/* SECCIÓN 2 FORMACIÓN INTEGRAL */
 
 section#formacionIntegral {
     background-position: center;
@@ -233,6 +233,22 @@ section#formacionIntegral {
 
 /* SECCIÓN 3 CONSULTORÍAS */
 
+.trazoDecTres {
+    position: absolute;
+    right: -10%;
+    bottom: 40%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.trazoDecCuatro {
+    position: absolute;
+    left: -4%;
+    bottom: 15%;
+    width: 20%;
+    overflow: hidden;
+}
+
 section#consultoriaVoz {
     background-position: center;
     background-repeat: no-repeat;
@@ -255,6 +271,25 @@ section#consultoriaVoz {
 
 #consultoriaVoz p {
     z-index: 1;
+}
+
+#coordenadasConsultoria {
+    z-index: 1;
+    position: relative;
+    margin: 2em;
+}
+
+#coordenadasConsultoria img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+#coordenadasConsultoria p {
+    position: relative;
+    z-index: 2;
 }
 
 /* SECCIÓN 4 ASESORÍAS */
@@ -487,8 +522,8 @@ th {
     #logoYoutubeHeader,
     #logoInstagramHeader,
     #logoWhatsAppHeader {
-        width: 80px;
-        padding: 20px;
+        width: 60px;
+        padding: 15px;
     }
 
     #mainMenu ul li {
@@ -554,5 +589,7 @@ th {
 }
 
 @media (min-width: 1024px) {
-
+    p {
+        font-size: 17px;
+    }
 }

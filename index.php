@@ -27,7 +27,7 @@
 
         <nav id="mainMenu">
             <ul>
-                <li><a href="#formacionIntegral">Formación</a></li>
+                <li><a href="#formacionIntegral">Cursos de formación</a></li>
                 <li><a href="#consultoriaVoz">Consultorías</a></li>
                 <li><a href="#asesoriaVoz">Asesorías</a></li>
                 <li><a href="#bio">Bio</a></li>
@@ -48,7 +48,7 @@
                 <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
 
                 <h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela de Canto Consciente y Visionario</span>
-                    <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a>
+                    <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a><br><img class="trazoSubUno" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub.svg">
                 </h2>
 
             </article>
@@ -65,7 +65,7 @@
 
             <img class="trazoDecorativo" src="wp-content\themes\cantodelmedio\img\mobile\trazo-1.svg" alt="" srcset="">
 
-            <article id="probandoCabin">
+            <article>
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
                 <p>Conocé el programa completo</p>
@@ -111,12 +111,19 @@
 
             <h2>Consultoría para la voz</h2>
 
-            <p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
+            <img class="trazoDecTres" src="wp-content\themes\cantodelmedio\img\mobile\trazo-4.svg" alt="" srcset="">
 
+            <p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
+            
+            <article id="coordenadasConsultoria">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
             <p>Modalidad : presencial y/u online</p>
             <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
             <p>Valor : $4000 el encuentro</p>
             <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+            </article>
+
+            <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-5.svg" alt="" srcset="">
 
         </section>
 
