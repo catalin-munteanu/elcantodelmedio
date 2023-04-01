@@ -55,6 +55,14 @@
 
         </section>
 
+        <section id="videosInformativos">
+            <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+            <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
         <section id="formacionIntegral">
 
             <figure class="imgFondo">
@@ -69,7 +77,7 @@
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
                 <p>Conocé el programa completo</p>
-                <p class="importantP">Próximo curso en abril 2023</p>
+                <p class="importantP">Próximo curso en agosto 2023</p>
             </article>
 
             <img class="trazoDecDos" src="wp-content\themes\cantodelmedio\img\mobile\trazo-2.svg" alt="" srcset="">
@@ -111,35 +119,48 @@
 
             <h2>Consultoría para la voz</h2>
 
+            <img class="trazoDecDosCinco" src="wp-content\themes\cantodelmedio\img\mobile\trazo-9.svg" alt="" srcset="">
+
             <img class="trazoDecTres" src="wp-content\themes\cantodelmedio\img\mobile\trazo-4.svg" alt="" srcset="">
 
             <p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
-            
+
             <article id="coordenadasConsultoria">
-            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
-            <p>Modalidad : presencial y/u online</p>
-            <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
-            <p>Valor : $4000 el encuentro</p>
-            <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
+                <div>
+                <p>Modalidad : presencial y/u online</p>
+                <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
+                <p>Valor : $4000 el encuentro</p>
+                <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+                </div>
             </article>
 
-            <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-5.svg" alt="" srcset="">
+            <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-8.svg" alt="" srcset="">
 
         </section>
 
         <section id="asesoriaVoz">
             <figure class="imgFondo">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-naranja.svg" alt="" srcset="">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-amarillo.svg" alt="" srcset="">
             </figure>
+            
+            <img class="trazoDecCinco" src="wp-content\themes\cantodelmedio\img\mobile\trazo-6.svg" alt="" srcset="">
 
             <h2>Asesorías para cantantes y artistas de la voz</h2>
 
             <p>El servicio de Asesoría es un espacio de acompañamiento individual creado para informar y orientar a cantantes y artistas de la Voz en la elección de técnicas, estrategias y procedimientos que sean coherentes con los objetivos de su formación y también con la creación de su identidad y recorrido profesional. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando el crecimiento o desarrollo artístico.</p>
 
+            <img class="trazoDecSeis" src="wp-content\themes\cantodelmedio\img\mobile\trazo-7.svg" alt="" srcset="">
+
+            <article id="coordenadasAsesoria">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-2.svg" alt="" srcset="">
+            <div>
             <p>Modalidad : presencial y/u online</p>
             <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
             <p>Valor : $5000 el encuentro</p>
-            <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+            <p>Si querés solicitar tu asesoramiento <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+            </div>
+            </article>
 
         </section>
 

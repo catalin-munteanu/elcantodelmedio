@@ -169,8 +169,28 @@ h2 {
 
 .trazoSubUno {
     height: 16px;
-    width: 45%;
+    width: 130px;
     position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+/* SECCIÓN 1.5 VIDEOS INFORMATIVOS */
+
+#videosInformativos {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+    padding: 0;
+}
+
+.itemVideoInformativo {
+    margin: 15px 0;
+    width: 100%;
+    height: auto;
 }
 
 /* SECCIÓN 2 FORMACIÓN INTEGRAL */
@@ -229,14 +249,23 @@ section#formacionIntegral {
 
 .importantP {
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* SECCIÓN 3 CONSULTORÍAS */
 
+.trazoDecDosCinco {
+    position: absolute;
+    left: -4%;
+    top: 10%;
+    width: 45%;
+    overflow: hidden;
+}
+
 .trazoDecTres {
     position: absolute;
     right: -10%;
-    bottom: 40%;
+    bottom: 45%;
     width: 30%;
     overflow: hidden;
 }
@@ -287,12 +316,33 @@ section#consultoriaVoz {
     left: 0;
 }
 
+#coordenadasConsultoria div {
+    margin: 25%;
+    margin-top: 32%;
+}
+
 #coordenadasConsultoria p {
     position: relative;
     z-index: 2;
 }
 
 /* SECCIÓN 4 ASESORÍAS */
+
+.trazoDecCinco {
+    position: absolute;
+    right: -7%;
+    bottom: 10%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.trazoDecSeis {
+    position: absolute;
+    left: -4%;
+    top: 15%;
+    width: 20%;
+    overflow: hidden;
+}
 
 section#asesoriaVoz {
     background-color: transparent;
@@ -315,8 +365,25 @@ section#asesoriaVoz {
 #asesoriaVoz h2,
 #asesoriaVoz p {
     color: black;
-    z-index: 1;
+    z-index: 3;
 }
+
+#coordenadasAsesoria {
+    z-index: 1;
+    position: relative;
+}
+
+#coordenadasAsesoria div {
+    margin: 25%;
+}
+
+#coordenadasAsesoria img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    }
 
 /* SECCIÓN 5 BIO */
 
@@ -552,6 +619,22 @@ th {
         width: 10vw;
     }
 
+
+
+    /* SECCIÓN VIDEOS INFORMATIVOS */
+
+    #videosInformativos {
+        flex-direction: row;
+        margin: 5%;
+        min-height: auto;
+    }
+
+    .itemVideoInformativo {
+        width: 33%;
+        height: auto;
+        margin: 15px;
+    }
+
     /* SECCIÓN FORMACIÓN, CONSULTORÍA, ASESORÍA */
 
     #formacionIntegral h2,
@@ -589,7 +672,39 @@ th {
 }
 
 @media (min-width: 1024px) {
-    p {
+    p,
+    button {
         font-size: 17px;
+    }
+
+    #formacionIntegral,
+    #consultoriaVoz,
+    #cierre {
+        margin-bottom: 5%;
+    }
+
+    #presentacionSitio h2 {
+        font-size: 20px;
+    }
+
+    .trazoSubUno {
+        width: 160px;
+        left: 14px;
+    }
+    
+    #coordenadasConsultoria {
+        min-width: 70%;
+    }
+
+    #coordenadasConsultoria div {
+        margin: 10% 20%;
+    }
+
+    #coordenadasAsesoria {
+        min-width: 70%;
+    }
+
+    #coordenadasAsesoria div {
+        margin: 10% 20%;
     }
 }
