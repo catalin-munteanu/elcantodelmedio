@@ -18,8 +18,8 @@
 
     <header>
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-yt-nv.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
             <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-prueba-2.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-yt-2.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
             <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wpp-prueba.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
@@ -178,8 +178,9 @@
             <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 
             <!--ver más 1: -->
-            <h3>Trayectoria</h3>
+            <button class="secAccordion"><h3>Trayectoria</h3></button>
 
+            <article class="secPanel">
             <h4>Trayectoria como cantante</h4>
 
             <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
@@ -210,6 +211,28 @@
             <p>Paula desarrolla su trabajo como docente particular de canto desde el año 2010 hasta la actualidad. Como terapeuta, desarrolla su trabajo desde el año 2018, especializándose en el acompañamiento a víctimas/sobrevivientes de abuso sexual y/o de poder. Además, ha ejercido como docente de música y teatro en jardines de infantes, como docente de canto de personas adultas con Sindrome de Down y ha sido terapeuta voluntaria en el Hospital J.T. Borda.</p>
             <p>Actualmente sólo se dedica a la actividad profesional ofrecida desde El Canto del Medio.</p>
 
+            </article>
+
+            <script>
+                var acc = document.getElementsByClassName("secAccordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var secPanel = this.nextElementSibling;
+                        if (secPanel.style.maxHeight) {
+                            secPanel.style.maxHeight = null;
+                        } else {
+                            secPanel.style.maxHeight = secPanel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
+
+            <button class="thirdAccordion"><h3>Estudios</h3></button>
+            
+            <article class="thirdPanel">
             <h4>Estudios sobre la Voz</h4>
 
             <p>Paula comenzó sus estudios de música y coro a la edad de 7 años en la Escuela de Música n°6. Desde los 14 a los 18 años estudió de forma personalizada con Nancy Endrizzi, quien le transmitió los conocimientos esenciales del Método Rabine-Educación Funcional de la Voz. Complementó su entrenamiento con profesores de distintos estilos y estéticas: Gladys Caldas y Cristina Dall (blues/jazz), Mariana Bianchini e Iván Sencion (rock/metal), Andrés Angeli y Juan Ignacio Orcajada (canto de armónicos), Miriam García (canto con caja), Martin Sacco y Carolina Gómez (canto académico).</p>
@@ -233,6 +256,25 @@
             <h4>Estudios sobre la Mente Holística y el Acompañamiento Emocional</h4>
 
             <p>Paula se formó académicamente como Musicoterapeuta en la Universidad de Buenos Aires, integrando conocimientos sobre psicología, psicología social y comunitaria, antropología, neurociencias y música aplicada a los procesos de salud. Además, Paula se formó en radiestesia y armonización cuántica. Es lectora y canalizadora akáshica, practicante de Mindfulness y de Meditación en Movimiento.</p>
+            
+            </article>
+            
+            <script>
+                var acc = document.getElementsByClassName("thirdAccordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var thirdPanel = this.nextElementSibling;
+                        if (thirdPanel.style.maxHeight) {
+                            thirdPanel.style.maxHeight = null;
+                        } else {
+                            thirdPanel.style.maxHeight = thirdPanel.scrollHeight + "px";
+                        }
+                    });
+                }
+            </script>
 
             <article id="galeriaFotosBio">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-01b.jpeg" class="fotoGaleriaBio">
@@ -254,8 +296,8 @@
 
             <article id="galeriaFotosServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01b.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03b.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-04.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05b.jpeg" class="fotoGaleriaServicios">
             </article>
