@@ -88,6 +88,10 @@ nav {
     display: none;
 }
 
+#mainMenu ul li a {
+    font-weight: 600;
+}
+
 /* BODY Y SECCIONES EN GENERAL */
 
 body {
@@ -172,7 +176,7 @@ h2 {
     height: 16px;
     width: 130px;
     position: relative;
-    bottom: 5px;
+    bottom: 7px;
     left: 10px;
 }
 
@@ -188,8 +192,20 @@ h2 {
     padding: 0;
 }
 
-.itemVideoInformativo {
+#videosInformativos article {
     margin: 15px 0;
+    width: 100%; 
+}
+
+#videosInformativos h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px #201B1F;
+    margin: 10px;
+}
+
+.itemVideoInformativo {
     width: 100%;
     height: auto;
 }
@@ -244,7 +260,10 @@ section#formacionIntegral {
 #consultoriaVoz p,
 #asesoriaVoz p,
 #cierre p,
-#descripcionNivelUno p {
+#descripcionNivelUno p,
+#sectConscienteNivelUno p,
+#sectConscienteNivelDos p,
+#descripcionVisionarioNivelDos p {
     margin: 1em 0;
 }
 
@@ -352,7 +371,7 @@ section#asesoriaVoz {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    min-height: 100vh; 
+    min-height: 100vh;
     position: relative;
 }
 
@@ -384,7 +403,7 @@ section#asesoriaVoz {
     width: 100%;
     right: 0;
     left: 0;
-    }
+}
 
 /* SECCIÓN 5 BIO */
 
@@ -528,14 +547,18 @@ section#bio {
 
 /* NUEVA PESTAÑA */
 
+#sectProgramaCompleto {
+    padding: 0;
+}
+
 #progCompleto {
-        font-family: 'Gill Sans';
-        letter-spacing: 0.1em;
-        font-size: 35px;
-        font-weight: 400;
-        text-shadow: 2px 2px 1px #201B1F;
-        margin: 0.5em;
-    }
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 2px 2px 1px #201B1F;
+    margin: 0.5em;
+}
 
 #tablaProgCompleto {
     margin: 1em;
@@ -544,23 +567,57 @@ section#bio {
 table,
 td,
 th {
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: 'Alegreya', Arial, sans-serif;
     color: white;
     font-size: 16px;
 }
 
 table {
-    margin: 2em;
+    margin: 25px;
 }
 
 td,
 th {
     padding: 0.5em;
+    text-align: left;
 }
 
 th {
     text-transform: uppercase;
-    text-align: left;
+}
+
+#sectConscienteNivelUno,
+#sectConscienteNivelDos,
+#descripcionVisionarioNivelDos {
+    margin: 0 5vw;
+    padding: 0 5%;
+}
+
+#sectConscienteNivelUno article,
+#sectConscienteNivelDos article,
+#descripcionVisionarioNivelDos article {
+    margin: 5% 0;
+}
+
+#sectConscienteNivelUno h2,
+#sectConscienteNivelDos h2,
+#descripcionVisionarioNivelDos h2 {
+    margin: 25px;
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px #201B1F;
+}
+
+#sectConscienteNivelUno h3,
+#sectConscienteNivelDos h3,
+#descripcionVisionarioNivelDos h3 {
+    font-size: 20px;
+}
+
+
+#sectConscienteNivelUno h2 strong {
+    font-size: 17px;
 }
 
 /*#sectConscienteNivelUno,
@@ -573,6 +630,20 @@ th {
 }*/
 
 /* MEDIA QUERIES */
+
+@media (min-width: 400px) {
+    #logoCuerpoOrig {
+        width: 50vw;
+        padding-left: 2vw;
+    }
+}
+
+@media (min-width: 550px) {
+    #logoCuerpoOrig {
+        width: 35vw;
+        padding: 0;
+    }
+}
 
 @media (min-width: 768px) {
 
@@ -626,8 +697,6 @@ th {
         width: 10vw;
     }
 
-
-
     /* SECCIÓN VIDEOS INFORMATIVOS */
 
     #videosInformativos {
@@ -636,7 +705,7 @@ th {
         min-height: auto;
     }
 
-    .itemVideoInformativo {
+    #videosInformativos article {
         width: 33%;
         height: auto;
         margin: 15px;
@@ -679,6 +748,7 @@ th {
 }
 
 @media (min-width: 1024px) {
+
     p,
     button {
         font-size: 17px;
@@ -702,8 +772,9 @@ th {
     .trazoSubUno {
         width: 160px;
         left: 14px;
+        bottom: 9px;
     }
-    
+
     #coordenadasConsultoria {
         min-width: 70%;
     }

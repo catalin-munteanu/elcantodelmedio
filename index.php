@@ -28,8 +28,8 @@
         <nav id="mainMenu">
             <ul>
                 <li><a href="#formacionIntegral">Cursos de formación</a></li>
-                <li><a href="#consultoriaVoz">Consultorías</a></li>
-                <li><a href="#asesoriaVoz">Asesorías</a></li>
+                <li><a href="#consultoriaVoz">Consultoría</a></li>
+                <li><a href="#asesoriaVoz">Asesoría</a></li>
                 <li><a href="#bio">Bio</a></li>
             </ul>
         </nav>
@@ -56,11 +56,23 @@
         </section>
 
         <section id="videosInformativos">
+            <article>
             <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>Canto Consciente</h2>
+            <p>¿Qué es?</p>
+            </article>
 
+            <article>
             <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                
+            <h2>El canto del medio</h2>
+            <p>¿Por qué?</p>
+            </article>
+            
+            <article>
             <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>Canto Visionario</h2>
+            <p>¿Qué es?</p>
+            </article>
         </section>
 
         <section id="formacionIntegral">
@@ -76,7 +88,7 @@
             <article>
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
-                <p>Conocé el programa completo</p>
+                <p><a href="..\programa-curso.php">Conocé el programa completo</a></p>
                 <p class="importantP">Próximo curso en agosto 2023</p>
             </article>
 
@@ -88,7 +100,7 @@
 
                 <p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
 
-                <p>Te invitamos a conocer el programa completo acá</p>
+                <p><a href="..\programa-curso.php">Te invitamos a conocer el programa completo acá</a></p>
 
                 <p>Próximo curso en agosto 2023</p>
             </article>
@@ -129,7 +141,7 @@
                 <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
                 <div>
                 <p>Modalidad : presencial y/u online</p>
-                <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
+                <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
                 <p>Valor : $4000 el encuentro</p>
                 <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
                 </div>
@@ -156,7 +168,7 @@
             <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-2.svg" alt="" srcset="">
             <div>
             <p>Modalidad : presencial y/u online</p>
-            <p>Lugar : Estudio El Canto del Medio (zona Caballito)</p>
+            <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
             <p>Valor : $5000 el encuentro</p>
             <p>Si querés solicitar tu asesoramiento <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
             </div>
