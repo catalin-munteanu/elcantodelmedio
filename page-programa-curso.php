@@ -27,10 +27,10 @@
 
         <nav id="mainMenu">
             <ul>
-                <li><a href="#formacionIntegral">Cursos de formación</a></li>
-                <li><a href="#consultoriaVoz">Consultoría</a></li>
-                <li><a href="#asesoriaVoz">Asesoría</a></li>
-                <li><a href="#bio">Bio</a></li>
+                <li><a href="..\index.php\#formacionIntegral">Cursos de formación</a></li>
+                <li><a href="..\index.php\#consultoriaVoz">Consultoría</a></li>
+                <li><a href="..\index.php\#asesoriaVoz">Asesoría</a></li>
+                <li><a href="..\index.php\#bio">Bio</a></li>
             </ul>
         </nav>
     </header>

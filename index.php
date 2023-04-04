@@ -88,8 +88,8 @@
             <article>
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje teórico-práctico de (re)conocimiento, estimulación y entrenamiento de las funciones neurofisiológicas que sustentan la emisión saludable del sonido vocal integrando la expresión emocional y el abordaje de las creencias mentales que sustentan nuestro canto. con el objetivo de que desarrolles un Canto Consciente y lo apliques en tu vida artística y creativa.</p>
                 <p>También contamos con una formación especial en Canto Visionario, con el objetivo de que aprendas a usar tu voz en estados alterados o expandidos de conciencia.</p>
-                <p><a href="..\programa-curso.php">Conocé el programa completo</a></p>
-                <p class="importantP">Próximo curso en agosto 2023</p>
+                <p><a href="..\programa-curso" target="_blank">Conocé el programa completo</a></p>
+                <p class="importantP">Próximos cursos en agosto 2023</p>
             </article>
 
             <img class="trazoDecDos" src="wp-content\themes\cantodelmedio\img\mobile\trazo-2.svg" alt="" srcset="">
@@ -100,7 +100,7 @@
 
                 <p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
 
-                <p><a href="..\programa-curso.php">Te invitamos a conocer el programa completo acá</a></p>
+                <p><a href="..\programa-curso" target="_blank">Te invitamos a conocer el programa completo acá</a></p>
 
                 <p>Próximo curso en agosto 2023</p>
             </article>
