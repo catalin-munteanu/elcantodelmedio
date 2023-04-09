@@ -63,7 +63,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #201b1f81;
 }
 
 #menuRedesHeader {
@@ -190,6 +189,7 @@ h2 {
     align-items: center;
     margin: 5% 0;
     padding: 0;
+    background-color: #201B1F81;
 }
 
 #videosInformativos article {
@@ -705,7 +705,7 @@ th {
 
     #videosInformativos {
         flex-direction: row;
-        margin: 5%;
+        padding: 2%;
         min-height: auto;
     }
 

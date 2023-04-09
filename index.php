@@ -27,10 +27,9 @@
 
         <nav id="mainMenu">
             <ul>
-                <li><a href="#formacionIntegral">Cursos de formación</a></li>
-                <li><a href="#consultoriaVoz">Consultoría</a></li>
-                <li><a href="#asesoriaVoz">Asesoría</a></li>
-                <li><a href="#bio">Bio</a></li>
+                <li><a href="#formacionIntegral">Formación integral</a></li>
+                <li><a href="#consultoriaVoz">Consultorías</a></li>
+                <li><a href="#asesoriaVoz">Asesorías</a></li>
             </ul>
         </nav>
     </header>
@@ -48,7 +47,7 @@
                 <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
 
                 <h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela de Canto Consciente y Visionario</span>
-                    <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a><br><img class="trazoSubUno" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub.svg">
+                    <br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a>
                 </h2>
 
             </article>
