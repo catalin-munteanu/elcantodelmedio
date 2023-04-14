@@ -58,11 +58,20 @@ header {
     top: 0;
     z-index: 2;
     width: 100vw;
-    height: 10vw;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: #54592C;
+}
+
+#headerDosDePrueba {
+    background-color: #FFFFFF;
+}
+
+#headerDosDePrueba a {
+    color: #000000;
 }
 
 #menuRedesHeader {
@@ -234,15 +243,15 @@ section#formacionIntegral {
 
 .trazoDecorativo {
     position: absolute;
-    left: -4%;
-    top: 15%;
+    left: 0;
+    top: 7%;
     width: 30%;
     overflow: hidden;
 }
 
 .trazoDecDos {
     position: absolute;
-    right: -10%;
+    right: 0;
     bottom: 25%;
     width: 30%;
     overflow: hidden;
@@ -280,7 +289,7 @@ section#formacionIntegral {
 
 .trazoDecDosCinco {
     position: absolute;
-    left: -4%;
+    left: 0;
     top: 10%;
     width: 45%;
     overflow: hidden;
@@ -288,7 +297,7 @@ section#formacionIntegral {
 
 .trazoDecTres {
     position: absolute;
-    right: -10%;
+    right: 0;
     bottom: 45%;
     width: 30%;
     overflow: hidden;
@@ -296,7 +305,7 @@ section#formacionIntegral {
 
 .trazoDecCuatro {
     position: absolute;
-    left: -4%;
+    left: 0;
     bottom: 15%;
     width: 20%;
     overflow: hidden;
@@ -354,7 +363,7 @@ section#consultoriaVoz {
 
 .trazoDecCinco {
     position: absolute;
-    right: -7%;
+    right: 0;
     bottom: 10%;
     width: 30%;
     overflow: hidden;
@@ -362,7 +371,7 @@ section#consultoriaVoz {
 
 .trazoDecSeis {
     position: absolute;
-    left: -4%;
+    left: 0;
     top: 15%;
     width: 20%;
     overflow: hidden;
@@ -503,7 +512,9 @@ section#bio {
 
 .accordion,
 .secAccordion,
-.thirdAccordion {
+.thirdAccordion,
+.accordionNivelDos,
+.accordionNivelDosVisionario {
     background-color: inherit;
     color: #201B1F;
     cursor: pointer;
@@ -535,14 +546,18 @@ section#bio {
 .active,
 .accordion:hover,
 .secAccordion:hover,
-.thirdAccordion:hover {
+.thirdAccordion:hover,
+.accordionNivelDos:hover,
+.accordionNivelDosVisionario:hover {
     color: white;
     background-color: rgba(32, 27, 31, 0.40);
 }
 
 .panel,
 .secPanel,
-.thirdPanel {
+.thirdPanel,
+.panelNivelDos,
+.panelNivelDosVisionario {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
@@ -561,11 +576,11 @@ section#bio {
     font-size: 50px;
     font-weight: 400;
     text-shadow: 2px 2px 1px #201B1F;
-    margin: 0.5em;
+    margin: 1em 0.5em 0.1em;
 }
 
 #tablaProgCompleto {
-    margin: 1em;
+    margin: 3em 1em;
 }
 
 table,
@@ -605,8 +620,17 @@ th {
 
 #sectConscienteNivelUno h2,
 #sectConscienteNivelDos h2,
-#descripcionVisionarioNivelDos h2 {
+#descripcionVisionarioNivelDos h2,
+#descripcionSupervisiones h2 {
     margin: 25px;
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px #201B1F;
+}
+
+#progCompletoSubtitulo {
+    margin: 0 0.5em 1em;
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 35px;
@@ -652,6 +676,10 @@ th {
 @media (min-width: 768px) {
 
     /* HEADER */
+
+    header {
+        height: 70px;
+    }
 
     #burgerMenu {
         display: none;
