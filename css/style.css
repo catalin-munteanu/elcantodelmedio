@@ -66,14 +66,6 @@ header {
     background-color: #54592C;
 }
 
-#headerDosDePrueba {
-    background-color: #FFFFFF;
-}
-
-#headerDosDePrueba a {
-    color: #000000;
-}
-
 #menuRedesHeader {
     display: flex;
     align-items: center;
@@ -153,7 +145,7 @@ h1.elementoSeccion1 {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
-#tipito {
+#tipito, #separadorFormacion {
     width: 20vw;
     margin: 2vh 0;
 }
@@ -214,9 +206,19 @@ h2 {
     margin: 10px;
 }
 
+.videoContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%
+}
+
 .itemVideoInformativo {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* SECCIÓN 2 FORMACIÓN INTEGRAL */
@@ -276,13 +278,28 @@ section#formacionIntegral {
     margin: 1em 0;
 }
 
+#coordenadasIniciacionConsciente p,
+#coordenadasProfundizacionConsciente p,
+#coordenadasProfundizacionVisionario p,
+#coordenadasConsultoria div p,
+#coordenadasAsesoria div p {
+    margin: 0;
+}
+
+#separadorFormacion {
+    margin: 10px 0 0;
+}
+
 .importantP {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
     font-size: 25px;
     text-shadow: 2px 2px 1px #201B1F;
-    /*font-weight: 600;
-    text-transform: uppercase;*/
+}
+
+.textoNegrita,
+.textoNegrita a {
+    font-weight: 800;
 }
 
 /* SECCIÓN 3 CONSULTORÍAS */
@@ -562,6 +579,12 @@ section#bio {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    z-index: 1;
+}
+
+.containerBotonesHorizontal,
+.containerCadaBoton {
+    z-index: 1;
 }
 
 /* NUEVA PESTAÑA */
@@ -671,6 +694,18 @@ th {
         width: 35vw;
         padding: 0;
     }
+
+#videosInformativos article {
+    margin: 30px 0 15px;
+}
+
+#videosInformativos article:last-child {
+    margin: 30px 0 45px;
+}
+
+#videosInformativos h2 {
+    margin: 20px 0 10px;
+}
 }
 
 @media (min-width: 768px) {
@@ -699,7 +734,7 @@ th {
     #logoYoutubeHeader,
     #logoInstagramHeader,
     #logoWhatsAppHeader {
-        height: 60px;
+        height: 50px;
         padding: 15px;
     }
 
@@ -725,15 +760,19 @@ th {
 
     /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
-    #tipito {
+    #tipito, #separadorFormacion {
         width: 10vw;
+    }
+
+    #separadorFormacion {
+        margin: 18px 0 0;
     }
 
     /* SECCIÓN VIDEOS INFORMATIVOS */
 
     #videosInformativos {
         flex-direction: row;
-        padding: 2%;
+        padding: 2% 0;
         min-height: auto;
     }
 
@@ -741,9 +780,26 @@ th {
         width: 33%;
         height: auto;
         margin: 15px;
+        padding: 0 2%;
+    }
+
+    #videosInformativos article {
+        margin: 15px 0;
+    }
+    
+    #videosInformativos article:last-child {
+        margin: 15px 0;
+    }
+    
+    #videosInformativos h2 {
+        margin: 10px;
     }
 
     /* SECCIÓN FORMACIÓN, CONSULTORÍA, ASESORÍA */
+
+    .importantP {
+        font-size: 35px;
+    }
 
     #formacionIntegral h2,
     #consultoriaVoz h2,
@@ -821,5 +877,14 @@ th {
 
     #coordenadasAsesoria div {
         margin: 10% 20%;
+    }
+
+    /* FORMACIÓN INTEGRAL */
+
+    .containerBotonesHorizontal {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
     }
 }

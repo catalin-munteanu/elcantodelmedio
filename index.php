@@ -18,9 +18,9 @@
 
     <header>
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-prueba-2.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-yt-2.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wpp-prueba.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\ig-logo.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\yt-logo-only.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wa-logo.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
         <button id="burgerMenu"><img src="wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="burgerMenuImg"></button>
@@ -56,19 +56,25 @@
 
         <section id="videosInformativos">
             <article>
-                <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="videoContainer">
+                    <iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
                 <h2>Canto Consciente</h2>
                 <p>¿Qué es?</p>
             </article>
 
             <article>
-                <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="videoContainer">
+                    <iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
                 <h2>El canto del medio</h2>
                 <p>¿Por qué?</p>
             </article>
 
             <article>
-                <iframe width="560" height="315" class="itemVideoInformativo" src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="videoContainer">
+                    <iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
                 <h2>Canto Visionario</h2>
                 <p>¿Qué es?</p>
             </article>
@@ -88,26 +94,27 @@
                 <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
                 <p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
                 <p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de Supervisión, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
+
+                <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="separadorFormacion" class="elementoSeccion1">
+
                 <p class="importantP">Los próximos cursos comienzan en agosto 2023</p>
             </article>
 
             <img class="trazoDecDos" src="wp-content\themes\cantodelmedio\img\mobile\trazo-2.svg" alt="" srcset="">
-
+            
             <button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
             <article class="panel">
-                <h4>Iniciación al Canto Consciente*</h4>
-                <h5>NIVEL 1</h5>
                 <p>El Nivel 1 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
                 
                 <article id="coordenadasIniciacionConsciente">
                     <p>Modalidad : presencial y grupal</p>
                     <p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
-                    <p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina</p>
+                    <p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
                 </article>
 
                 <p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación</p>
 
-                <p>(*) El curso cuatrimestral de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>  
+                <p>El curso cuatrimestral de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>  
             </article>
 
             <script>
@@ -127,10 +134,10 @@
                 }
             </script>
 
+        <div class="containerBotonesHorizontal">
+            <div class="containerCadaBoton">
         <button class="accordionNivelDos">Nivel 2<br>Profundización en Canto Consciente</button>
         <article class="panelNivelDos">
-            <h4>Profundización en Canto Consciente</h4>
-            <h5>NIVEL 2</h5>
 
             <p>El Nivel 2 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa. </p>
             
@@ -160,10 +167,12 @@
                 }
         </script>
 
-        <button class="accordionNivelDosVisionario">Nivel 2<br>Profundización en Canto Visionario</button>
+            </div>
+
+            <div class="containerCadaBoton">
+
+            <button class="accordionNivelDosVisionario">Nivel 2<br>Profundización en Canto Visionario</button>
             <article class="panelNivelDosVisionario">
-                <h4>Profundización en Canto Visionario</h4>
-                <h5>NIVEL 2</h5>
 
             <p>El Nivel 2 de la Formación Integral en Canto Visionario es un curso teórico-práctico orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
             
@@ -193,9 +202,12 @@
                 }
         </script>
 
+            </div>
+        </div>
+        
         <article>
-            <p><a href="..\programa-curso" target="_blank">Conocé el programa completo y los contenidos de los cursos</a></p>
-            <p><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
+            <p class="textoNegrita"><a href="..\programa-curso" target="_blank">Conocé el programa completo y los contenidos de los cursos</a></p>
+            <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
         </article>
 
         </section>
@@ -205,7 +217,7 @@
                 <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-negro.svg" alt="" srcset="">
             </figure>
 
-            <h2>Consultoría para la voz</h2>
+            <h2>Consultorías para la voz</h2>
 
             <img class="trazoDecDosCinco" src="wp-content\themes\cantodelmedio\img\mobile\trazo-9.svg" alt="" srcset="">
 
@@ -218,10 +230,10 @@
                 <div>
                     <p>Modalidad : presencial y/u online</p>
                     <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
-                    <p>Valor : $4000 el encuentro</p>
-                    <p>Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
                 </div>
+                    
             </article>
+            <p class="textoNegrita">Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
 
             <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-8.svg" alt="" srcset="">
 
@@ -245,10 +257,9 @@
                 <div>
                     <p>Modalidad : presencial y/u online</p>
                     <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
-                    <p>Valor : $5000 el encuentro</p>
-                    <p>Si querés solicitar tu asesoramiento <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
                 </div>
             </article>
+            <p class="textoNegrita">Si querés solicitar tu asesoramiento <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
 
         </section>
 

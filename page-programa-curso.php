@@ -18,9 +18,9 @@
 
     <header id="headerDosDePrueba">
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\ig-negro-hw.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\yt-negro-hw.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\wpp-negro-hw.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\ig-logo.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\yt-logo-only.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\wa-logo.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
         <button id="burgerMenu"><img src="..\wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="burgerMenuImg"></button>
@@ -42,38 +42,29 @@
 
             <table id="tablaProgCompleto">
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td>Capacitaciones en canto consciente (mensuales)</td>
-                    <td>- Respiración expandida<br>- Pasaje de la voz<br>- Vibroacústica vocal</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Profundización en canto consciente (cuatrimestre)</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Iniciación al canto consciente (cuatrimestre)</td>
-                    <td></td>
-                    <td>Seminarios</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Profundización en canto visionario (cuatrimestre)</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
                     <th>Nivel 1</th>
                     <th>Nivel 2</th>
-                    <th>Nivel 3</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Profundización en<br>canto consciente<br>(cuatrimestre)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Iniciación al<br>canto consciente<br>(cuatrimestre)</td>
+                    <td></td>
+                    <td>Supervisiones</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Profundización en<br>canto visionario<br>(cuatrimestre)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
 
