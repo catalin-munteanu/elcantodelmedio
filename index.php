@@ -107,14 +107,17 @@
                 <p>El Nivel 1 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
                 
                 <article id="coordenadasIniciacionConsciente">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-3.svg" alt="" srcset="">
+                <div>    
                     <p>Modalidad : presencial y grupal</p>
                     <p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
                     <p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+                </div>
                 </article>
 
-                <p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación</p>
+                <p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación.</p>
 
-                <p>El curso cuatrimestral de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>  
+                <p>El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>  
             </article>
 
             <script>
@@ -128,7 +131,7 @@
                         if (panel.style.maxHeight) {
                             panel.style.maxHeight = null;
                         } else {
-                            panel.style.maxHeight = panel.scrollHeight + "px";
+                            panel.style.maxHeight = panel.scrollHeight + 500 + "px";
                         }
                     });
                 }
@@ -142,12 +145,15 @@
             <p>El Nivel 2 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa. </p>
             
             <article id="coordenadasProfundizacionConsciente">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-4.svg" alt="" srcset="">
+            <div>    
                 <p>Modalidad : presencial y grupal</p>
                 <p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
                 <p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+            </div>
             </article>
 
-            <p>Orientado a cantantes-artistas y a toda persona interesada en profundizar en el canto como medio de auto-conocimento y creación</p>
+            <p>Orientado a cantantes-artistas y a toda persona interesada en profundizar en el canto como medio de auto-conocimento y creación.</p>
         </article>
 
         <script>
@@ -161,7 +167,7 @@
                         if (panelNivelDos.style.maxHeight) {
                             panelNivelDos.style.maxHeight = null;
                         } else {
-                            panelNivelDos.style.maxHeight = panelNivelDos.scrollHeight + "px";
+                            panelNivelDos.style.maxHeight = panelNivelDos.scrollHeight + 500 + "px";
                         }
                     });
                 }
@@ -177,9 +183,12 @@
             <p>El Nivel 2 de la Formación Integral en Canto Visionario es un curso teórico-práctico orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
             
             <article id="coordenadasProfundizacionVisionario">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-5.svg" alt="" srcset="">
+            <div>
                 <p>Modalidad : presencial y grupal</p>
                 <p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
                 <p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+            </div>
             </article>
 
             <p>Orientado a cantantes-canalizadores y a toda persona interesada en integrar al canto como medio de lectura y escritura akáshica o cuántica.</p>
@@ -196,7 +205,7 @@
                         if (panelNivelDosVisionario.style.maxHeight) {
                             panelNivelDosVisionario.style.maxHeight = null;
                         } else {
-                            panelNivelDosVisionario.style.maxHeight = panelNivelDosVisionario.scrollHeight + "px";
+                            panelNivelDosVisionario.style.maxHeight = panelNivelDosVisionario.scrollHeight + 500 + "px";
                         }
                     });
                 }
@@ -269,121 +278,32 @@
                 <h2 id="hola">¡Hola!<br>
                     <strong id="nombrePaula">Soy Paula Naanim Telis</strong>
                 </h2>
-                <img src="wp-content\themes\cantodelmedio\img\mobile\imagenBioRecortada.png" id="imagenBio">
+                <figure>
+                    <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-foto.svg" id="trazoImagenBio">
+                    <img src="wp-content\themes\cantodelmedio\img\mobile\imagenBioRecortada.png" id="imagenBio">
+                </figure>
             </article>
             <br>
+            <article>
             <p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y musicoterapeuta (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
 
             <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
-
-            <!--ver más 1: -->
-            <button class="secAccordion">
-                <h3>Trayectoria</h3>
-            </button>
-
-            <article class="secPanel">
-                <h4>Trayectoria como cantante</h4>
-
-                <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
-
-                <p>Link a Spotify:</p>
-
-                <h4>Trayectoria como artista de performance</h4>
-
-                <p>Luego de un primer acercamiento profesional como actriz de teatro, comedia musical y televisión, Paula conoce el arte performance y comienza a crear sus propios montajes en colaboración con movimientos activistas para la emancipación de las mujeres y del bienvivir en diversidad. Su obra “Mujer Basura” se destaca por haber sido espontáneamente replicada por artistas y activistas de Latinoamérica; además de haber sido exhibida en Berlín, Lituania y Argentina y de continuar inspirando la escritura de artículos y tesis a nivel nacional e internacional. Sus primeros libros -Mujer Basura, 2016 y Mujer Nueva, 2018- profundizan en estos temas. Hay un corto -El Rito Reciclaje, 2019- que documenta esta investigación. Desde el año 2014 hasta la actualidad, lleva desarrollados más de 12 montajes.</p>
-
-                <p>Archivo de Arte Performance en Youtube:</p>
-
-                <h4>Libros</h4>
-
-                <p>Paula escribió sobre su visión del arte performance y presentó las conclusiones de su obra “Mujer Basura” en el libro “Mujer Basura. Performance y feminismos” (Milena Caserola, 2016). Luego, complementó esta investigación con el desarrollo de la consigna LUCHA Y SANA y de la ritoperformatividad. Escribió sobre ello en “Mujer Nueva. Ritoperformance y femiconciencia” (Milena Cacerola, 2018). Estos materiales fueron presentados oficialmente en la Feria Internacional del Libro de Buenos Aires durante 3 años consecutivos.</p>
-
-                <p>Además, Paula ha co-escrito los artículos “Gritar o morir. Sobre el rol de las mujeres en el metal” (2017) y “Voces degeneradas” (2019) para la colección Cultura Metálica de Clara Beter Ediciones.</p>
-
-                <h4>Otras Artes</h4>
-
-                <p>En sus comienzos como actriz Paula ha participado en obras de teatro, comedia musical y filmaciones para televisión, destacándose su interpretación en “Mujeres que no callan” (Cosmopolitan TV, 2008) y “Los exitosos Pérez” para Méjico (2009).
-                    Además, su interés en el arte corporal experimental y visual la ha invitado a realizar decenas de campañas fotográficas y a ser modelo vivo de artistas plásticos de distintas corrientes estéticas.</p>
-
-                <!--<p>Ver Pinterest (proximamente)</p>-->
-
-                <h4>Trayectoria como docente y terapeuta</h4>
-
-                <p>Paula desarrolla su trabajo como docente particular de canto desde el año 2010 hasta la actualidad. Como terapeuta, desarrolla su trabajo desde el año 2018, especializándose en el acompañamiento a víctimas/sobrevivientes de abuso sexual y/o de poder. Además, ha ejercido como docente de música y teatro en jardines de infantes, como docente de canto de personas adultas con Sindrome de Down y ha sido terapeuta voluntaria en el Hospital J.T. Borda.</p>
-                <p>Actualmente sólo se dedica a la actividad profesional ofrecida desde El Canto del Medio.</p>
-
             </article>
 
-            <script>
-                var acc = document.getElementsByClassName("secAccordion");
-                var i;
-
-                for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var secPanel = this.nextElementSibling;
-                        if (secPanel.style.maxHeight) {
-                            secPanel.style.maxHeight = null;
-                        } else {
-                            secPanel.style.maxHeight = secPanel.scrollHeight + "px";
-                        }
-                    });
-                }
-            </script>
-
-            <button class="thirdAccordion">
-                <h3>Estudios</h3>
-            </button>
-
-            <article class="thirdPanel">
-                <h4>Estudios sobre la Voz</h4>
-
-                <p>Paula comenzó sus estudios de música y coro a la edad de 7 años en la Escuela de Música n°6. Desde los 14 a los 18 años estudió de forma personalizada con Nancy Endrizzi, quien le transmitió los conocimientos esenciales del Método Rabine-Educación Funcional de la Voz. Complementó su entrenamiento con profesores de distintos estilos y estéticas: Gladys Caldas y Cristina Dall (blues/jazz), Mariana Bianchini e Iván Sencion (rock/metal), Andrés Angeli y Juan Ignacio Orcajada (canto de armónicos), Miriam García (canto con caja), Martin Sacco y Carolina Gómez (canto académico).</p>
-
-                <h4>Pedagogía de la Voz</h4>
-
-                <p>Paula se capacitó en Pedagogía para la Enseñanza del Canto en los 3 seminarios facilitados por Eugene Rabine en sus visitas a la Argentina.</p>
-
-                <h4>Música e Instrumentos Complementarios</h4>
-
-                <p>Piano (Clases particulares con Camilo Reiners y Christian Vizcalaza - Armonía Funcional en SADAIC) - Balafón gyll con Saakuu Baru (Ghana) y Christian Covre - Percusión en Academy of African Music and Arts (Ghana) - Ritmo y Percusión con Señas en CERPS con Santiago Vazquez.</p>
-
-                <h4>Estudios sobre el Cuerpo</h4>
-
-                <p>Paula comenzó sus estudios de danza y rítmica a la edad de 7 años en la Escuela de Música n°6. A los 18 años inició un estudio más profundo en técnicas corporales aplicadas al movimiento, al arte escénico y a la salud integral, tomando clases de ballet, danza jazz, eutonía y esferodinamia. A los 25 años comienza a practicar BharataNatyam, danza clásica de la India y a los 27, danza tribal fusión. Actualmente practica Sama, giro sufi, con Paula Lema Karima y complementa su entrenamiento con Pilates.</p>
-
-                <h4>Estudios sobre Actuación e Interpretación</h4>
-
-                <p>Paula comenzó sus estudios de actuación en los cursos extracurriculares de su escuela secundaria. A los 18 años profundizó su formación teatral en el Centro Cultural San Martín y en actuación frente a cámara con Néstor Sacco y Mario Moscoso. También estudió Comedia Musical con Pepe Cibrián Campoy.</p>
-
-                <h4>Estudios sobre la Mente Holística y el Acompañamiento Emocional</h4>
-
-                <p>Paula se formó académicamente como Musicoterapeuta en la Universidad de Buenos Aires, integrando conocimientos sobre psicología, psicología social y comunitaria, antropología, neurociencias y música aplicada a los procesos de salud. Además, Paula se formó en radiestesia y armonización cuántica. Es lectora y canalizadora akáshica, practicante de Mindfulness y de Meditación en Movimiento.</p>
-
+            <article>
+                <h3><a href="..\trayectoria-estudios" target="_blank">Trayectoria y estudios</a></h3>
+                <p class="textoNegrita"><a href="..\trayectoria-estudios" target="_blank">Hacé click acá para ver la bio completa</a></p>
+                <p class="textoNegrita"><a href="..\trayectoria-estudios" target="_blank">Hacé click acá para ver Trayectoria y estudios</a></p>
+                <p class="textoNegrita"><a href="..\trayectoria-estudios" target="_blank">Hacé click acá para más información</a></p>
+                <p class="textoNegrita"><a href="..\trayectoria-estudios" target="_blank">Hacé click acá para más información sobre mi trayectoria y estudios</a></p>
             </article>
-
-            <script>
-                var acc = document.getElementsByClassName("thirdAccordion");
-                var i;
-
-                for (i = 0; i < acc.length; i++) {
-                    acc[i].addEventListener("click", function() {
-                        this.classList.toggle("active");
-                        var thirdPanel = this.nextElementSibling;
-                        if (thirdPanel.style.maxHeight) {
-                            thirdPanel.style.maxHeight = null;
-                        } else {
-                            thirdPanel.style.maxHeight = thirdPanel.scrollHeight + "px";
-                        }
-                    });
-                }
-            </script>
-
+                
             <article id="galeriaFotosBio">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
             </article>
+
         </section>
 
         <section id="cierre">

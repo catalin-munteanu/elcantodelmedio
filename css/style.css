@@ -56,7 +56,7 @@ li {
 header {
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -266,6 +266,10 @@ section#formacionIntegral {
 
 #formacionIntegral article {
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
 }
 
 #formacionIntegral article h3 {
@@ -306,6 +310,37 @@ section#formacionIntegral {
 .textoNegrita,
 .textoNegrita a {
     font-weight: 800;
+}
+
+#coordenadasIniciacionConsciente,
+#coordenadasProfundizacionConsciente,
+#coordenadasProfundizacionVisionario {
+    z-index: 1;
+    position: relative;
+    margin: 2em;
+}
+
+#coordenadasIniciacionConsciente img,
+#coordenadasProfundizacionConsciente img,
+#coordenadasProfundizacionVisionario img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+#coordenadasIniciacionConsciente div,
+#coordenadasProfundizacionConsciente div,
+#coordenadasProfundizacionVisionario div {
+    margin: 20%;
+}
+
+#coordenadasIniciacionConsciente p,
+#coordenadasProfundizacionConsciente p,
+#coordenadasProfundizacionVisionario p {
+    position: relative;
+    z-index: 2;
 }
 
 /* SECCIÓN 3 CONSULTORÍAS */
@@ -373,8 +408,8 @@ section#consultoriaVoz {
 }
 
 #coordenadasConsultoria div {
-    margin: 25%;
-    margin-top: 32%;
+    margin: 20%;
+    margin-top: 22%;
 }
 
 #coordenadasConsultoria p {
@@ -430,7 +465,7 @@ section#asesoriaVoz {
 }
 
 #coordenadasAsesoria div {
-    margin: 25%;
+    margin: 22%;
 }
 
 #coordenadasAsesoria img {
@@ -467,7 +502,20 @@ section#bio {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
+#presentacionFoto figure {
+    position: relative;
+}
+
+#trazoImagenBio {
+    position: absolute;
+    height: 92%;
+    width: 92%;
+    z-index: 1;
+}
+
 #imagenBio {
+    position: relative;
+    z-index: 2;
     width: 100%;
     padding: 5% 5% 0;
 }
@@ -537,6 +585,10 @@ footer p {
     margin: 1em;
 }
 
+footer {
+    padding: 5%; 
+}
+
 /* ACCORDION */
 
 .accordion,
@@ -548,7 +600,6 @@ footer p {
     color: #201B1F;
     cursor: pointer;
     padding: 18px;
-    /*width: 100%;*/
     border: none;
     text-align: center;
     outline: none;
@@ -557,20 +608,6 @@ footer p {
     position: relative;
     margin-bottom: 10px;
 }
-
-/*.accordion {
-    background-color: white;
-    color: #201B1F;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    transition: 0.4s;
-    font-weight: 600;
-    position: relative;
-}*/
 
 .active,
 .accordion:hover,
@@ -733,10 +770,6 @@ th {
     text-shadow: 2px 2px 1px #201b1f7a;
 }
 
-footer {
-    height: 3em;
-}
-
 /*#sectConscienteNivelUno,
 #descripcionConscienteNivelUno,
 #contenidosConscienteNivelUno,
@@ -752,6 +785,10 @@ footer {
     #logoCuerpoOrig {
         width: 50vw;
         padding-left: 2vw;
+    }
+
+    #coordenadasAsesoria div {
+        margin: 18%;
     }
 }
 
@@ -772,6 +809,21 @@ footer {
 #videosInformativos h2 {
     margin: 20px 0 10px;
 }
+
+#coordenadasConsultoria div {
+    margin: 15%;
+}
+
+#coordenadasAsesoria div {
+    margin: 15%;
+}
+
+#coordenadasIniciacionConsciente div,
+#coordenadasProfundizacionConsciente div,
+#coordenadasProfundizacionVisionario div {
+    margin: 18%;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -873,9 +925,17 @@ footer {
         font-size: 50px;
     }
 
+    #coordenadasConsultoria div,
+    #coordenadasAsesoria div,
+    #coordenadasIniciacionConsciente div,
+    #coordenadasProfundizacionConsciente div,
+    #coordenadasProfundizacionVisionario div {
+        margin: 12%;
+    }
+
     /* SECCIÓN BIO */
 
-    #bio img {
+    #presentacionFoto figure {
         float: right;
         width: 30%;
         padding: 0;
@@ -898,6 +958,12 @@ footer {
 
     #bio h3 {
         font-size: 40px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        padding: 2%;
     }
 }
 
@@ -922,10 +988,8 @@ footer {
         font-size: 20px;
     }
 
-    .trazoSubUno {
-        width: 160px;
-        left: 14px;
-        bottom: 9px;
+    .containerCadaBoton {
+        max-width: 50%;
     }
 
     #coordenadasConsultoria {
@@ -933,7 +997,7 @@ footer {
     }
 
     #coordenadasConsultoria div {
-        margin: 10% 20%;
+        margin: 10%;
     }
 
     #coordenadasAsesoria {
@@ -941,7 +1005,7 @@ footer {
     }
 
     #coordenadasAsesoria div {
-        margin: 10% 20%;
+        margin: 10%;
     }
 
     /* FORMACIÓN INTEGRAL */
