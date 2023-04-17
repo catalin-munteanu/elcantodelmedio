@@ -106,6 +106,10 @@ section {
     padding: 5%;
 }
 
+#containerTablaProg {
+    position: relative;
+}
+
 .imgFondo {
     position: absolute;
     overflow: hidden;
@@ -145,9 +149,10 @@ h1.elementoSeccion1 {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
-#tipito, #separadorFormacion {
+#tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres {
     width: 20vw;
     margin: 2vh 0;
+    z-index: 1;
 }
 
 h2 {
@@ -274,7 +279,8 @@ section#formacionIntegral {
 #descripcionNivelUno p,
 #sectConscienteNivelUno p,
 #sectConscienteNivelDos p,
-#descripcionVisionarioNivelDos p {
+#descripcionVisionarioNivelDos p,
+#sectProgramaCompleto p {
     margin: 1em 0;
 }
 
@@ -525,6 +531,12 @@ section#bio {
     z-index: 1;
 }
 
+/* FOOTER */
+
+footer p {
+    margin: 1em;
+}
+
 /* ACCORDION */
 
 .accordion,
@@ -612,27 +624,43 @@ th {
     font-family: 'Alegreya', Arial, sans-serif;
     color: white;
     font-size: 16px;
+    text-align: center;
 }
 
 table {
+    position: relative;
     margin: 25px;
+    padding: 4em 1em 2em;
+    z-index: 1;
+    width: 100%;
 }
 
 td,
 th {
     padding: 0.5em;
-    text-align: left;
 }
 
 th {
     text-transform: uppercase;
 }
 
-#sectConscienteNivelUno,
+/*#sectConscienteNivelUno,
 #sectConscienteNivelDos,
 #descripcionVisionarioNivelDos {
     margin: 0 5vw;
     padding: 0 5%;
+}*/
+
+#sectConscienteNivelUno {
+    margin-top: 25px;
+}
+
+#containerTodasDescripciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
 }
 
 #sectConscienteNivelUno article,
@@ -643,7 +671,14 @@ th {
 
 #sectConscienteNivelUno h2,
 #sectConscienteNivelDos h2,
-#descripcionVisionarioNivelDos h2,
+#descripcionVisionarioNivelDos h2 {
+    margin: 25px 25px 10px;
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px #201B1F;
+}
+
 #descripcionSupervisiones h2 {
     margin: 25px;
     font-family: 'Gill Sans';
@@ -664,11 +699,42 @@ th {
 #sectConscienteNivelDos h3,
 #descripcionVisionarioNivelDos h3 {
     font-size: 20px;
+    margin: 10px;
 }
 
 
 #sectConscienteNivelUno h2 strong {
     font-size: 17px;
+}
+
+#contenidosConscienteNivelUno p,
+#contenidosConscienteNivelDos p {
+    margin: 0;
+}
+
+/*#containerTodasDescripciones {
+    position: relative;
+    margin: 0 5vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+
+#containerTodasDescripciones h2,
+#containerTodasDescripciones h3,
+#containerTodasDescripciones p {
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+
+#containerTodasDescripciones h2{
+    text-shadow: 2px 2px 1px #201b1f7a;
+}
+
+footer {
+    height: 3em;
 }
 
 /*#sectConscienteNivelUno,
@@ -760,7 +826,7 @@ th {
 
     /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
-    #tipito, #separadorFormacion {
+    #tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres {
         width: 10vw;
     }
 
@@ -848,8 +914,7 @@ th {
     }
 
     #formacionIntegral,
-    #consultoriaVoz,
-    #cierre {
+    #consultoriaVoz {
         margin-bottom: 5%;
     }
 
