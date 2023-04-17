@@ -83,6 +83,8 @@
 
             </article>
 
+            <img src="..\wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" class="elementoSeccionUno" id="separadorBio">
+
             <h3>Estudios</h3>
 
             <article>

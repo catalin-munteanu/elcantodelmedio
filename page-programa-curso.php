@@ -41,33 +41,43 @@
             <h4 id="progCompletoSubtitulo">Programa completo</h4>
             <article id="containerTablaProg">
             <figure class="imgFondo">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-tabla.svg" alt="" srcset="">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-negro.svg" alt="" srcset="">
             </figure>
             <table id="tablaProgCompleto">
                 <tr>
                     <th>Nivel 1</th>
+                    <th></th>
                     <th>Nivel 2</th>
+                    <th></th>
                     <th></th>
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Profundización en<br>canto consciente<br>(cuatrimestre)</td>
                     <td></td>
-                </tr>
-                <tr>
-                    <td>Iniciación al<br>canto consciente<br>(cuatrimestre)</td>
+                    <td class="celdaConCirculo">
+                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-4.svg" alt="" srcset="">    
+                    <div class="textoEnCeldaConCirculo">Profundización en<br>canto consciente<br>(cuatrimestre)</div></td>
                     <td></td>
-                    <td>Supervisiones</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Profundización en<br>canto visionario<br>(cuatrimestre)</td>
                     <td></td>
                 </tr>
                 <tr>
                     <td></td>
+                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-1.svg"></td>
                     <td></td>
+                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-2.svg"></td>
                     <td></td>
+                </tr>
+                <tr>
+                    <td class="celdaConCirculo">
+                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-3.svg" alt="" srcset="">
+                    <div class="textoEnCeldaConCirculo">Iniciación al<br>canto consciente<br>(cuatrimestre)</div></td>
+                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-derecha.svg"></td>
+                    <td class="celdaConCirculo">
+                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-5.svg" alt="" srcset="">
+                    <div class="textoEnCeldaConCirculo">Profundización en<br>canto visionario<br>(cuatrimestre)</div></td>
+                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-derecha.svg"></td>
+                    <td class="celdaConCirculo">
+                    <div class="textoEnCeldaConCirculo">Supervisiones</div></td>
                 </tr>
             </table>
             </article>

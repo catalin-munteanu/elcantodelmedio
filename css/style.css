@@ -149,7 +149,7 @@ h1.elementoSeccion1 {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
-#tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres {
+#tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres, #separadorBio {
     width: 20vw;
     margin: 2vh 0;
     z-index: 1;
@@ -681,6 +681,27 @@ th {
     text-transform: uppercase;
 }
 
+.celdaConCirculo {
+    position: relative;
+}
+
+.circuloEnCelda {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    left: 0;
+    display: block;
+}
+
+.textoEnCeldaConCirculo {
+    margin: 20%;
+}
+
+.trazosFlecha {
+    width: 10vw;
+}
+
 /*#sectConscienteNivelUno,
 #sectConscienteNivelDos,
 #descripcionVisionarioNivelDos {
@@ -878,7 +899,7 @@ th {
 
     /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
-    #tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres {
+    #tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres, #separadorBio {
         width: 10vw;
     }
 
