@@ -685,10 +685,17 @@ footer {
 #progCompleto {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400;
     text-shadow: 2px 2px 1px #201B1F;
-    margin: 1em 0.5em 0.1em;
+}
+
+#sectProgramaCompleto {
+    padding: 5% 5% 0;
+}
+
+#descr-programa-formacion {
+    padding-top: 2%;
 }
 
 #containerTablaProg {
@@ -800,10 +807,10 @@ th {
 }
 
 #progCompletoSubtitulo {
-    margin: 0 0.5em 1em;
+    margin: 1em;
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
-    font-size: 35px;
+    font-size: 25px;
     text-shadow: 2px 2px 1px #201B1F;
 }
 
@@ -853,6 +860,36 @@ th {
 #contenidosConscienteNivelDos {
     margin: 0.2em;
 }*/
+
+/* TRAYECTORIA Y ESTUDIOS */
+
+#presentacion-foto-bio-extendida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trayectoria-title {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    line-height: 0.8em;
+    text-shadow: 2px 2px 1px #201B1F;
+}
+
+#presentacion-foto-bio-extendida figure {
+    position: relative;
+    width: 70%;
+}
+
+#container-trayectoria-estudios {
+    position: relative;
+}
+
+#container-trayectoria-estudios h3,
+#container-trayectoria-estudios article {
+    z-index: 1;
+}
 
 /* MEDIA QUERIES */
 
@@ -1050,6 +1087,14 @@ th {
     .tabla-prog-768 {
         display: block;
         width: 712px;
+    }
+
+    #progCompleto {
+        font-size: 50px;
+    }
+
+    #progCompletoSubtitulo {
+        font-size: 35px;
     }
 }
 

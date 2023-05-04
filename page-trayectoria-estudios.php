@@ -37,7 +37,7 @@
 
         <section id="bio">
 
-            <article id="presentacion-foto">
+            <article id="presentacion-foto-bio-extendida">
                 <h2 id="trayectoria-title">Paula Naanim Telis</h2>
                 <figure>
                     <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-foto.svg" id="trayectoria-trazoImagenBio">
