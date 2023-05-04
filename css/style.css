@@ -1214,6 +1214,15 @@ th {
         margin-bottom: 30px;
     }
 
+    #container-trayectoria-estudios h3 {
+        font-size: 40px;
+    }
+
+    .detalle-trayectoria div h4,
+    .detalle-estudios div h4 {
+        margin: 1em;
+    }
+
     #presentacion-foto-bio-extendida figure {
         float: right;
         width: 30%;
