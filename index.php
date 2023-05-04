@@ -214,10 +214,18 @@
             </div>
         </div>
         
-        <article>
+        <article class="links-detalles-formacion">
+            <div class="container-link-pc">
+            <img class="flecha-izq-formacion"src="wp-content\themes\cantodelmedio\img\mobile\flecha-izq.svg">
             <p class="textoNegrita"><a href="..\programa-curso" target="_blank">Conocé el programa completo y los contenidos de los cursos</a></p>
+            <img class="flecha-der-formacion"src="wp-content\themes\cantodelmedio\img\mobile\flecha-der.svg">
+            </div>
+            
+            <div class="container-consultas-formacion">
             <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
-        </article>
+            <img class="trazo-subrayado-contacto-form" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+            </div>
+            </article>
 
         </section>
 
@@ -242,7 +250,11 @@
                 </div>
                     
             </article>
+
+            <article class="links-detalles-consultoria">
             <a href="https://wa.me/5491136148307" target="_blank"><p class="textoNegrita">Si querés solicitar tu consulta hacé click acá</a></p>
+            <img class="trazo-subrayado-contacto-cons" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+            </article>
 
         </section>
 
@@ -266,7 +278,11 @@
                     <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
                 </div>
             </article>
+
+            <article class="links-detalles-asesoria">
             <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
+            <img class="trazo-subrayado-contacto-ases" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+            </article>
 
         </section>
 

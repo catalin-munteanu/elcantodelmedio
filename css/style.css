@@ -249,16 +249,16 @@ section#formacionIntegral {
 
 .trazoDecorativo {
     position: absolute;
-    left: 0;
-    top: 7%;
+    left: -3%;
+    top: 6%;
     width: 30%;
     overflow: hidden;
 }
 
 .trazoDecDos {
     position: absolute;
-    right: 0;
-    bottom: 25%;
+    right: -4%;
+    top: 70%;
     width: 30%;
     overflow: hidden;
 }
@@ -342,29 +342,59 @@ section#formacionIntegral {
     z-index: 2;
 }
 
+.links-detalles-formacion,
+.links-detalles-consultoria,
+.links-detalles-asesoria {
+    z-index: 1;
+    padding: 0 5% 5%;
+}
+
+.container-link-pc {
+    position: relative;
+}
+
+.flecha-izq-formacion {
+    position: absolute;
+    left: -12%;
+    width: 10%;
+    top: 25%;
+}
+
+.flecha-der-formacion {
+    position: absolute;
+    right: -12%;
+    width: 10%;
+    top: 25%;
+}
+
+.container-consultas-formacion {
+    position: relative;
+}
+
+.trazo-subrayado-contacto-form {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    height: 3.7904px
+}
+
+
 /* SECCIÓN 3 CONSULTORÍAS */
 
 .trazoDecDosCinco {
     position: absolute;
     left: 0;
-    top: 10%;
+    top: 3%;
     width: 45%;
     overflow: hidden;
 }
 
 .trazoDecTres {
     position: absolute;
-    right: 0;
+    right: -5%;
     bottom: 45%;
     width: 30%;
-    overflow: hidden;
-}
-
-.trazoDecCuatro {
-    position: absolute;
-    left: 0;
-    bottom: 15%;
-    width: 20%;
     overflow: hidden;
 }
 
@@ -416,20 +446,33 @@ section#consultoriaVoz {
     z-index: 2;
 }
 
+.links-detalles-consultoria {
+    position: relative;
+}
+
+.trazo-subrayado-contacto-cons {
+    display: none;
+    position: absolute;
+    left: 5%;
+    bottom: 40%;
+    width: 90%;
+    height: 3.7904px
+}
+
 /* SECCIÓN 4 ASESORÍAS */
 
 .trazoDecCinco {
     position: absolute;
-    right: 0;
-    bottom: 10%;
+    right: -4%;
+    bottom: 0;
     width: 30%;
     overflow: hidden;
 }
 
 .trazoDecSeis {
     position: absolute;
-    left: 0;
-    top: 15%;
+    left: -4%;
+    top: 18%;
     width: 20%;
     overflow: hidden;
 }
@@ -473,6 +516,19 @@ section#asesoriaVoz {
     width: 100%;
     right: 0;
     left: 0;
+}
+
+.links-detalles-asesoria {
+    position: relative;
+}
+
+.trazo-subrayado-contacto-ases {
+    display: none;
+    position: absolute;
+    left: 5%;
+    bottom: 34%;
+    width: 90%;
+    height: 3.7904px
 }
 
 /* SECCIÓN 5 BIO */
@@ -910,8 +966,19 @@ th {
         padding-left: 2vw;
     }
 
+    .trazoDecorativo {
+        top: 2%;
+    }
+
     #coordenadasAsesoria div {
         margin: 18%;
+    }
+}
+
+@media (min-width: 460px) {
+    .trazo-subrayado-contacto-cons,
+    .trazo-subrayado-contacto-ases {
+        display: block;
     }
 }
 
@@ -1056,6 +1123,28 @@ th {
         margin: 12%;
     }
 
+    .trazo-subrayado-contacto-cons {
+        bottom: 46%;
+        left: 0;
+        width: 100%;
+    }
+
+    .trazo-subrayado-contacto-ases {
+        bottom: 48%;
+        left: 0;
+        width: 100%;
+    }
+
+    .trazoDecSeis {
+        top: 22%;
+    }
+
+    .links-detalles-formacion,
+    .links-detalles-consultoria,
+    .links-detalles-asesoria {
+    padding: 0 0 5%;
+}
+
     /* SECCIÓN BIO */
 
     #presentacionFoto figure {
@@ -1107,6 +1196,22 @@ th {
     #progCompletoSubtitulo {
         font-size: 35px;
     }
+
+    /* BIO EXTENDIDA */
+
+
+    #presentacion-foto-bio-extendida {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    #presentacion-foto-bio-extendida figure {
+        float: right;
+        width: 30%;
+        padding: 0;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -1134,6 +1239,10 @@ th {
         max-width: 50%;
     }
 
+    .trazoDecDos {
+        top: 64%;
+    }
+
     #coordenadasConsultoria {
         min-width: 70%;
     }
@@ -1158,4 +1267,30 @@ th {
         align-items: flex-start;
         justify-content: center;
     }
+
+    .trazo-subrayado-contacto-form {
+        bottom: 16%;
+    }
+
+    /* CONSULTORÍAS */
+
+    .trazo-subrayado-contacto-cons {
+        bottom: 52%;
+    }
+
+    /* ASESORÍAS */
+
+    .trazoDecCinco {
+        bottom: 10%;
+    }
+
+    .trazoDecSeis {
+        top: 14%;
+    }
+
+    .trazo-subrayado-contacto-ases {
+        bottom: 54%;
+        left: 0;
+    }
+
 }
