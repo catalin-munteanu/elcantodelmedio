@@ -242,7 +242,7 @@
                 </div>
                     
             </article>
-            <p class="textoNegrita">Si querés solicitar tu consulta <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+            <a href="https://wa.me/5491136148307" target="_blank"><p class="textoNegrita">Si querés solicitar tu consulta hacé click acá</a></p>
 
             <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-8.svg" alt="" srcset="">
 
@@ -268,7 +268,7 @@
                     <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
                 </div>
             </article>
-            <p class="textoNegrita">Si querés solicitar tu asesoramiento <a href="https://wa.me/5491136148307" target="_blank">hacé click acá</a></p>
+            <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
 
         </section>
 
@@ -299,9 +299,11 @@
             </article>
                 
             <article id="galeriaFotosBio">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno">
             <img src="wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
             <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
             <img src="wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos">
             </article>
 
         </section>
@@ -318,11 +320,13 @@
             </article>
 
             <article id="galeriaFotosServicios">
+            <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-tres">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02b.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-04.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05b.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-cuatro">
             </article>
             <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
 

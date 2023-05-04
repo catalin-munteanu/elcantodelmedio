@@ -56,7 +56,7 @@ li {
 header {
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -501,8 +501,15 @@ section#bio {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
+#presentacionFoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #presentacionFoto figure {
     position: relative;
+    width: 70%;
 }
 
 #trazoImagenBio,
@@ -522,9 +529,26 @@ section#bio {
 }
 
 #galeriaFotosBio {
+    position: relative;
     display: flex;
     justify-content: center;
     margin: 5% 0;
+}
+
+.trazo-scotch-uno {
+    position: absolute;
+    width: 18%;
+    z-index: 2;
+    top: -15%;
+    left: -7%;
+}
+
+.trazo-scotch-dos {
+    position: absolute;
+    width: 18%;
+    z-index: 2;
+    bottom: -15%;
+    right: -7%;
 }
 
 .fotoGaleriaBio {
@@ -565,10 +589,25 @@ section#bio {
 
 #galeriaFotosServicios {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    justify-content: space-between;
+    position: relative;
+    justify-content: center;
     margin: 5% 0;
+}
+
+.trazo-scotch-tres {
+    position: absolute;
+    width: 10%;
+    z-index: 2;
+    top: -15%;
+    left: -3%;
+}
+
+.trazo-scotch-cuatro {
+    position: absolute;
+    width: 10%;
+    z-index: 2;
+    bottom: -15%;
+    right: -3%;
 }
 
 .fotoGaleriaServicios {
@@ -639,9 +678,9 @@ footer {
 
 /* NUEVA PESTAÑA */
 
-#sectProgramaCompleto {
+/*#sectProgramaCompleto {
     padding: 0;
-}
+}*/
 
 #progCompleto {
     font-family: 'Gill Sans';
@@ -652,7 +691,21 @@ footer {
     margin: 1em 0.5em 0.1em;
 }
 
-#tablaProgCompleto {
+#containerTablaProg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-prog-330 {
+    width: 280px;
+}
+
+.tabla-prog-768 {
+    display: none;
+}
+
+/*#tablaProgCompleto {
     margin: 3em 1em;
 }
 
@@ -701,7 +754,7 @@ th {
 
 .trazosFlecha {
     width: 10vw;
-}
+}*/
 
 /*#sectConscienteNivelUno,
 #sectConscienteNivelDos,
@@ -964,7 +1017,7 @@ th {
     }
 
     #presentacionFoto {
-        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 30px;
@@ -986,6 +1039,17 @@ th {
 
     footer {
         padding: 2%;
+    }
+
+    /* PROGRAMA COMPLETO */
+
+    .tabla-prog-330 {
+        display: none;
+    }
+    
+    .tabla-prog-768 {
+        display: block;
+        width: 712px;
     }
 }
 

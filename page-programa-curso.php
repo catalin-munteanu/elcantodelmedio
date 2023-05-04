@@ -40,7 +40,9 @@
             <h1 id="progCompleto">Formación integral en Canto Consciente y Visionario</h1>
             <h4 id="progCompletoSubtitulo">Programa completo</h4>
             <article id="containerTablaProg">
-            <figure class="imgFondo">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\cuadro-programa-completo.png" class="tabla-prog-330">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\cuadro-programa-completo-768.png" class="tabla-prog-768">
+                <!--<figure class="imgFondo">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-negro.svg" alt="" srcset="">
             </figure>
             <table id="tablaProgCompleto">
@@ -79,7 +81,7 @@
                     <td class="celdaConCirculo">
                     <div class="textoEnCeldaConCirculo">Supervisiones</div></td>
                 </tr>
-            </table>
+            </table>-->
             </article>
 
         <article>
