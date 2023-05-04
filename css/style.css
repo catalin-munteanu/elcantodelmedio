@@ -888,6 +888,7 @@ th {
 
 #container-trayectoria-estudios h3,
 #container-trayectoria-estudios article {
+    position: relative;
     z-index: 1;
 }
 

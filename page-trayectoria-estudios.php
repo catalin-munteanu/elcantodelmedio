@@ -49,10 +49,12 @@
 
             <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 
-            <div id="container-trayectoria-estudios">
+        </section>
+
+            <section id="container-trayectoria-estudios">
 
                 <figure class="imgFondo">
-                    <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-negro-trayectoria.svg">
+                    <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-bio-completa.svg">
                 </figure>
 
                 <h3>Trayectoria</h3>
@@ -122,9 +124,11 @@
                 </article>
 
                 <article id="galeriaFotosBio">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno">
                     <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
                     <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
                     <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
+                    <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos">
                 </article>
 
             </div>
