@@ -244,8 +244,6 @@
             </article>
             <a href="https://wa.me/5491136148307" target="_blank"><p class="textoNegrita">Si querés solicitar tu consulta hacé click acá</a></p>
 
-            <img class="trazoDecCuatro" src="wp-content\themes\cantodelmedio\img\mobile\trazo-8.svg" alt="" srcset="">
-
         </section>
 
         <section id="asesoriaVoz">

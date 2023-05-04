@@ -884,12 +884,22 @@ th {
 
 #container-trayectoria-estudios {
     position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #container-trayectoria-estudios h3,
 #container-trayectoria-estudios article {
     position: relative;
     z-index: 1;
+}
+
+#container-trayectoria-estudios h3 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #201B1F;
 }
 
 /* MEDIA QUERIES */
