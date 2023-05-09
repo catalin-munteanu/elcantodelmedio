@@ -23,15 +23,16 @@
             <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\wa-logo.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
-        <button id="burgerMenu"><img src="wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="burgerMenuImg"></button>
+        <button id="burger-menu-toggler">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="open-mobile-menu"></img>
+                <img src="wp-content\themes\cantodelmedio\img\mobile\close-burger-menu.png" id="close-mobile-menu"></img>
+            </button>
 
-        <nav id="mainMenu">
-            <ul>
-                <li><a href="#formacionIntegral">Formación integral</a></li>
-                <li><a href="#consultoriaVoz">Consultorías</a></li>
-                <li><a href="#asesoriaVoz">Asesorías</a></li>
-            </ul>
-        </nav>
+        <ul id="mainMenu">
+            <li class="itemsNav"><a href="#formacionIntegral">Formación integral</a></li>
+            <li class="itemsNav"><a href="#consultoriaVoz">Consultorías</a></li>
+            <li class="itemsNav"><a href="#asesoriaVoz">Asesorías</a></li>
+        </ul>
     </header>
 
     <main>
