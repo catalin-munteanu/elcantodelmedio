@@ -127,7 +127,7 @@ body.mobile-menu-active #mainMenu {
     background: #000000e7;  
 }
 
-#mainMenu ul li a {
+#mainMenu li a {
     font-weight: 600;
 }
 
@@ -1074,14 +1074,8 @@ th {
     #mainMenu {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        padding-left: 20px;
-    }
-
-    #mainMenu ul {
-        display: flex;
-        align-items: center;
         justify-content: flex-end;
+        align-items: center;
         margin: 0 2em;
     }
 
@@ -1092,7 +1086,7 @@ th {
         padding: 15px;
     }
 
-    #mainMenu ul li {
+    #mainMenu li {
         font-size: 16px;
         padding: 1em;
     }

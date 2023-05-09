@@ -10,28 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600;700&family=Cabin:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="wp-content\themes\cantodelmedio\js\main.js"></script>
+    <script src="..\wp-content\themes\cantodelmedio\js\main.js"></script>
     <title>El canto del medio | Paula Naanim Telis | Trayectoria y estudios</title>
 </head>
 
 <body>
-    <header>
-        <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\ig-logo.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\yt-logo-only.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="..\wp-content\themes\cantodelmedio\img\mobile\wa-logo.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
-        </ul>
 
-        <button id="burgerMenu"><img src="..\wp-content\themes\cantodelmedio\img\mobile\burger-menu.png" id="burgerMenuImg"></button>
-
-        <nav id="mainMenu">
-            <ul>
-                <li><a href="..\index.php\#formacionIntegral">Formación integral</a></li>
-                <li><a href="..\index.php\#consultoriaVoz">Consultorías</a></li>
-                <li><a href="..\index.php\#asesoriaVoz">Asesorías</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php require_once 'header.php'; ?>
 
     <main>
 
