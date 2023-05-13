@@ -18,9 +18,9 @@
 
     <header>
         <ul id="menuRedesHeader">
-            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-ig.svg" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-yt.svg" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
-            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-wa.svg" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-ig.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-yt.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+            <li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="wp-content\themes\cantodelmedio\img\mobile\logo-final-wa.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
         </ul>
 
         <button id="burger-menu-toggler">
