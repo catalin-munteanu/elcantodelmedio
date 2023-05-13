@@ -72,7 +72,12 @@ header {
 
 #logoYoutubeHeader,
 #logoInstagramHeader,
-#logoWhatsAppHeader,
+#logoWhatsAppHeader{
+    height: 50px;
+    padding: 5px;
+    display: block;
+}
+
 #open-mobile-menu {
     height: 40px;
     padding: 10px;
@@ -1139,8 +1144,7 @@ th {
     #logoYoutubeHeader,
     #logoInstagramHeader,
     #logoWhatsAppHeader {
-        height: 50px;
-        padding: 15px;
+        height: 45px;
     }
 
     #mainMenu li {
