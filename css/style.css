@@ -395,16 +395,16 @@ section#formacionIntegral {
 
 .flecha-izq-formacion {
     position: absolute;
-    left: -12%;
-    width: 10%;
-    top: 25%;
+    left: -7%;
+    width: 5%;
+    top: 32%;
 }
 
 .flecha-der-formacion {
     position: absolute;
-    right: -12%;
-    width: 10%;
-    top: 25%;
+    right: -7%;
+    width: 5%;
+    top: 30%;
 }
 
 .container-consultas-formacion {
@@ -624,6 +624,20 @@ section#bio {
     padding: 5% 5% 0;
 }
 
+.flecha-izq-bio {
+    position: absolute;
+    left: -7%;
+    width: 12%;
+    top: 8%;
+}
+
+.flecha-der-bio {
+    position: absolute;
+    right: -7%;
+    width: 12%;
+    top: 0;
+}
+
 #galeriaFotosBio {
     position: relative;
     display: flex;
@@ -635,16 +649,16 @@ section#bio {
     position: absolute;
     width: 18%;
     z-index: 2;
-    top: -15%;
-    left: -7%;
+    top: -19%;
+    left: -5%;
 }
 
 .trazo-scotch-dos {
     position: absolute;
     width: 18%;
     z-index: 2;
-    bottom: -15%;
-    right: -7%;
+    bottom: -28%;
+    right: -5%;
 }
 
 .fotoGaleriaBio {
@@ -667,7 +681,34 @@ section#bio {
     font-size: 20px;
 }
 
-/* SECCIÓN 5 CIERRE */
+/* SECCIÓN 6 POSTS */
+
+#section-ig-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#section-ig-posts h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #201B1F;
+    z-index: 1;
+}
+
+#instagram-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.instagram-post {
+    margin: 16px;
+}
+
+/* SECCIÓN 7 CIERRE */
 
 #cierre {
     /*background-color: #54592C;*/
@@ -702,8 +743,8 @@ section#bio {
     position: absolute;
     width: 10%;
     z-index: 2;
-    bottom: -15%;
-    right: -3%;
+    bottom: -25%;
+    right: -2%;
 }
 
 .fotoGaleriaServicios {
@@ -1005,6 +1046,22 @@ th {
     margin: 2% 0;
 }
 
+/* BLOG */
+
+.titulo-post-blog {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #201B1F;
+}
+
+.texto-post-blog {
+    font-family: 'Alegreya', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 400px) {
@@ -1215,6 +1272,10 @@ th {
     #bio h3 {
         font-size: 40px;
     }
+
+    /* SECCIÓN IG POSTS */
+
+
 
     /* FOOTER */
 

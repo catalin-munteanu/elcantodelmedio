@@ -14,5 +14,6 @@
             <li class="itemsNav"><a href="..\index.php\#formacionIntegral">Formación integral</a></li>
             <li class="itemsNav"><a href="..\index.php\#consultoriaVoz">Consultorías</a></li>
             <li class="itemsNav"><a href="..\index.php\#asesoriaVoz">Asesorías</a></li>
+            <li class="itemsNav"><a href="..\home">Blog</a></li>
         </ul>
     </header>

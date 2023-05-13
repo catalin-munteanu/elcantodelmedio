@@ -70,8 +70,8 @@
 
         <article id="descr-programa-formacion">
             <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
-            <p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
-            <p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de Supervisión, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes. </p>  
+            <p>La Formación en <strong class="textoNegrita">Canto Consciente</strong> está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en <strong class="textoNegrita">Canto Visionario</strong>, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
+            <p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de <strong class="textoNegrita">Supervisión</strong>, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes. </p>  
         </article>    
         </section>
 
@@ -86,7 +86,7 @@
             <h3>Nivel 1</h3>
 
             <article id="descripcionConscienteNivelUno">
-                <p>El Nivel 1 de la Formación Integral en Canto Consciente es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p></article>
+                <p>El Nivel 1 de la Formación Integral en <strong class="textoNegrita">Canto Consciente</strong> es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p></article>
                 <p>(*) El curso de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
             </article>
 
@@ -113,7 +113,7 @@
                 <h2>Profundización en canto consciente (cuatrimestre)</h2>
                 <h3>Nivel 2</h3>
 
-                <p>El Nivel 2 de la Formación Integral en Canto Consciente es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa.</p>
+                <p>El Nivel 2 de la Formación Integral en <strong class="textoNegrita">Canto Consciente</strong> es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa.</p>
             </article>
             
             <article id="contenidosConscienteNivelDos">
@@ -135,7 +135,7 @@
             <article id="contenidosVisionarioNivelDos">
                 <h2>Profundización en canto visionario (cuatrimestre)</h2>
                 <h3>Nivel 2</h3>
-                <p>El Nivel 2 de la Formación Integral en Canto Visionario es un curso teórico-práctico cuatrimestral y de modalidad grupal orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
+                <p>El Nivel 2 de la Formación Integral en <strong class="textoNegrita">Canto Visionario</strong> es un curso teórico-práctico cuatrimestral y de modalidad grupal orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
             </article>
 
             <article id="contenidosVisionario">
@@ -150,7 +150,6 @@
             <h2>Supervisiones</h2>
             <p>Una vez completado el recorrido de aprendizaje en Canto Consciente o en Canto Visionario, contás con la posibilidad de anotarte en las reuniones de supervisión (1 cada 2 meses) en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
 </div>
-
 </section>
     </main>
 
