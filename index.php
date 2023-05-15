@@ -245,19 +245,18 @@
             <p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
 
             <article id="coordenadasConsultoria">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
-                <div>
-                    <p>Modalidad : presencial y/u online</p>
-                    <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
-                </div>
-
+                <p>Modalidad : presencial y/u online</p>
+                <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
             </article>
 
             <article class="links-detalles-consultoria">
-                <a href="https://wa.me/5491136148307" target="_blank">
-                    <p class="textoNegrita">Si querés solicitar tu consulta hacé click acá
-                </a></p>
-                <img class="trazo-subrayado-contacto-cons" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-1.svg" alt="" srcset="">
+                <div>
+                    <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">
+                            Si querés solicitar tu consulta hacé click acá
+                        </a></p>
+                    <img class="trazo-subrayado-contacto-cons" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+                </div>
             </article>
 
         </section>
@@ -276,16 +275,16 @@
             <img class="trazoDecSeis" src="wp-content\themes\cantodelmedio\img\mobile\trazo-7.svg" alt="" srcset="">
 
             <article id="coordenadasAsesoria">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-2.svg" alt="" srcset="">
-                <div>
-                    <p>Modalidad : presencial y/u online</p>
-                    <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
-                </div>
+                <p>Modalidad : presencial y/u online</p>
+                <p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
             </article>
 
             <article class="links-detalles-asesoria">
-                <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
-                <img class="trazo-subrayado-contacto-ases" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-circ-2.svg" alt="" srcset="">
+                <div>
+                    <p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
+                    <img class="trazo-subrayado-contacto-ases" src="wp-content\themes\cantodelmedio\img\mobile\trazo-sub-cont.svg">
+                </div>
             </article>
 
         </section>
@@ -326,38 +325,6 @@
 
         </section>
 
-        <section id="section-ig-posts">
-
-        <h2>Posts en Instagram</h2>
-        
-        <article id="instagram-posts">
-
-        <?php
-        ?>
-        <!--<style>
-            .instagram-post {
-                /*float: left;
-                width: 45%;*/
-            }
-        </style>-->
-        <?php
-
-        $url_contents = file_get_contents( 'https://sheets.googleapis.com/v4/spreadsheets/106KshOGZ4R6zF7vv8v45DAgYj2HW977f1HnEa0PTjz8/values/final?alt=json&key=AIzaSyDmz_K1S2UXf7DaFy-4VVVVRUw-Rtewgh4');
-
-        $data = json_decode( $url_contents, true );
-
-        if ( is_array( $data ) && ! empty( $data ) ) {
-            for ( $i = 0; $i < count( $data['values'] ); $i++ ) { 
-                echo '<div class="instagram-post">' . $data['values'][ $i ][0] . '</div>';
-            };
-        }
-
-        ?>
-        
-        </article>
-
-        </section>
-
         <section id="cierre">
             <figure class="imgFondo">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\fondo-verde-final.svg" alt="" srcset="">
@@ -371,11 +338,11 @@
 
             <article id="galeriaFotosServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-tres">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-01b.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-03b.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-02b.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-04.jpeg" class="fotoGaleriaServicios">
-                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-consultorias-05b.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-final-01.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-final-02.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-final-03.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-final-04.jpeg" class="fotoGaleriaServicios">
+                <img src="wp-content\themes\cantodelmedio\img\mobile\foto-final-05.jpeg" class="fotoGaleriaServicios">
                 <img src="wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-cuatro">
             </article>
             <img src="wp-content\themes\cantodelmedio\img\mobile\TIPITO.png" id="tipito" class="elementoSeccion1">
@@ -385,6 +352,30 @@
                 <p>info@elcantodelmedio.com.ar</p>
                 <p><a href="https://wa.me/5491136148307" target="_blank">1136148307</a></p>
             </article>
+        </section>
+
+        <section id="section-ig-posts">
+
+            <article id="instagram-posts">
+
+                <?php
+                ?>
+                <?php
+
+                $url_contents = file_get_contents('https://sheets.googleapis.com/v4/spreadsheets/106KshOGZ4R6zF7vv8v45DAgYj2HW977f1HnEa0PTjz8/values/final?alt=json&key=AIzaSyDmz_K1S2UXf7DaFy-4VVVVRUw-Rtewgh4');
+
+                $data = json_decode($url_contents, true);
+
+                if (is_array($data) && !empty($data)) {
+                    for ($i = 0; $i < count($data['values']); $i++) {
+                        echo '<div class="instagram-post">' . $data['values'][$i][0] . '</div>';
+                    };
+                }
+
+                ?>
+
+            </article>
+
         </section>
 
     </main>

@@ -335,8 +335,8 @@ section#formacionIntegral {
 #coordenadasIniciacionConsciente p,
 #coordenadasProfundizacionConsciente p,
 #coordenadasProfundizacionVisionario p,
-#coordenadasConsultoria div p,
-#coordenadasAsesoria div p {
+#links-detalles-consultoria div p,
+#links-detalles-asesoria div p {
     margin: 0;
 }
 
@@ -467,13 +467,13 @@ section#consultoriaVoz {
     z-index: 1;
 }
 
-#coordenadasConsultoria {
+#links-detalles-consultoria {
     z-index: 1;
     position: relative;
     margin: 2em;
 }
 
-#coordenadasConsultoria img {
+#links-detalles-consultoria img {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -481,12 +481,12 @@ section#consultoriaVoz {
     left: 0;
 }
 
-#coordenadasConsultoria div {
+#links-detalles-consultoria div {
     margin: 20%;
     margin-top: 22%;
 }
 
-#coordenadasConsultoria p {
+#links-detalles-consultoria p {
     position: relative;
     z-index: 2;
 }
@@ -546,16 +546,16 @@ section#asesoriaVoz {
     z-index: 3;
 }
 
-#coordenadasAsesoria {
+#links-detalles-asesoria {
     z-index: 1;
     position: relative;
 }
 
-#coordenadasAsesoria div {
+#links-detalles-asesoria div {
     margin: 22%;
 }
 
-#coordenadasAsesoria img {
+#links-detalles-asesoria img {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -1079,7 +1079,7 @@ th {
         top: 2%;
     }
 
-    #coordenadasAsesoria div {
+    #links-detalles-asesoria div {
         margin: 18%;
     }
 }
@@ -1109,11 +1109,11 @@ th {
     margin: 20px 0 10px;
 }
 
-#coordenadasConsultoria div {
+#links-detalles-consultoria div {
     margin: 15%;
 }
 
-#coordenadasAsesoria div {
+#links-detalles-asesoria div {
     margin: 15%;
 }
 
@@ -1220,8 +1220,8 @@ th {
         font-size: 50px;
     }
 
-    #coordenadasConsultoria div,
-    #coordenadasAsesoria div,
+    #links-detalles-consultoria div,
+    #links-detalles-asesoria div,
     #coordenadasIniciacionConsciente div,
     #coordenadasProfundizacionConsciente div,
     #coordenadasProfundizacionVisionario div {
@@ -1361,19 +1361,19 @@ th {
         top: 64%;
     }
 
-    #coordenadasConsultoria {
+    #links-detalles-consultoria {
         min-width: 70%;
     }
 
-    #coordenadasConsultoria div {
+    #links-detalles-consultoria div {
         margin: 10%;
     }
 
-    #coordenadasAsesoria {
+    #links-detalles-asesoria {
         min-width: 70%;
     }
 
-    #coordenadasAsesoria div {
+    #links-detalles-asesoria div {
         margin: 10%;
     }
 
