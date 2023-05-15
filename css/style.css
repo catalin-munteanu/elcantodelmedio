@@ -282,6 +282,7 @@ section#formacionIntegral {
     justify-content: space-evenly;
     min-height: 100vh;
     position: relative;
+    scroll-margin-top: 60px;
 }
 
 #formacionIntegral h2 {
@@ -453,6 +454,7 @@ section#consultoriaVoz {
     justify-content: space-evenly;
     min-height: 100vh;
     position: relative;
+    scroll-margin-top: 60px;
 }
 
 #consultoriaVoz h2 {
@@ -531,6 +533,7 @@ section#asesoriaVoz {
     justify-content: space-evenly;
     min-height: 100vh;
     position: relative;
+    scroll-margin-top: 60px;
 }
 
 #asesoriaVoz h2 {
@@ -1051,6 +1054,11 @@ th {
     margin: 2% 0;
 }
 
+.detalle-trayectoria div h4,
+.detalle-estudios div h4 {
+    margin: 1em;
+}
+
 /* BLOG */
 
 .titulo-post-blog {
@@ -1210,6 +1218,12 @@ th {
 
     /* SECCIÓN FORMACIÓN, CONSULTORÍA, ASESORÍA */
 
+    section#formacionIntegral,
+    section#consultoriaVoz,
+    section#asesoriaVoz {
+        scroll-margin-top: 100px;
+    }
+
     .importantP {
         font-size: 35px;
     }
@@ -1320,11 +1334,6 @@ th {
         font-size: 40px;
     }
 
-    .detalle-trayectoria div h4,
-    .detalle-estudios div h4 {
-        margin: 1em;
-    }
-
     #presentacion-foto-bio-extendida figure {
         float: right;
         width: 30%;
@@ -1409,6 +1418,13 @@ th {
     .trazo-subrayado-contacto-ases {
         bottom: 54%;
         left: 0;
+    }
+
+    /* PESTAÑA BIO */
+
+    .detalle-trayectoria div h4,
+    .detalle-estudios div h4 {
+        font-size: 17px;
     }
 
 }
