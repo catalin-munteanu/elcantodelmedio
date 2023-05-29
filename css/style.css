@@ -10,6 +10,10 @@
     outline: none;
 }
 
+html.html-class {
+    margin-top: 0 !important;
+}
+
 a {
     color: inherit;
 }
@@ -49,8 +53,6 @@ li {
 
 /* Fondo */
 
-/* la imagen no me da bola */
-
 /* HEADER */
 
 header {
@@ -63,6 +65,7 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #54592C;
+    margin: 0;
 }
 
 #menuRedesHeader {
@@ -93,7 +96,6 @@ header {
     border: 0;
     outline: 0;
     cursor: pointer;
-    /*margin-left: 5vw;*/
     z-index: 2;
 }
 
@@ -401,16 +403,16 @@ section#formacionIntegral {
 
 .flecha-izq-formacion {
     position: absolute;
-    left: -7%;
+    left: -3%;
     width: 5%;
-    top: 32%;
+    top: 39%;
 }
 
 .flecha-der-formacion {
     position: absolute;
-    right: -7%;
+    right: -3%;
     width: 5%;
-    top: 30%;
+    top: 39%;
 }
 
 .container-consultas-formacion {
@@ -457,6 +459,14 @@ section#consultoriaVoz {
     scroll-margin-top: 60px;
 }
 
+#consultoriaVoz article {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #consultoriaVoz h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
@@ -469,13 +479,13 @@ section#consultoriaVoz {
     z-index: 1;
 }
 
-#links-detalles-consultoria {
+.links-detalles-consultoria {
     z-index: 1;
     position: relative;
     margin: 2em;
 }
 
-#links-detalles-consultoria img {
+.trazo-circ-consultoria {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -483,9 +493,8 @@ section#consultoriaVoz {
     left: 0;
 }
 
-#links-detalles-consultoria div {
-    margin: 20%;
-    margin-top: 22%;
+.links-detalles-consultoria div {
+    margin: 15%;
 }
 
 #links-detalles-consultoria p {
@@ -536,6 +545,14 @@ section#asesoriaVoz {
     scroll-margin-top: 60px;
 }
 
+#asesoriaVoz article {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #asesoriaVoz h2 {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
@@ -549,16 +566,17 @@ section#asesoriaVoz {
     z-index: 3;
 }
 
-#links-detalles-asesoria {
+.links-detalles-asesoria {
     z-index: 1;
     position: relative;
+    margin: 2em;
 }
 
-#links-detalles-asesoria div {
-    margin: 22%;
+.links-detalles-asesoria div {
+    margin: 15%;
 }
 
-#links-detalles-asesoria img {
+.trazo-circ-asesoria {
     position: absolute;
     height: 100%;
     width: 100%;
