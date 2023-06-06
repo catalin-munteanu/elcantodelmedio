@@ -190,10 +190,22 @@ get_header();
 				<img class="flecha-der-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
 
+			<!--<article class="links-detalles-consultoria">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-consultoria">
+			<div>
+				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">
+						Si querés solicitar tu consulta hacé click acá
+					</a></p>
+				<img class="trazo-subrayado-contacto-cons" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
+			</div>
+		</article> -->
+			<article class="link-consultas-reserva">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
 			<div class="container-consultas-formacion">
 				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
 				<img class="trazo-subrayado-contacto-form" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
 			</div>
+			</article>
 		</article>
 
 	</section>
@@ -277,13 +289,16 @@ get_header();
 		<article>
 			<div class="container-link-pc">
 				<img class="flecha-izq-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
+				<div class="container-link-tye">
 				<p class="textoNegrita"><a href="<?php echo esc_url(get_permalink(get_page_by_path('trayectoria-estudios'))); ?>" target="_blank">Ver trayectoria y estudios</a>
 				</p>
+				<img class="trazo-subrayado-link-tye" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
+				</div>
 				<img class="flecha-der-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
 		</article>
 
-		<article id="galeriaFotosBio">
+		<article id="galeriaFotosBioIndex">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-bio-fina-1">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.jpeg" class="fotoGaleriaBio">
@@ -293,6 +308,29 @@ get_header();
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-bio-fina-2">
 		</article>
 
+	</section>
+
+	<section id="last-post-blog">
+		<h2>Blog</h2>
+		<p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
+		<?php
+		$recent_posts = get_posts(array(
+			'numberposts' => 1,
+			'orderby'     => 'post_date',
+			'order'       => 'DESC',
+		));
+
+		if ($recent_posts) {
+			$recent_post = $recent_posts[0];
+
+			// Display post information
+			echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
+			echo '<div class="texto-post-blog">' . apply_filters('the_content', $recent_post->post_content) . '</div>';
+			// Add more code to display other post details if needed
+		} else {
+			echo 'No posts found.';
+		}
+		?>
 	</section>
 
 	<section id="cierre">
@@ -325,30 +363,6 @@ get_header();
 			<p><a href="https://wa.me/5491136148307" target="_blank">1136148307</a></p>
 		</article>
 	</section>
-
-	<section id="last-post-blog">
-		<h2>Blog</h2>
-		<p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
-		<?php
-		$recent_posts = get_posts(array(
-			'numberposts' => 1,
-			'orderby'     => 'post_date',
-			'order'       => 'DESC',
-		));
-
-		if ($recent_posts) {
-			$recent_post = $recent_posts[0];
-
-			// Display post information
-			echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
-			echo '<div class="texto-post-blog">' . apply_filters('the_content', $recent_post->post_content) . '</div>';
-			// Add more code to display other post details if needed
-		} else {
-			echo 'No posts found.';
-		}
-		?>
-	</section>
-
 
 	<section id="section-ig-posts">
 
