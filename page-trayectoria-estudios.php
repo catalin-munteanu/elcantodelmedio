@@ -55,8 +55,16 @@
 
                     <p>Paula se encuentra presentando )G(ritos, su primer material como cantante y compositora solista. En él, fusiona su raíz rockera con el sonido de la ancestralidad. Anteriormente, Paula ha formado parte de bandas de rock alternativo, heavy metal, blues rural, funk y música experimental; ha compartido escenario con artistas como Claudio Tano Marciello, Hugo Bistolfi, Julian Barret, Raza Truncka, Claudio Peña, Malena D’ Alessio, Fianru, La Piba Berreta, Cumbio, Lola Bhajan y Karen Bennett; ha teloneado a lxs locales Andrea Alvarez y Gabriel Gratzer y ha colaborado en los proyectos de Nucleo aka Tinta Sucia, Mauro De Maria, Darío Poletti, Montarosa y Daniel Telis. También fue invitada a cantar en las conferencias del constelador y autor español Joan Garriga en su visita a Buenos Aires. Sus últimos escenarios como cantante sesionista son Teatro Metropolitan, Sala Pablo Picasso (Paseo La Plaza), CC Recoleta, Teatro Vorterix y Sala Luis Alberto Spinetta (Radio Vorterix). Además, su investigación artística se ha nutrido viajando y participando en encuentros ceremoniales de comunidades originarias de América Latina y África subsahariana.</p>
 
+                    <div class="container-link-spoti-bio">
+                    
+                    <img class="flecha-izq-spoti-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
+
                     <p class="textoNegrita bio-ext-media-link"><a href="https://artists.spotify.com/c/artist/2DaGbwtEPkC3GZmND47fzM/profile/overview" target="_blank">Escuchar en Spotify</a></p>
 
+                    <img class="flecha-der-spoti-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
+
+                    </div>
+                
                 </div>
 
                 <div class="trayectoria-performance">
@@ -65,7 +73,15 @@
 
                     <p>Luego de un primer acercamiento profesional como actriz de teatro, comedia musical y televisión, Paula conoce el arte performance y comienza a crear sus propios montajes en colaboración con movimientos activistas para la emancipación de las mujeres y del bienvivir en diversidad. Su obra “Mujer Basura” se destaca por haber sido espontáneamente replicada por artistas y activistas de Latinoamérica; además de haber sido exhibida en Berlín, Lituania y Argentina y de continuar inspirando la escritura de artículos y tesis a nivel nacional e internacional. Sus primeros libros -Mujer Basura, 2016 y Mujer Nueva, 2018- profundizan en estos temas. Hay un corto -El Rito Reciclaje, 2019- que documenta esta investigación. Desde el año 2014 hasta la actualidad, lleva desarrollados más de 12 montajes.</p>
 
-                    <p class="bio-ext-media-link"><a href="https://www.youtube.com/watch?v=y6CGKqxlM2Q&list=PLWDPNv_Djo7NLSQ1GCGqFgS9y7YtP2E0O" target="_blank">Ver archivo de Arte Performance en Youtube</a></p>
+                    <div class="container-link-yt-perfo">
+
+                    <img class="flecha-izq-yt-perfo" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
+
+                    <p class="bio-ext-media-link arteperformance-arch"><a href="https://www.youtube.com/watch?v=y6CGKqxlM2Q&list=PLWDPNv_Djo7NLSQ1GCGqFgS9y7YtP2E0O" target="_blank">Ver archivo de Arte Performance en Youtube</a></p>
+
+                    <img class="flecha-der-yt-perfo" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
+
+                    </div>
 
                 </div>
 
@@ -151,11 +167,13 @@
             </article>
 
             <article id="galeriaFotosBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-tye-gruesa-1">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-tye-fina-1">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-tye-gruesa-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-tye-fina-2">
             </article>
 
             </div>

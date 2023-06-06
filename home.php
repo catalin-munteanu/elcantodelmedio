@@ -28,6 +28,7 @@ if (have_posts()) {
 					?>
 				</a>
 			<?php } ?>
+			<p class="post-date"><?php echo get_the_date(); ?></p>
 			<p><?php the_excerpt(); ?></p>
 			<a href="<?php the_permalink(); ?>" class="read-more-link">Leer más</a>
 		</article>
