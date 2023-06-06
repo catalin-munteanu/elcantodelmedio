@@ -277,17 +277,20 @@ get_header();
 		<article>
 			<div class="container-link-pc">
 				<img class="flecha-izq-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
-				<p class="textoNegrita"><a href="../trayectoria-estudios" target="_blank">Ver trayectoria y estudios</a></p>
+				<p class="textoNegrita"><a href="<?php echo esc_url(get_permalink(get_page_by_path('trayectoria-estudios'))); ?>" target="_blank">Ver trayectoria y estudios</a>
+				</p>
 				<img class="flecha-der-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
 		</article>
 
 		<article id="galeriaFotosBio">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-bio-fina-1">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.jpeg" class="fotoGaleriaBio">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-02b.jpeg" class="fotoGaleriaBio">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-03.jpeg" class="fotoGaleriaBio">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-dos">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-bio-gruesa-2">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-bio-fina-2">
 		</article>
 
 	</section>
@@ -304,13 +307,15 @@ get_header();
 		</article>
 
 		<article id="galeriaFotosServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-tres">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-tres" id="scotch-cierre-gruesa-1">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-tres" id="scotch-cierre-fina-1">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-01.jpeg" class="fotoGaleriaServicios">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-02.jpeg" class="fotoGaleriaServicios">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-03.jpeg" class="fotoGaleriaServicios">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-04.jpeg" class="fotoGaleriaServicios">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-05.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-cuatro">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-cuatro" id="scotch-cierre-gruesa-2">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-cuatro" id="scotch-cierre-fina-2">
 		</article>
 		<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="tipito" class="elementoSeccion1">
 
@@ -322,25 +327,28 @@ get_header();
 	</section>
 
 	<section id="last-post-blog">
+		<h2>Blog</h2>
+		<p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
 		<?php
 		$recent_posts = get_posts(array(
-			'numberposts' => 1,             // Retrieve only one post
-			'orderby'     => 'post_date',   // Order by post date
-			'order'       => 'DESC',        // Get the most recent post
+			'numberposts' => 1,
+			'orderby'     => 'post_date',
+			'order'       => 'DESC',
 		));
 
 		if ($recent_posts) {
-			$recent_post = $recent_posts[0];  // Get the first (most recent) post from the array
+			$recent_post = $recent_posts[0];
 
 			// Display post information
-			echo '<h2>' . esc_html($recent_post->post_title) . '</h2>';
-			echo '<p>' . esc_html($recent_post->post_content) . '</p>';
+			echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
+			echo '<div class="texto-post-blog">' . apply_filters('the_content', $recent_post->post_content) . '</div>';
 			// Add more code to display other post details if needed
 		} else {
-			echo 'No posts found.';  // Display a message if no posts are found
+			echo 'No posts found.';
 		}
 		?>
 	</section>
+
 
 	<section id="section-ig-posts">
 

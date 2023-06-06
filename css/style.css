@@ -75,7 +75,7 @@ header {
 
 #logoYoutubeHeader,
 #logoInstagramHeader,
-#logoWhatsAppHeader{
+#logoWhatsAppHeader {
     height: 42px;
     padding: 5px;
     display: block;
@@ -113,11 +113,11 @@ body.mobile-menu-active {
 }
 
 body.mobile-menu-active #open-mobile-menu {
-    display: none;   
+    display: none;
 }
 
 body.mobile-menu-active #close-mobile-menu {
-    display: block;   
+    display: block;
 }
 
 body.mobile-menu-active #mainMenu {
@@ -131,7 +131,7 @@ body.mobile-menu-active #mainMenu {
     height: 100vh;
     width: 100vw;
     z-index: 1;
-    background: #000000e7;  
+    background: #000000e7;
 }
 
 #mainMenu li a {
@@ -195,7 +195,12 @@ h1.elementoSeccion1 {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
-#tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres, #separadorBio {
+#tipito,
+#separadorFormacion,
+#separadorPrograma,
+#separadorProgramaDos,
+#separadorProgramaTres,
+#separadorBio {
     width: 20vw;
     margin: 2vh 0;
     z-index: 1;
@@ -246,7 +251,7 @@ h2 {
 
 #videosInformativos article {
     margin: 15px 0;
-    width: 100%; 
+    width: 100%;
 }
 
 #videosInformativos h2 {
@@ -403,15 +408,15 @@ section#formacionIntegral {
 
 .flecha-izq-formacion {
     position: absolute;
-    left: -3%;
-    width: 5%;
+    left: -5%;
+    width: 24px;
     top: 39%;
 }
 
 .flecha-der-formacion {
     position: absolute;
-    right: -3%;
-    width: 5%;
+    right: -5%;
+    width: 24px;
     top: 39%;
 }
 
@@ -607,6 +612,7 @@ section#bio {
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
+    scroll-margin-top: 60px;
 }
 
 #nombrePaula {
@@ -653,14 +659,14 @@ section#bio {
 .flecha-izq-bio {
     position: absolute;
     left: -7%;
-    width: 12%;
+    width: 24px;
     top: 8%;
 }
 
 .flecha-der-bio {
     position: absolute;
     right: -7%;
-    width: 12%;
+    width: 24px;
     top: 0;
 }
 
@@ -669,6 +675,11 @@ section#bio {
     display: flex;
     justify-content: center;
     margin: 5% 0;
+}
+
+#scotch-bio-fina-1,
+#scotch-bio-fina-2 {
+    display: none;
 }
 
 .trazo-scotch-uno {
@@ -705,6 +716,30 @@ section#bio {
 
 #bio h4 {
     font-size: 20px;
+}
+
+/* SECCIÓN AVANCE BLOG */
+
+.single-post-sect .texto-post-blog figure img {
+    width: 50%;
+    display: inline-block;
+}
+
+#last-post-blog {
+    padding-bottom: 0;
+}
+
+#last-post-blog h2 {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #201B1F;
+    z-index: 1;
+}
+
+.link-all-posts {
+    font-weight: 800;
+    margin-bottom: 3em;
 }
 
 /* SECCIÓN 6 POSTS */
@@ -757,11 +792,16 @@ section#bio {
     margin: 5% 0;
 }
 
+#scotch-cierre-fina-1,
+#scotch-cierre-fina-2 {
+    display: none;
+}
+
 .trazo-scotch-tres {
     position: absolute;
     width: 10%;
     z-index: 2;
-    top: -15%;
+    top: -9%;
     left: -3%;
 }
 
@@ -769,7 +809,7 @@ section#bio {
     position: absolute;
     width: 10%;
     z-index: 2;
-    bottom: -25%;
+    bottom: -14%;
     right: -2%;
 }
 
@@ -789,7 +829,7 @@ footer p {
 }
 
 footer {
-    padding: 5%; 
+    padding: 5%;
 }
 
 /* ACCORDION */
@@ -1011,7 +1051,7 @@ th {
     color: black;
 }
 
-#containerTodasDescripciones h2{
+#containerTodasDescripciones h2 {
     text-shadow: 2px 2px 1px #201b1f7a;
 }
 
@@ -1040,6 +1080,10 @@ th {
     text-shadow: 2px 2px 1px #201B1F;
 }
 
+.linktree-link {
+    font-weight: 800;
+}
+
 #presentacion-foto-bio-extendida figure {
     position: relative;
     width: 70%;
@@ -1064,12 +1108,12 @@ th {
     letter-spacing: 0.1em;
     font-size: 25px;
     text-shadow: 2px 2px 1px #201B1F;
-    margin: 2%;
+    margin: 1em;
 }
 
 .detalle-trayectoria div,
 .detalle-estudios div {
-    margin: 2% 0;
+    margin: 0 0 3em;
 }
 
 .detalle-trayectoria div h4,
@@ -1077,13 +1121,28 @@ th {
     margin: 1em;
 }
 
+.bio-ext-media-link {
+    margin: 1em;
+    font-weight: 800;
+}
+
 /* BLOG */
+
+.blog-title {
+    font-family: 'Gill Sans';
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 1px #201B1F;
+    margin-top: 5%;
+}
 
 .titulo-post-blog {
     font-family: 'Gill Sans';
     letter-spacing: 0.1em;
-    font-size: 40px;
+    font-size: 25px;
     text-shadow: 2px 2px 1px #201B1F;
+    margin: 0 0 0.5em;
 }
 
 .texto-post-blog {
@@ -1091,6 +1150,24 @@ th {
     color: white;
     text-align: center;
     font-size: 16px;
+    margin: 1em 1em 4em;
+}
+
+.texto-post-blog p {
+    margin: 1em 0;
+}
+
+.read-more-link {
+    font-weight: 800;
+}
+
+#last-post-blog .texto-post-blog figure img {
+    width: 50%;
+    display: inline-block;
+}
+
+div#footer {
+    display: none;
 }
 
 /* MEDIA QUERIES */
@@ -1108,12 +1185,29 @@ th {
     #links-detalles-asesoria div {
         margin: 18%;
     }
+
+    .flecha-izq-formacion {
+        left: -2%;
+    }
+
+    .flecha-der-formacion {
+        right: -2%;
+    }
 }
 
 @media (min-width: 460px) {
-    .trazo-subrayado-contacto-cons,
+    /* .trazo-subrayado-contacto-cons,
     .trazo-subrayado-contacto-ases {
         display: block;
+    } */
+
+    .links-detalles-formacion {
+        padding: 0 10% 5%;
+    }
+
+    .links-detalles-consultoria div,
+    .links-detalles-asesoria div {
+        margin: 10%;
     }
 }
 
@@ -1123,32 +1217,35 @@ th {
         padding: 0;
     }
 
-#videosInformativos article {
-    margin: 30px 0 15px;
-}
+    #videosInformativos article {
+        margin: 30px 0 15px;
+    }
 
-#videosInformativos article:last-child {
-    margin: 30px 0 45px;
-}
+    #videosInformativos article:last-child {
+        margin: 30px 0 45px;
+    }
 
-#videosInformativos h2 {
-    margin: 20px 0 10px;
-}
+    #videosInformativos h2 {
+        margin: 20px 0 10px;
+    }
 
-#links-detalles-consultoria div {
-    margin: 15%;
-}
+    .links-detalles-formacion {
+        padding: 0 15% 5%;
+    }
 
-#links-detalles-asesoria div {
-    margin: 15%;
-}
+    #coordenadasIniciacionConsciente div,
+    #coordenadasProfundizacionConsciente div,
+    #coordenadasProfundizacionVisionario div {
+        margin: 18%;
+    }
 
-#coordenadasIniciacionConsciente div,
-#coordenadasProfundizacionConsciente div,
-#coordenadasProfundizacionVisionario div {
-    margin: 18%;
-}
+    .flecha-izq-formacion {
+        left: -10%;
+    }
 
+    .flecha-der-formacion {
+        right: -10%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1199,7 +1296,12 @@ th {
 
     /* acá por ahí me convendría hacerlo al revés, de un costado el logo y al otro el texto */
 
-    #tipito, #separadorFormacion, #separadorPrograma, #separadorProgramaDos, #separadorProgramaTres, #separadorBio {
+    #tipito,
+    #separadorFormacion,
+    #separadorPrograma,
+    #separadorProgramaDos,
+    #separadorProgramaTres,
+    #separadorBio {
         width: 10vw;
     }
 
@@ -1225,11 +1327,11 @@ th {
     #videosInformativos article {
         margin: 15px 0;
     }
-    
+
     #videosInformativos article:last-child {
         margin: 15px 0;
     }
-    
+
     #videosInformativos h2 {
         margin: 10px;
     }
@@ -1252,12 +1354,24 @@ th {
         font-size: 50px;
     }
 
-    #links-detalles-consultoria div,
-    #links-detalles-asesoria div,
     #coordenadasIniciacionConsciente div,
     #coordenadasProfundizacionConsciente div,
     #coordenadasProfundizacionVisionario div {
         margin: 12%;
+    }
+
+    .links-detalles-consultoria div,
+    .links-detalles-asesoria div {
+        margin: 8% 13%;
+        width: 100%;
+    }
+
+    .flecha-izq-formacion {
+        top: 32%;
+    }
+
+    .flecha-der-formacion {
+        top: 32%;
     }
 
     .trazo-subrayado-contacto-cons {
@@ -1279,8 +1393,16 @@ th {
     .links-detalles-formacion,
     .links-detalles-consultoria,
     .links-detalles-asesoria {
-    padding: 0 0 5%;
-}
+        padding: 0 0 5%;
+    }
+
+    .links-detalles-consultoria {
+        width: 400px;
+    }
+
+    .links-detalles-asesoria {
+        width: 470px;
+    }
 
     /* SECCIÓN BIO */
 
@@ -1309,9 +1431,37 @@ th {
         font-size: 40px;
     }
 
-    /* SECCIÓN IG POSTS */
+    #scotch-bio-gruesa-1,
+    #scotch-bio-gruesa-2 {
+        display: none;
+    }
 
+    #scotch-bio-fina-1,
+    #scotch-bio-fina-2 {
+        display: block;
+    }
 
+    .trazo-scotch-dos {
+        bottom: -21%;
+
+    }
+
+    /* CIERRE */
+
+    #scotch-cierre-gruesa-1,
+    #scotch-cierre-gruesa-2 {
+        display: none;
+    }
+
+    #scotch-cierre-fina-1,
+    #scotch-cierre-fina-2 {
+        display: block;
+    }
+
+    .trazo-scotch-cuatro {
+        bottom: -10%;
+        right: -4%;
+    }
 
     /* FOOTER */
 
@@ -1324,7 +1474,7 @@ th {
     .tabla-prog-330 {
         display: none;
     }
-    
+
     .tabla-prog-768 {
         display: block;
         width: 712px;
@@ -1339,7 +1489,6 @@ th {
     }
 
     /* BIO EXTENDIDA */
-
 
     #presentacion-foto-bio-extendida {
         flex-direction: row;
