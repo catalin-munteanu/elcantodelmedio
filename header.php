@@ -19,7 +19,7 @@
 	<header>
 		<ul id="menuRedesHeader">
 			<li class="iconRedesHeader"><a href="https://www.instagram.com/elcantodelmedio/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-final-ig.png" class="imgRedesHeader" id="logoInstagramHeader"></a></li>
-			<li class="iconRedesHeader"><a href="https://www.youtube.com/channel/UCLtgVMuTefGp63pZiPophPA" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-final-yt.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
+			<li class="iconRedesHeader"><a href="https://youtube.com/@elcantodelmedio2920" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-final-yt.png" class="imgRedesHeader" id="logoYoutubeHeader"></a></li>
 			<li class="iconRedesHeader"><a href="https://wa.me/5491136148307" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-final-wa.png" class="imgRedesHeader" id="logoWhatsAppHeader"></a></li>
 		</ul>
 

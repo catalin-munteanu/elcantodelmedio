@@ -360,7 +360,7 @@ get_header();
 		<article>
 			<p><strong>Paula Naanim Telis</strong></p>
 			<p>info@elcantodelmedio.com.ar</p>
-			<p><a href="https://wa.me/5491136148307" target="_blank">1136148307</a></p>
+			<p><a href="https://wa.me/5491136148307" target="_blank">(+54 9) 1136148307</a></p>
 		</article>
 	</section>
 
@@ -391,7 +391,7 @@ get_header();
 </main>
 
 <footer>
-	<p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong> ◆ Diseño de logos e imagen de fondo: <strong class="textoNegrita">Mariana Szulman</strong></p>
+	<p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong></p>
 </footer>
 
 </body>

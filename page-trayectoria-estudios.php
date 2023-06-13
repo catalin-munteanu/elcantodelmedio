@@ -59,7 +59,7 @@
                     
                     <img class="flecha-izq-spoti-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
 
-                    <p class="textoNegrita bio-ext-media-link"><a href="https://artists.spotify.com/c/artist/2DaGbwtEPkC3GZmND47fzM/profile/overview" target="_blank">Escuchar en Spotify</a></p>
+                    <p class="textoNegrita bio-ext-media-link"><a href="https://open.spotify.com/artist/2DaGbwtEPkC3GZmND47fzM?si=7nplfYlySdKFxf9U74c3Aw" target="_blank">Escuchar en Spotify</a></p>
 
                     <img class="flecha-der-spoti-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 
@@ -181,7 +181,7 @@
         </section>
     </main>
     <footer>
-        <p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong> ◆ Diseño de logos e imagen de fondo: <strong class="textoNegrita">Mariana Szulman</strong></p>
+        <p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong></p>
     </footer>
 </body>
 

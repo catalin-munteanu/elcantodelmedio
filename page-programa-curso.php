@@ -168,7 +168,7 @@
     </main>
 
     <footer>
-        <p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong> ◆ Diseño de logos e imagen de fondo: <strong class="textoNegrita">Mariana Szulman</strong></p>
+        <p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong></p>
     </footer>
 </body>
 
