@@ -391,7 +391,7 @@ get_header();
 </main>
 
 <footer>
-	<p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong></p>
+	<p>Diseño y desarrollo del sitio: <strong class="textoNegrita">Catalina Pampin</strong> ◆ Concepto visual: <strong class="textoNegrita">El canto del medio</strong></p>
 </footer>
 
 </body>
