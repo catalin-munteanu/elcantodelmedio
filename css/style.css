@@ -704,6 +704,7 @@ section#bio {
     display: flex;
     justify-content: center;
     margin: 5%;
+    align-items: flex-end;
 }
 
 #galeriaFotosBio {
@@ -712,6 +713,7 @@ section#bio {
     justify-content: center;
     margin: 5%;
     margin-bottom: 150px;
+    align-items: flex-end;
 }
 
 #scotch-bio-fina-1,
@@ -737,6 +739,7 @@ section#bio {
 
 .fotoGaleriaBio {
     max-width: 33%;
+    aspect-ratio: 4/3;
 }
 
 #bio p {
@@ -827,6 +830,7 @@ section#bio {
     position: relative;
     justify-content: center;
     margin: 5% 0;
+    align-items: flex-end;
 }
 
 #scotch-cierre-fina-1,
