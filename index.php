@@ -66,7 +66,7 @@ get_header();
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="separadorFormacion" class="elementoSeccion1">
 
-			<p class="importantP">Los próximos cursos comienzan en agosto 2023</p>
+			<p class="importantP">Los próximos cursos comienzan en 2024</p>
 		</article>
 
 		<img class="trazoDecDos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-2.svg" alt="" srcset="">
@@ -79,7 +79,7 @@ get_header();
 				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-3.svg" alt="" srcset="">
 				<div>
 					<p>Modalidad : presencial y grupal</p>
-					<p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
+					<p>Duración : 4 meses</p>
 					<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
 				</div>
 			</article>
@@ -117,7 +117,7 @@ get_header();
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-4.svg" alt="" srcset="">
 						<div>
 							<p>Modalidad : presencial y grupal</p>
-							<p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
+							<p>Duración : 4 meses</p>
 							<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
 						</div>
 					</article>
@@ -155,7 +155,7 @@ get_header();
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-5.svg" alt="" srcset="">
 						<div>
 							<p>Modalidad : presencial y grupal</p>
-							<p>Duración : 4 meses (Agosto - Noviembre 2023)</p>
+							<p>Duración : 4 meses</p>
 							<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
 						</div>
 					</article>
@@ -281,7 +281,7 @@ get_header();
 		</article>
 		<br>
 		<article>
-			<p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y musicoterapeuta (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
+			<p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y Licenciada en Musicoterapia (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
 
 			<p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 		</article>

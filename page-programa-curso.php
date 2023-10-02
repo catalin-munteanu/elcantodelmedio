@@ -11,46 +11,6 @@ get_header();
         <article id="containerTablaProg">
             <img src="..\wp-content\themes\cantodelmedio\img\mobile\cuadro-programa-completo.png" class="tabla-prog-330">
             <img src="..\wp-content\themes\cantodelmedio\img\mobile\cuadro-programa-completo-768.png" class="tabla-prog-768">
-            <!--<figure class="imgFondo">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fondo-negro.svg" alt="" srcset="">
-            </figure>
-            <table id="tablaProgCompleto">
-                <tr>
-                    <th>Nivel 1</th>
-                    <th></th>
-                    <th>Nivel 2</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td class="celdaConCirculo">
-                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-4.svg" alt="" srcset="">    
-                    <div class="textoEnCeldaConCirculo">Profundización en<br>canto consciente<br>(cuatrimestre)</div></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-1.svg"></td>
-                    <td></td>
-                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-2.svg"></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="celdaConCirculo">
-                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-3.svg" alt="" srcset="">
-                    <div class="textoEnCeldaConCirculo">Iniciación al<br>canto consciente<br>(cuatrimestre)</div></td>
-                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-derecha.svg"></td>
-                    <td class="celdaConCirculo">
-                    <img class="circuloEnCelda" src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-circ-5.svg" alt="" srcset="">
-                    <div class="textoEnCeldaConCirculo">Profundización en<br>canto visionario<br>(cuatrimestre)</div></td>
-                    <td><img class="trazosFlecha" src="..\wp-content\themes\cantodelmedio\img\mobile\flecha-derecha.svg"></td>
-                    <td class="celdaConCirculo">
-                    <div class="textoEnCeldaConCirculo">Supervisiones</div></td>
-                </tr>
-            </table>-->
         </article>
 
         <article id="descr-programa-formacion">
@@ -82,16 +42,18 @@ get_header();
                     <img class="trazo-subrayado-contenidos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
                 </div>
                 <div class="items-content-list">
-                    <p>- Estimulación propioceptiva de la relación entre postura, respiración y emisión</p>
+                    <p>- Estimulación sensoperceptiva de la relación entre postura, respiración y emisión</p>
                     <p>- Reconocimiento y diferenciación de hábitos compensatorios y funcionales en la relación entre postura, respiración y emisión</p>
                     <p>- Concientización de apoyos, ejes y alineación de los centros respiratorio, fonatorio y resonador</p>
-                    <p>- Reconocimiento y elongación de la musculatura laríngea, respiratoria y expresiva</p>
+                    <p>- Reconocimiento y elongación de la musculatura respiratoria y fonatoria</p>
                     <p>- Registro y entrenamiento de la ciclicidad respiración-emisión</p>
-                    <p>- Reconocimiento y activación de las válvulas de cierre y apertura laríngeas y pélvicas</p>
+                    <p>- Reconocimiento y activación de las válvulas de cierre y apertura laríngeas</p>
                     <p>- Registro de las vías respiratorias superiores y entrenamiento de la base articulatoria</p>
                     <p>- Reconocimiento y diferenciación de los registros vocales grave, medio y agudo</p>
-                    <p>- Exploración de cavidades vibro-acústicas de resonancia</p>
-                    <p>- Reconocimiento y diferenciación de creencias condicionantes y estimulantes respecto a la voz y al canto</p>
+                    <p>- Identificación de cavidades vibro-acústicas de resonancia</p>
+                    <p>- Reconocimiento y diferenciación de creencias condicionantes y estimulantes respecto a la voz, al canto y a la vida creativa</p>
+                    <p>- Vocalizaciones funcionales sobre piano y sobre pistas musicales</p>
+                    <p>- Repertorio de aplicación grupal e individual</p>
                 </div>
             </article>
         </div>
@@ -113,14 +75,19 @@ get_header();
                     <img class="trazo-subrayado-contenidos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
                 </div>
                 <div class="items-content-list">
-                    <p>- Desprogramación de hábitos compensatorios</p>
+                    <p>- Reeducación de hábitos compensatorios</p>
                     <p>- Fortalecimiento de hábitos funcionales</p>
-                    <p>- Tonificación y flexibilización de la musculatura laríngea, respiratoria y expresiva</p>
+                    <p>- Tonificación y flexibilización de la musculatura respiratoria y fonatoria</p>
                     <p>- Fortalecimiento de la ciclicidad respiración-emisión</p>
                     <p>- Fortalecimiento de la base articulatoria</p>
                     <p>- Entrenamiento de los registros grave, medio y agudo</p>
-                    <p>- Utilización de cavidades vibro-acústicas de resonancia</p>
-                    <p>- Flexibilización de la activación de las válvulas de cierre y apertura laríngeas y pélvicas</p>
+                    <p>- Exploración de cavidades vibro-acústicas de resonancia</p>
+                    <p>- Flexibilización de la activación de las válvulas de cierre y apertura laríngeas</p>
+                    <p>- Vocalizaciones funcionales sobre piano y sobre pistas musicales</p>
+                    <p>- Repertorio de aplicación individual</p>
+                    <p>- Entrenamiento de la disposición mental al momento de cantar, ejercitar o crear</p>
+                    <p>- Fortalecimiento de creencias estimulantes respecto a la voz, al canto y a la vida creativa</p>
+                    <p>- Creación de rutinas de práctica y gestión de tiempos</p>
                 </div>
             </article>
         </div>
