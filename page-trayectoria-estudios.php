@@ -19,7 +19,7 @@ get_header();
                 </figure>
             </article>
             <br>
-            <p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y musicoterapeuta (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
+            <p>Cantante y compositora de música urbana y tribal, escritora de dos libros, artista de performance, practicante de danzas orientales y contemplativas, profesora de canto y Licenciada en Musicoterapia (UBA) con perspectiva en género, comunidad, salud holística y transpersonal. Me dedico a crear y acompañar transformaciones individuales y colectivas realizadas por medio del arte. Luego de más de 12 años de experiencia, más de 500 acompañamientos y de una investigación continua en el estudio comparado de usos y funciones del cuerpo y la voz en distintas culturas y subculturas del mundo, creé El canto del medio para difundir mis conclusiones e inspirar a otras personas en el descubrimiento e integración de su propia voz fisiológica, orgánica, saludable y expresiva.</p>
 
             <p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 
@@ -153,13 +153,13 @@ get_header();
             </article>
 
             <article id="galeriaFotosBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-tye-gruesa-1">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-tye-fina-1">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-tye-gruesa-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-tye-fina-2">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-tye-gruesa-1" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-tye-fina-1" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-tye-gruesa-2" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-tye-fina-2" loading="lazy">
             </article>
 
             </div>

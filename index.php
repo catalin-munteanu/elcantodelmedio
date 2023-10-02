@@ -7,7 +7,7 @@ get_header();
 
 	<section id="presentacionSitio">
 
-		<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-color-2.png" id="logoCuerpoOrig">
+		<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/logo-color-2.webp" id="logoCuerpoOrig">
 
 		<article>
 
@@ -275,8 +275,8 @@ get_header();
 				<strong id="nombrePaula">Soy Paula Naanim Telis</strong>
 			</h2>
 			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-foto.svg" id="trazoImagenBio">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/imagenBioRecortada.png" id="imagenBio">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-foto.svg" id="trazoImagenBio" loading="lazy">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/imagenBioRecortada.png" id="imagenBio" loading="lazy">
 			</figure>
 		</article>
 		<br>
@@ -299,13 +299,13 @@ get_header();
 		</article>
 
 		<article id="galeriaFotosBioIndex">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-bio-fina-1">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.jpeg" class="fotoGaleriaBio">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-02b.jpeg" class="fotoGaleriaBio">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-03.jpeg" class="fotoGaleriaBio">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-bio-gruesa-2">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-bio-fina-2">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-bio-fina-1" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.jpeg" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-02b.jpeg" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-03.jpeg" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-bio-gruesa-2" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-bio-fina-2" loading="lazy">
 		</article>
 
 	</section>
@@ -345,15 +345,15 @@ get_header();
 		</article>
 
 		<article id="galeriaFotosServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-tres" id="scotch-cierre-gruesa-1">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-tres" id="scotch-cierre-fina-1">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-01.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-02.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-03.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-04.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-05.jpeg" class="fotoGaleriaServicios">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-cuatro" id="scotch-cierre-gruesa-2">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-cuatro" id="scotch-cierre-fina-2">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-tres" id="scotch-cierre-gruesa-1" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-tres" id="scotch-cierre-fina-1" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-01.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-02.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-03.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-04.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-05.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-cuatro" id="scotch-cierre-gruesa-2" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-cuatro" id="scotch-cierre-fina-2" loading="lazy">
 		</article>
 		<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="tipito" class="elementoSeccion1">
 

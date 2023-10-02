@@ -142,7 +142,7 @@ body.mobile-menu-active #mainMenu {
 
 body {
     min-height: 100vh;
-    background-image: url('../img/mobile/ARTBOARD-FONDO.jpg');
+    background-image: url('../img/mobile/ARTBOARD-FONDO.webp');
     background-size: cover;
     background-attachment: fixed;
 }
