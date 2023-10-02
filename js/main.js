@@ -32,3 +32,31 @@
         navResponsive();
       });
       
+      function lazyLoadIframes() {
+        const iframes = document.querySelectorAll("iframe[data-src]");
+        const observerOptions = {
+          rootMargin: "0px 0px 50px 0px", // Adjust the rootMargin as needed
+          threshold: 0,
+        };
+      
+        const iframeObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const iframe = entry.target;
+              const src = iframe.getAttribute("data-src");
+              if (src) {
+                iframe.setAttribute("src", src);
+                iframe.removeAttribute("data-src");
+                iframeObserver.unobserve(iframe);
+              }
+            }
+          });
+        }, observerOptions);
+      
+        iframes.forEach((iframe) => {
+          iframeObserver.observe(iframe);
+        });
+      }
+      
+      document.addEventListener("DOMContentLoaded", lazyLoadIframes);
+      

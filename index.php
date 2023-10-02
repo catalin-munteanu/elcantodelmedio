@@ -26,7 +26,7 @@ get_header();
 	<section id="videosInformativos">
 		<article>
 			<div class="videoContainer">
-				<iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="330" height="186" class="itemVideoInformativo" data-src="https://www.youtube.com/embed/I81JaE04lGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<h2>Canto Consciente</h2>
 			<p>¿Qué es?</p>
@@ -34,7 +34,7 @@ get_header();
 
 		<article>
 			<div class="videoContainer">
-				<iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="330" height="186" class="itemVideoInformativo" data-src="https://www.youtube.com/embed/aMfno7dpu1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<h2>El canto del medio</h2>
 			<p>¿Por qué?</p>
@@ -42,7 +42,7 @@ get_header();
 
 		<article>
 			<div class="videoContainer">
-				<iframe width="330" height="186" class="itemVideoInformativo" src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<iframe width="330" height="186" class="itemVideoInformativo" data-src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
 			<h2>Canto Visionario</h2>
 			<p>¿Qué es?</p>
