@@ -301,9 +301,9 @@ get_header();
 		<article id="galeriaFotosBioIndex">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-bio-fina-1" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.jpeg" class="fotoGaleriaBio" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-02b.jpeg" class="fotoGaleriaBio" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-03.jpeg" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fotoBio01-c.webp" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-02b.webp" class="fotoGaleriaBio" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-bio-03.webp" class="fotoGaleriaBio" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-bio-gruesa-2" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-bio-fina-2" loading="lazy">
 		</article>

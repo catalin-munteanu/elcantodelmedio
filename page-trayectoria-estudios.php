@@ -155,9 +155,9 @@ get_header();
             <article id="galeriaFotosBio">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-tye-gruesa-1" loading="lazy">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-uno" id="scotch-tye-fina-1" loading="lazy">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.jpeg" class="fotoGaleriaBio" loading="lazy">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.jpeg" class="fotoGaleriaBio" loading="lazy">
-                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.jpeg" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\fotoBio01-c.webp" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-02b.webp" class="fotoGaleriaBio" loading="lazy">
+                <img src="..\wp-content\themes\cantodelmedio\img\mobile\foto-bio-03.webp" class="fotoGaleriaBio" loading="lazy">
                 <img src="..\wp-content\themes\cantodelmedio\img\mobile\trazo-scotch-dos.svg" class="trazo-scotch-dos" id="scotch-tye-gruesa-2" loading="lazy">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-dos" id="scotch-tye-fina-2" loading="lazy">
             </article>
