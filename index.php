@@ -311,27 +311,34 @@ get_header();
 	</section>
 
 	<section id="last-post-blog">
-		<h2>Blog</h2>
-		<p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
-		<?php
-		$recent_posts = get_posts(array(
-			'numberposts' => 1,
-			'orderby'     => 'post_date',
-			'order'       => 'DESC',
-		));
+    <h2>Blog</h2>
+    <p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
+    <?php
+    $recent_posts = get_posts(array(
+        'numberposts' => 1,
+        'orderby'     => 'post_date',
+        'order'       => 'DESC',
+    ));
 
-		if ($recent_posts) {
-			$recent_post = $recent_posts[0];
+    if ($recent_posts) {
+        $recent_post = $recent_posts[0];
 
-			// Display post information
-			echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
-			echo '<div class="texto-post-blog">' . apply_filters('the_content', $recent_post->post_content) . '</div>';
-			// Add more code to display other post details if needed
-		} else {
-			echo 'No posts found.';
-		}
-		?>
-	</section>
+        // Display post title
+        echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
+
+        // Display only the first 200 characters of the post content
+        $post_content = apply_filters('the_content', $recent_post->post_content);
+        $trimmed_content = wp_trim_words($post_content, 30, '... ');
+
+		// Add a clickable link to the full post
+        echo '<div class="texto-post-blog">' . $trimmed_content . '<a class="textoNegrita" href="' . esc_url(get_permalink($recent_post->ID)) . '">Ver más</a></div>';
+
+    } else {
+        echo 'No posts found.';
+    }
+    ?>
+</section>
+
 
 	<section id="cierre">
 		<figure class="imgFondo">
