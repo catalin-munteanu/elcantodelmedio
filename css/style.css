@@ -536,6 +536,11 @@ section#consultoriaVoz {
     height: 3.7904px
 }
 
+div.container-consultas-consultoria {
+    position: relative;
+    z-index: 4;
+}
+
 /* SECCIÓN 4 ASESORÍAS */
 
 .trazoDecCinco {
@@ -616,6 +621,11 @@ section#asesoriaVoz {
     bottom: 34%;
     width: 90%;
     height: 3.7904px
+}
+
+div.container-consultas-asesoria {
+    position: relative;
+    z-index: 4;
 }
 
 /* SECCIÓN 5 BIO */

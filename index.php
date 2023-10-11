@@ -230,7 +230,7 @@ get_header();
 
 		<article class="links-detalles-consultoria">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-consultoria">
-			<div>
+			<div class="container-consultas-consultoria">
 				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">
 						Si querés solicitar tu consulta hacé click acá
 					</a></p>
@@ -260,7 +260,7 @@ get_header();
 
 		<article class="links-detalles-asesoria">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-2.svg" alt="" srcset="" class="trazo-circ-asesoria">
-			<div>
+			<div class="container-consultas-asesoria">
 				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
 				<img class="trazo-subrayado-contacto-ases" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
 			</div>
@@ -331,7 +331,7 @@ get_header();
         $trimmed_content = wp_trim_words($post_content, 30, '... ');
 
 		// Add a clickable link to the full post
-        echo '<div class="texto-post-blog">' . $trimmed_content . '<a class="textoNegrita" href="' . esc_url(get_permalink($recent_post->ID)) . '">Ver más</a></div>';
+		echo '<div class="texto-post-blog">' . $trimmed_content . '<a class="textoNegrita" href="' . esc_url(get_permalink($recent_post->ID)) . '" target="_blank">Ver más</a></div>';
 
     } else {
         echo 'No posts found.';
