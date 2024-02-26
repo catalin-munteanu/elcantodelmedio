@@ -62,25 +62,43 @@ get_header();
 		<article>
 			<p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
 			<p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
+
+			<video id="video-principal" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
+				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-1.mp4" type="video/mp4">
+			</video>
+
 			<p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de Supervisión, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="separadorFormacion" class="elementoSeccion1">
 
-			<p class="importantP">Los próximos cursos comienzan en 2024</p>
+			<p class="importantP">Los próximos cursos inician en Abril 2024</p>
+			<p><strong class="textoNegrita">Nivel 1 Virtual:</strong> Lunes 19 a 20.30hs / Miércoles 10 a 11.30hs<br>
+				<strong class="textoNegrita">Nivel 1 Presencial:</strong> Martes 19 a 21hs<br>
+				<strong class="textoNegrita">Nivel 2 Virtual:</strong> Miércoles 19.30 a 21hs<br>
+				<strong class="textoNegrita">Nivel 2 Presencial:</strong> Jueves 19 a 20.30hs
+			</p>
+			<p class="importantP">Inscripciones abiertas</p>
 		</article>
 
 		<img class="trazoDecDos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-2.svg" alt="" srcset="">
 
 		<button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
 		<article class="panel">
+
+			<video id="video-nivel-1" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
+				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-2.mp4" type="video/mp4">
+			</video>
+
 			<p>El Nivel 1 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
 
 			<article id="coordenadasIniciacionConsciente">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-3.svg" alt="" srcset="">
 				<div>
-					<p>Modalidad : presencial y grupal</p>
-					<p>Duración : 4 meses</p>
-					<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+					<p><strong class="textoNegrita">Duración:</strong> 4 meses (Abril-Julio)</p>
+					<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 19 a 20.30hs / Miércoles de 10 a 11.30hs</p>
+					<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 19 a 21hs en Río Cultural (Río de Janeiro y Av. Rivadavia, CABA, Argentina)</p>
+					<br>
+					<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
 				</div>
 			</article>
 
@@ -116,9 +134,11 @@ get_header();
 					<article id="coordenadasProfundizacionConsciente">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-4.svg" alt="" srcset="">
 						<div>
-							<p>Modalidad : presencial y grupal</p>
-							<p>Duración : 4 meses</p>
-							<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Abril-Julio)</p>
+							<p><strong class="textoNegrita">Modalidad virtual:</strong> Miércoles de 19.30 a 21hs</p>
+							<p><strong class="textoNegrita">Modalidad presencial:</strong> Jueves de 19 a 20.30hs en CasaEstudio El Canto del Medio (A 2 cuadras de Rojas y Av. Rivadavia, CABA, Argentina)</p>
+							<br>
+							<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
 						</div>
 					</article>
 
@@ -200,11 +220,11 @@ get_header();
 			</div>
 		</article> -->
 			<article class="link-consultas-reserva">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
-			<div class="container-consultas-formacion">
-				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
-				<img class="trazo-subrayado-contacto-form" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
-			</div>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
+				<div class="container-consultas-formacion">
+					<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
+					<img class="trazo-subrayado-contacto-form" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
+				</div>
 			</article>
 		</article>
 
@@ -290,9 +310,9 @@ get_header();
 			<div class="container-link-pc">
 				<img class="flecha-izq-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
 				<div class="container-link-tye">
-				<p class="textoNegrita"><a href="<?php echo esc_url(get_permalink(get_page_by_path('trayectoria-estudios'))); ?>" target="_blank">Ver trayectoria y estudios</a>
-				</p>
-				<img class="trazo-subrayado-link-tye" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
+					<p class="textoNegrita"><a href="<?php echo esc_url(get_permalink(get_page_by_path('trayectoria-estudios'))); ?>" target="_blank">Ver trayectoria y estudios</a>
+					</p>
+					<img class="trazo-subrayado-link-tye" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
 				</div>
 				<img class="flecha-der-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
@@ -311,33 +331,32 @@ get_header();
 	</section>
 
 	<section id="last-post-blog">
-    <h2>Blog</h2>
-    <p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
-    <?php
-    $recent_posts = get_posts(array(
-        'numberposts' => 1,
-        'orderby'     => 'post_date',
-        'order'       => 'DESC',
-    ));
+		<h2>Blog</h2>
+		<p class="link-all-posts"><a href="<?php echo esc_url(site_url('/blog/')); ?>" target="_blank">Ver todos los posteos</a></p>
+		<?php
+		$recent_posts = get_posts(array(
+			'numberposts' => 1,
+			'orderby'     => 'post_date',
+			'order'       => 'DESC',
+		));
 
-    if ($recent_posts) {
-        $recent_post = $recent_posts[0];
+		if ($recent_posts) {
+			$recent_post = $recent_posts[0];
 
-        // Display post title
-        echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
+			// Display post title
+			echo '<h3 class="titulo-post-blog">' . esc_html($recent_post->post_title) . '</h3>';
 
-        // Display only the first 200 characters of the post content
-        $post_content = apply_filters('the_content', $recent_post->post_content);
-        $trimmed_content = wp_trim_words($post_content, 30, '... ');
+			// Display only the first 200 characters of the post content
+			$post_content = apply_filters('the_content', $recent_post->post_content);
+			$trimmed_content = wp_trim_words($post_content, 30, '... ');
 
-		// Add a clickable link to the full post
-		echo '<div class="texto-post-blog">' . $trimmed_content . '<a class="textoNegrita" href="' . esc_url(get_permalink($recent_post->ID)) . '" target="_blank">Ver más</a></div>';
-
-    } else {
-        echo 'No posts found.';
-    }
-    ?>
-</section>
+			// Add a clickable link to the full post
+			echo '<div class="texto-post-blog">' . $trimmed_content . '<a class="textoNegrita" href="' . esc_url(get_permalink($recent_post->ID)) . '" target="_blank">Ver más</a></div>';
+		} else {
+			echo 'No posts found.';
+		}
+		?>
+	</section>
 
 
 	<section id="cierre">
