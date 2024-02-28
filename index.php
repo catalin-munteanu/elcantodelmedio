@@ -63,7 +63,7 @@ get_header();
 			<p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
 			<p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
 
-			<video id="video-principal" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
+			<video playsinline id="video-principal" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
 				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-1.mp4" type="video/mp4">
 			</video>
 
@@ -85,7 +85,7 @@ get_header();
 		<button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
 		<article class="panel">
 
-			<video id="video-nivel-1" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
+			<video playsinline id="video-nivel-1" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
 				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-2.mp4" type="video/mp4">
 			</video>
 
