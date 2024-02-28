@@ -174,9 +174,9 @@ get_header();
 					<article id="coordenadasProfundizacionVisionario">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-5.svg" alt="" srcset="">
 						<div>
-							<p>Modalidad : presencial y grupal</p>
-							<p>Duración : 4 meses</p>
-							<p>Lugar : Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+							<p><strong class="textoNegrita">Modalidad:</strong> presencial y grupal</p>
+							<p><strong class="textoNegrita">Duración:</strong> 4 meses</p>
+							<p><strong class="textoNegrita">Lugar:</strong> Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
 						</div>
 					</article>
 
