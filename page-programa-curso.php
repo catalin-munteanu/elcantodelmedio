@@ -36,6 +36,8 @@ get_header();
             <p>(*) El curso de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
             </article>
 
+            <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-1.jpeg" class="foto-formacion-int">
+
             <article id="contenidosConscienteNivelUno">
                 <div class="container-cont-curso">
                     <h3>Contenidos del curso</h3>
@@ -68,6 +70,8 @@ get_header();
 
                 <p>El Nivel 2 de la Formación Integral en <strong class="textoNegrita">Canto Consciente</strong> es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa.</p>
             </article>
+
+            <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-5.jpeg" class="foto-formacion-int">
 
             <article id="contenidosConscienteNivelDos">
                 <div class="container-cont-curso">
@@ -111,6 +115,8 @@ get_header();
         </div>
 
         <img src="..\wp-content\themes\cantodelmedio\img\mobile\tipito-black.png" class="elementoSeccion1" id="separadorProgramaTres">
+
+        <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-4.jpeg" class="foto-formacion-int">
 
         <div id="descripcionSupervisiones">
             <h2>Supervisiones</h2>

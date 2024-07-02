@@ -364,6 +364,14 @@ section#formacionIntegral {
     font-weight: 800;
 }
 
+.img-inscripciones-abiertas,
+.img-asesorias,
+.foto-formacion-int {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
 #coordenadasIniciacionConsciente,
 #coordenadasProfundizacionConsciente,
 #coordenadasProfundizacionVisionario {

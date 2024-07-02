@@ -71,13 +71,14 @@ get_header();
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="separadorFormacion" class="elementoSeccion1">
 
-			<p class="importantP">Los próximos cursos inician en Abril 2024</p>
-			<p><strong class="textoNegrita">Nivel 1 Virtual:</strong> Lunes 19 a 20.30hs / Miércoles 10 a 11.30hs<br>
-				<strong class="textoNegrita">Nivel 1 Presencial:</strong> Martes 19 a 21hs<br>
-				<strong class="textoNegrita">Nivel 2 Virtual:</strong> Miércoles 19.30 a 21hs<br>
-				<strong class="textoNegrita">Nivel 2 Presencial:</strong> Jueves 19 a 20.30hs
+			<p class="importantP">Los próximos cursos inician en Agosto 2024</p>
+			<p><strong class="textoNegrita">Nivel 1 Presencial:</strong> Martes 18 a 19.30 hs<br>
+				<strong class="textoNegrita">Nivel 1 Virtual:</strong> Lunes 18 a 19.30hs<br>
+				<strong class="textoNegrita">Nivel 2 Presencial:</strong> Martes 19.30 a 21 hs<br>
+				<strong class="textoNegrita">Nivel 2 Virtual:</strong> Lunes 19.30 a 21hs / Martes 9.30 a 11hs
 			</p>
 			<p class="importantP">Inscripciones abiertas</p>
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-1.jpeg" class="img-inscripciones-abiertas">
 		</article>
 
 		<img class="trazoDecDos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-2.svg" alt="" srcset="">
@@ -94,9 +95,9 @@ get_header();
 			<article id="coordenadasIniciacionConsciente">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-3.svg" alt="" srcset="">
 				<div>
-					<p><strong class="textoNegrita">Duración:</strong> 4 meses (Abril-Julio)</p>
-					<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 19 a 20.30hs / Miércoles de 10 a 11.30hs</p>
-					<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 19 a 21hs en Río Cultural (Río de Janeiro y Av. Rivadavia, CABA, Argentina)</p>
+					<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
+					<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 18 a 19.30hs</p>
+					<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 18 a 19.30hs en Río Cultural (Río de Janeiro y Av. Rivadavia, CABA, Argentina)</p>
 					<br>
 					<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
 				</div>
@@ -134,9 +135,9 @@ get_header();
 					<article id="coordenadasProfundizacionConsciente">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-4.svg" alt="" srcset="">
 						<div>
-							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Abril-Julio)</p>
-							<p><strong class="textoNegrita">Modalidad virtual:</strong> Miércoles de 19.30 a 21hs</p>
-							<p><strong class="textoNegrita">Modalidad presencial:</strong> Jueves de 19 a 20.30hs en CasaEstudio El Canto del Medio (A 2 cuadras de Rojas y Av. Rivadavia, CABA, Argentina)</p>
+							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
+							<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 19.30 a 21hs</p>
+							<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 19.30 a 21hs en CasaEstudio El Canto del Medio (A 2 cuadras de Rojas y Av. Rivadavia, CABA, Argentina)</p>
 							<br>
 							<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
 						</div>
@@ -174,9 +175,8 @@ get_header();
 					<article id="coordenadasProfundizacionVisionario">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-5.svg" alt="" srcset="">
 						<div>
-							<p><strong class="textoNegrita">Modalidad:</strong> presencial y grupal</p>
-							<p><strong class="textoNegrita">Duración:</strong> 4 meses</p>
-							<p><strong class="textoNegrita">Lugar:</strong> Estudio Neo Baladi (zona Parque Centenario, Capital Federal, Argentina)</p>
+							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
+							<p><strong class="textoNegrita">Modalidad virtual:</strong> Martes de 9.30 a 11hs</p>
 						</div>
 					</article>
 
@@ -235,24 +235,40 @@ get_header();
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/fondo-negro.svg" alt="" srcset="">
 		</figure>
 
-		<h2>Consultorías para la voz</h2>
+		<h2>Inmersión en Canto Consciente</h2>
 
 		<img class="trazoDecDosCinco" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-9.svg" alt="" srcset="">
 
 		<img class="trazoDecTres" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-4.svg" alt="" srcset="">
 
-		<p>El servicio de Consultoría para la Voz es un espacio individual creado para acompañar la expresión de emociones y recuerdos que podrían estar bloqueando a tu garganta, inhibiendo la expresión espontánea o condicionando el contacto sensible con la Voz propia. También ofrecemos la posibilidad de decodificar y recodificar creencias condicionantes que pudieran estar afectando tu relación con el despliegue de la Voz, tanto en contextos de desarrollo artístico profesional como en la comunicación e interacción con otras áreas de la vida cotidiana.</p>
+		<p>La experiencia de inmersión en Canto Consciente es un retiro sonoro para encontramos a compartir una jornada de conexión con la Voz, el Cuerpo, la Mente, la Creatividad y la Naturaleza.</p>
 
-		<article id="coordenadasConsultoria">
-			<p>Modalidad : presencial y/u online</p>
-			<p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
-		</article>
+		<p>Con prácticas de:<br>
+			- Mindfulness, Sensopercepción y Respiración orientadas a la Voz y al Canto<br>
+			- Expresión Córporo-Vocal y Técnica Vocal Funcional<br>
+			- Círculo de Voces e Improvisación con Señas</p>
+
+		<video playsinline id="video-inmersiva" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
+			<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-Inmersiva.mp4" type="video/mp4">
+		</video>
+
+		<p>Con acceso a pileta, hamacas y trapecio - Alimentación vegetariana y nutritiva</p>
+
+		<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="tipito" class="elementoSeccion1">
+
+		<p class="importantP">Próxima Inmersión en Diciembre 2024</p>
+
+		<p>Lugar: CasaQuinta Germani - Ezeiza</p>
+
+		<p>Orientado a toda persona interesada en conectar con el canto como medio de auto-conocimento y creación.</p>
+
+
 
 		<article class="links-detalles-consultoria">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-consultoria">
 			<div class="container-consultas-consultoria">
 				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">
-						Si querés solicitar tu consulta hacé click acá
+						Consultas y reserva de cupos
 					</a></p>
 				<img class="trazo-subrayado-contacto-cons" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
 			</div>
@@ -273,6 +289,8 @@ get_header();
 
 		<img class="trazoDecSeis" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-7.svg" alt="" srcset="">
 
+		<img class="img-asesorias" src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-Asesoria.jpg" alt="" srcset="">
+
 		<article id="coordenadasAsesoria">
 			<p>Modalidad : presencial y/u online</p>
 			<p>Lugar : Estudio El Canto del Medio (zona Caballito, Capital Federal, Argentina)</p>
@@ -281,7 +299,7 @@ get_header();
 		<article class="links-detalles-asesoria">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-2.svg" alt="" srcset="" class="trazo-circ-asesoria">
 			<div class="container-consultas-asesoria">
-				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Si querés solicitar tu asesoramiento hacé click acá</a></p>
+				<p class="textoNegrita"><a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2x9z2ea7U8e7vdFHO5076xLylO7U04By8U68NqvnjabG8-GX51AoI5QpMtEsBdwdc0GVdSWKn8?gv=true" target="_blank">Agendá tu asesoría acá</a></p>
 				<img class="trazo-subrayado-contacto-ases" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
 			</div>
 		</article>
@@ -374,9 +392,9 @@ get_header();
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-tres" id="scotch-cierre-gruesa-1" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-tres.svg" class="trazo-scotch-tres" id="scotch-cierre-fina-1" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-01.jpeg" class="fotoGaleriaServicios" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-02.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-4.jpeg" class="fotoGaleriaServicios" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-03.jpeg" class="fotoGaleriaServicios" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-04.jpeg" class="fotoGaleriaServicios" loading="lazy">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-5.jpeg" class="fotoGaleriaServicios" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-05.jpeg" class="fotoGaleriaServicios" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-dos.svg" class="trazo-scotch-cuatro" id="scotch-cierre-gruesa-2" loading="lazy">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-cuatro.svg" class="trazo-scotch-cuatro" id="scotch-cierre-fina-2" loading="lazy">
