@@ -58,7 +58,7 @@ li {
 header {
     position: sticky;
     top: 0;
-    z-index: 4;
+    z-index: 5;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -364,8 +364,14 @@ section#formacionIntegral {
     font-weight: 800;
 }
 
+
+.img-asesorias {
+    width: 280px;
+    position: relative;
+    z-index: 2;
+}
+
 .img-inscripciones-abiertas,
-.img-asesorias,
 .foto-formacion-int {
     width: 80%;
     position: relative;
@@ -545,6 +551,11 @@ section#consultoriaVoz {
 }
 
 div.container-consultas-consultoria {
+    position: relative;
+    z-index: 4;
+}
+
+video#video-inmersiva {
     position: relative;
     z-index: 4;
 }
