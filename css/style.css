@@ -365,15 +365,10 @@ section#formacionIntegral {
 }
 
 
-.img-asesorias {
-    width: 280px;
-    position: relative;
-    z-index: 2;
-}
-
+.img-asesorias,
 .img-inscripciones-abiertas,
 .foto-formacion-int {
-    width: 80%;
+    width: 280px;
     position: relative;
     z-index: 2;
 }
