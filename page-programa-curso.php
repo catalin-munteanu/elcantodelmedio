@@ -6,7 +6,7 @@ get_header();
 <main>
 
     <section id="sectProgramaCompleto">
-        <h1 id="progCompleto">Formación integral en Canto Consciente y Visionario</h1>
+        <h1 id="progCompleto">Formación integral en Canto Consciente y SupraConsciente</h1>
         <h4 id="progCompletoSubtitulo">Programa completo</h4>
         <article id="containerTablaProg">
             <img src="..\wp-content\themes\cantodelmedio\img\mobile\cuadro-programa-completo.png" class="tabla-prog-330">
@@ -14,9 +14,12 @@ get_header();
         </article>
 
         <article id="descr-programa-formacion">
-            <p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
-            <p>La Formación en <strong class="textoNegrita">Canto Consciente</strong> está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en <strong class="textoNegrita">Canto Visionario</strong>, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
-            <p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de <strong class="textoNegrita">Supervisión</strong>, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes. </p>
+            <p>El programa de <strong class="textoNegrita">Formación Integral</strong> es un curso teórico-práctico de dos niveles diseñado para que realices un aprendizaje sensible, ordenado y progresivo. Nuestro mayor deseo es guiarte en un proceso de autodescubrimiento a través de la voz, brindándote herramientas para que tu práctica vocal sea saludable, orgánica, expresiva, creativa y musicalmente eficiente.</p>
+            <p>Nuestro enfoque se distingue por abordar la voz de manera integral, comprendiendo su conexión profunda con las memorias corporales y emocionales, las creencias individuales y colectivas que pueden potenciar o limitar nuestra expresión, y el desarrollo de la identidad personal en relación con un contexto, cultura o subcultura.</p>
+            <p>Las clases son grupales, con instancias de seguimiento personalizado, y pueden cursarse en <strong class="textoNegrita">modalidad presencial en CABA, Argentina, o en modalidad virtual para estudiantes de todo el mundo hispanohablante.</strong> Cada estudiante elige una de estas opciones al inscribirse.</p>
+            <p>Además, tendrás acceso de por vida a materiales bibliográficos, audiovisuales y vocalizaciones para acompañarte en tu camino.</p>
+            <p>El <strong class="textoNegrita">Nivel 1 de Iniciación al Canto Consciente</strong> es una primera instancia común que sienta las bases teóricas y prácticas de nuestra propuesta pedagógica. Al completarlo, podrás elegir entre dos caminos de profundización: El <strong class="textoNegrita">Nivel 2 de Profundización en Canto Consciente</strong>, orientado a quienes deseen aplicar estos conocimientos en entornos artísticos o el <strong class="textoNegrita">Nivel 2 de Profundización en Canto SupraConsciente</strong>, diseñado para quienes quieran emplearlos en contextos de sanación holística.</p>
+            <p>Al finalizar la Formación, recibirás una certificación y podrás acceder a las instancias de <strong class="textoNegrita">Supervisión</strong>, un espacio donde plantear dudas y compartir hallazgos sobre la aplicación de los aprendizajes a lo largo del recorrido.</p>
         </article>
     </section>
 
@@ -31,9 +34,11 @@ get_header();
             <h3>Nivel 1</h3>
 
             <article id="descripcionConscienteNivelUno">
-                <p>El Nivel 1 de la Formación Integral en <strong class="textoNegrita">Canto Consciente</strong> es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
+                <p>El <strong class="textoNegrita">Nivel 1 de la Formación Integral en Canto Consciente</strong> es un curso teórico-práctico cuatrimestral orientado al estudio de las bases esenciales de la dinámica de emisión funcional y de la relación voz-cuerpo-mente. Estos fundamentos sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
+                <p>Para ello, profundizamos en el método <strong class="textoNegrita">Rabine de Educación Funcional de la Voz</strong>, creado por el pedagogo vocal <strong class="textoNegrita">Eugene Rabine</strong>, y lo complementamos con prácticas de <strong class="textoNegrita">Sensopercepción</strong> e <strong class="textoNegrita">Indagación de creencias</strong> aplicadas al canto. Cuenta con instancias de repertorio grupal e individual, así como momentos de ruedas de intercambio, reflexión y circulación de la palabra, que nos permiten acompañarnos grupalmente en nuestros recorridos de aprendizaje y autodescubrimiento.</p>
+                <p>Está dirigido tanto a cantantes y artistas como a cualquier persona interesada en integrar el canto como medio de autoconocimiento y creación.</p>
             </article>
-            <p>(*) El curso de iniciación al Canto consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
+            <p>(*) El <strong class="textoNegrita">Nivel 1 de Iniciación al Canto Consciente</strong> es la instancia de aprendizaje inicial de la Formación y constituye la base común para ambas orientaciones.</p>
             </article>
 
             <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-1.jpeg" class="foto-formacion-int">
@@ -68,7 +73,11 @@ get_header();
                 <h2>Profundización en canto consciente (cuatrimestre)</h2>
                 <h3>Nivel 2</h3>
 
-                <p>El Nivel 2 de la Formación Integral en <strong class="textoNegrita">Canto Consciente</strong> es un curso teórico - práctico cuatrimestral y de modalidad grupal orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa.</p>
+                <p>El Nivel 2 de la Formación Integral en Canto Consciente es un curso teórico-práctico cuatrimestral orientado al fortalecimiento y la integración de la dinámica de emisión funcional y de la relación voz-cuerpo-mente estudiadas en el Nivel 1.</p>
+                <p>Para ello, profundizamos en el método <strong class="textoNegrita">Speech Level</strong>, creado por el pedagogo vocal <strong class="textoNegrita">Seth Riggs</strong>, y lo complementamos con prácticas de <strong class="textoNegrita">Mindfulness</strong> y estimulación del <strong class="textoNegrita">Nervio Vago</strong> aplicadas al canto. Además, desarrollamos planes de práctica y seguimiento para facilitar la transferencia de lo aprendido a la vida artística y creativa.</p>
+                <p>Cuenta con instancias de práctica grupal y de aplicación en repertorio individual, así como con momentos de rueda de intercambio, reflexión y circulación de la palabra, que nos permiten acompañarnos grupalmente en nuestros recorridos de aprendizaje y autodescubrimiento.</p>
+                <p>Este nivel está dirigido tanto a cantantes y artistas como a cualquier persona interesada en integrar el canto como medio de autoconocimiento y creación.</p>
+                <p>El <strong class="textoNegrita">Nivel 2 de Profundización en Canto Consciente</strong> es la segunda instancia de aprendizaje de la Formación y concluye con una certificación.</p>
             </article>
 
             <img src="<?php echo get_template_directory_uri(); ?>/img/mobile/foto-final-5.jpeg" class="foto-formacion-int">
@@ -100,9 +109,12 @@ get_header();
 
         <div id="descripcionVisionarioNivelDos">
             <article id="contenidosVisionarioNivelDos">
-                <h2>Profundización en canto visionario (cuatrimestre)</h2>
+                <h2>Profundización en Canto SupraConsciente (cuatrimestre)</h2>
                 <h3>Nivel 2</h3>
-                <p>El Nivel 2 de la Formación Integral en <strong class="textoNegrita">Canto Visionario</strong> es un curso teórico-práctico cuatrimestral y de modalidad grupal orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
+                <p>El Nivel 2 de la <strong class="textoNegrita">Formación Integral en Canto SupraConsciente</strong> es un curso teórico-práctico cuatrimestral orientado al estudio de la voz como medio de canalización akáshica o cuántica. Su propósito es entrenar estados de presencia expandida a través de la escucha holística, favoreciendo su aplicación en ámbitos terapéuticos, de sanación o coaching.</p>
+                <p>Para ello, profundizamos en el método de <strong class="textoNegrita">Canto SupraConsciente</strong>, creado por la investigadora vocal <strong class="textoNegrita">Paula Naanim Telis</strong>, y lo complementamos con prácticas de alineación Voz-Cuerpo-Mente y de Canto Polifónico, orientadas a la activación de la glándula pineal y pituitaria, así como a la expansión de la percepción del campo akáshico o SupraConsciente.</p>
+                <p>Además de desarrollar la habilidad de canalizar a través de la voz, aplicamos protocolos de práctica para transferir lo aprendido a encuadres de acompañamiento terapéutico, sanación o coaching.</p>
+                <p>Este nivel está dirigido a cantantes-canalizadores y a toda persona interesada en integrar la voz escrita, hablada y cantada como medio de lectura y escritura akáshica o cuántica.</p>
             </article>
 
             <article id="contenidosVisionario">
@@ -110,8 +122,17 @@ get_header();
                     <h3>Contenidos del curso</h3>
                     <img class="trazo-subrayado-contenidos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
                 </div>
-                <p>Próximamente</p>
+                <div class="items-content-list">
+                    <p>- Reconocimiento y percepción de las dimensiones de consciencia 3era, 4ta y 5ta</p>
+                    <p>- Activación del sistema límbico (tercer y cuarto ojo)</p>
+                    <p>- Prácticas de conexión voz-escucha- mente holística</p>
+                    <p>- Entrenamiento intensivo de canalización de información de 5D o SupraConsciente por medio de la voz escrita, hablada y cantada</p>
+                    <p>- Protocolos de aplicación del Canto SupraConsciente en la vida creativa</p>
+                    <p>- Protocolos de aplicación del Canto SupraConsciente en acompañamientos terapéuticos, de sanación o coaching</p>
+                </div>
             </article>
+
+            <p>El <strong class="textoNegrita">Nivel 2 de Profundización en Canto SupraConsciente</strong> es la segunda instancia de aprendizaje de la Formación y concluye con una certificación habilitante para utilizar el método en sesiones y consultorías.</p>
         </div>
 
         <img src="..\wp-content\themes\cantodelmedio\img\mobile\tipito-black.png" class="elementoSeccion1" id="separadorProgramaTres">

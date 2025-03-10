@@ -15,7 +15,7 @@ get_header();
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="tipito" class="elementoSeccion1">
 
-			<h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela de Canto Consciente y Visionario</span>
+			<h2 class="elementoSeccion1"><span id="escuelaCantoTitulo">Escuela Voz-Cuerpo-Mente</span>
 				<br>de <a href="#bio" id="paulaNaanim">Paula Naanim Telis</a>
 			</h2>
 
@@ -44,7 +44,7 @@ get_header();
 			<div class="videoContainer">
 				<iframe width="330" height="186" class="itemVideoInformativo" data-src="https://www.youtube.com/embed/1B9qxSre-N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			</div>
-			<h2>Canto Visionario</h2>
+			<h2>Canto SupraConsciente</h2>
 			<p>¿Qué es?</p>
 		</article>
 	</section>
@@ -60,148 +60,47 @@ get_header();
 		<img class="trazoDecorativo" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-1.svg" alt="" srcset="">
 
 		<article>
-			<p>El programa de Formación está diseñado para que realices un recorrido de aprendizaje que te permita adquirir los conocimientos teóricos y las habilidades prácticas esenciales para que el contacto con tu Voz sea saludable, orgánico, expresivo, creativo y musicalmente eficiente. Nuestro enfoque se caracteriza por estudiar a la Voz de una forma integral, es decir, contemplando la intrínseca relación de la creación de sonido humano con los atravesamientos emocionales alojados en las memorias del cuerpo, con las creencias personales y colectivas que condicionan o potencian nuestra expresión y también, con el desarrollo y la construcción de la identidad personal en relación a un contexto, cultura o subcultura.</p>
-			<p>La Formación en Canto Consciente está dirigida a quienes deseen aplicar estos conocimientos en entornos artísticos y creativos. La Formación en Canto Visionario, a quienes quieran aplicarlos en entornos terapéuticos y de sanación.</p>
+			<p>El programa de <strong class="textoNegrita">Formación Integral en Canto Consciente</strong> es un curso teórico-práctico de dos niveles diseñado para que realices un aprendizaje sensible, ordenado y progresivo. Nuestro mayor deseo es guiarte en un proceso de autodescubrimiento a través de la voz, brindándote herramientas para que tu práctica vocal sea saludable, orgánica, expresiva, creativa y musicalmente eficiente.</p>
+			<p>Nuestro enfoque se distingue por abordar la voz de manera integral, comprendiendo su conexión profunda con las memorias corporales y emocionales, las creencias individuales y colectivas que pueden potenciar o limitar nuestra expresión, y el desarrollo de la identidad personal en relación con un contexto, cultura o subcultura.</p>
+			<p>Las clases son grupales, con instancias de seguimiento personalizado, y pueden cursarse en <strong class="textoNegrita">modalidad presencial en CABA, Argentina, o en modalidad virtual para estudiantes de todo el mundo hispanohablante.</strong> Cada estudiante elige una de estas opciones al inscribirse.</p>
+			<p>Además, tendrás acceso de por vida a materiales bibliográficos, audiovisuales y vocalizaciones para acompañarte en tu camino.</p>
 
 			<video playsinline id="video-principal" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
 				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-1.mp4" type="video/mp4">
 			</video>
 
-			<p>Ambos enfoques se completan con 2 niveles de estudio. Una vez realizados, contás con la posibilidad de anotarte en las reuniones de Supervisión, en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
+			<p>El <strong class="textoNegrita">Nivel 1 de Iniciación al Canto Consciente</strong> es una primera instancia común que sienta las bases teóricas y prácticas de nuestra propuesta pedagógica. Al completarlo, podrás elegir entre dos caminos de profundización: El <strong class="textoNegrita">Nivel 2 de Profundización en Canto Consciente</strong>, orientado a quienes deseen aplicar estos conocimientos en entornos artísticos o el <strong class="textoNegrita">Nivel 2 de Profundización en Canto SupraConsciente</strong>, diseñado para quienes quieran emplearlos en contextos de sanación holística.</p>
+			<p>Al finalizar la Formación, recibirás una certificación y podrás acceder a las instancias de <strong class="textoNegrita">Supervisión</strong>, un espacio donde plantear dudas y compartir hallazgos sobre la aplicación de los aprendizajes a lo largo del recorrido.</p>
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/TIPITO.png" id="separadorFormacion" class="elementoSeccion1">
 
-			<p class="importantP">Los próximos cursos inician en Agosto 2024</p>
-			<p><strong class="textoNegrita">Nivel 1 Presencial:</strong> Martes 18 a 19.30 hs<br>
-				<strong class="textoNegrita">Nivel 1 Virtual:</strong> Lunes 18 a 19.30hs<br>
-				<strong class="textoNegrita">Nivel 2 Presencial:</strong> Martes 19.30 a 21 hs<br>
-				<strong class="textoNegrita">Nivel 2 Virtual:</strong> Lunes 19.30 a 21hs / Martes 9.30 a 11hs
-			</p>
-			<p class="importantP">Inscripciones abiertas</p>
+			<p class="importantP">Los próximos cursos inician en Abril 2025</p>
+
+			<article class="dias-horarios-ubicacion-cursos">
+
+				<h4 class="textoNegrita">Días, horarios y ubicación</h4>
+				<div>
+					<h4 class="underlineText">Canto Consciente</h4>
+					<h4>Nivel 1</h4>
+					<p>OnLine: Lunes de 18 a 19.30 hs</p>
+					<p>Presencial: Martes de 18 a 19.30hs en Río Cultural (Río de Janeiro 28, CABA)</p>
+					<h4>Nivel 2</h4>
+					<p>OnLine: Lunes de 19.30 a 21hs</p>
+					<p>Presencial: Martes de 19.30 a 21hs en Río Cultural (Río de Janeiro 28, CABA)</p>
+				</div>
+<br>
+				<div>
+					<h4 class="underlineText">Canto SupraConsciente</h4>
+					<h4>Nivel 2</h4>
+					<p>Sólo OnLine: Jueves de 10.30 a 12hs</p>
+				</div>
+				<p class="importantP">Inscripciones abiertas</p>
+
+			</article>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-1.jpeg" class="img-inscripciones-abiertas">
 		</article>
 
 		<img class="trazoDecDos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-2.svg" alt="" srcset="">
-
-		<button class="accordion">Nivel 1<br>Iniciación al Canto Consciente</button>
-		<article class="panel">
-
-			<video playsinline id="video-nivel-1" class="videoPlayer" controls width="280" onclick="togglePlayPause(this)">
-				<source src="<?php echo get_template_directory_uri(); ?>/img/mobile/Video-2.mp4" type="video/mp4">
-			</video>
-
-			<p>El Nivel 1 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al estudio de las bases funcionales esenciales de la emisión neurofisiológica. Estas bases son las que sustentan el desarrollo de un canto orgánico, saludable, expresivo y musicalmente eficiente.</p>
-
-			<article id="coordenadasIniciacionConsciente">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-3.svg" alt="" srcset="">
-				<div>
-					<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
-					<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 18 a 19.30hs</p>
-					<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 18 a 19.30hs en Río Cultural (Río de Janeiro y Av. Rivadavia, CABA, Argentina)</p>
-					<br>
-					<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
-				</div>
-			</article>
-
-			<p>Orientado a cantantes-artistas y a toda persona interesada en integrar al canto como medio de auto-conocimento y creación.</p>
-
-			<p>El curso cuatrimestral de Iniciación al Canto Consciente corresponde al nivel 1 de formación obligatoria para acceder a los demás cursos facilitados por la escuela.</p>
-		</article>
-
-		<script>
-			var acc = document.getElementsByClassName("accordion");
-			var i;
-
-			for (i = 0; i < acc.length; i++) {
-				acc[i].addEventListener("click", function() {
-					this.classList.toggle("active");
-					var panel = this.nextElementSibling;
-					if (panel.style.maxHeight) {
-						panel.style.maxHeight = null;
-					} else {
-						panel.style.maxHeight = panel.scrollHeight + 500 + "px";
-					}
-				});
-			}
-		</script>
-
-		<div class="containerBotonesHorizontal">
-			<div class="containerCadaBoton">
-				<button class="accordionNivelDos">Nivel 2<br>Profundización en Canto Consciente</button>
-				<article class="panelNivelDos">
-
-					<p>El Nivel 2 de la Formación Integral en Canto Consciente es un curso teórico - práctico orientado al fortalecimiento de las bases funcionales de la emisión neurofisiológica estudiadas en el nivel 1. También, se propone acompañar la creación de hábitos de entrenamiento que potencien la integración y aplicación de lo aprendido en la vida artística y creativa. </p>
-
-					<article id="coordenadasProfundizacionConsciente">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-4.svg" alt="" srcset="">
-						<div>
-							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
-							<p><strong class="textoNegrita">Modalidad virtual:</strong> Lunes de 19.30 a 21hs</p>
-							<p><strong class="textoNegrita">Modalidad presencial:</strong> Martes de 19.30 a 21hs en CasaEstudio El Canto del Medio (A 2 cuadras de Rojas y Av. Rivadavia, CABA, Argentina)</p>
-							<br>
-							<p><strong class="textoNegrita">Todos los cursos son grupales</strong></p>
-						</div>
-					</article>
-
-					<p>Orientado a cantantes-artistas y a toda persona interesada en profundizar en el canto como medio de auto-conocimento y creación.</p>
-				</article>
-
-				<script>
-					var acc = document.getElementsByClassName("accordionNivelDos");
-					var i;
-
-					for (i = 0; i < acc.length; i++) {
-						acc[i].addEventListener("click", function() {
-							this.classList.toggle("active");
-							var panelNivelDos = this.nextElementSibling;
-							if (panelNivelDos.style.maxHeight) {
-								panelNivelDos.style.maxHeight = null;
-							} else {
-								panelNivelDos.style.maxHeight = panelNivelDos.scrollHeight + 500 + "px";
-							}
-						});
-					}
-				</script>
-
-			</div>
-
-			<div class="containerCadaBoton">
-
-				<button class="accordionNivelDosVisionario">Nivel 2<br>Profundización en Canto Visionario</button>
-				<article class="panelNivelDosVisionario">
-
-					<p>El Nivel 2 de la Formación Integral en Canto Visionario es un curso teórico-práctico orientado al estudio de la voz como medio de canalización akáshica o cuántica. Se propone entrenar estados de presencia expandida por medio de la escucha holística para favorecer su aplicación en ámbitos terapéuticos y de sanación.</p>
-
-					<article id="coordenadasProfundizacionVisionario">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-5.svg" alt="" srcset="">
-						<div>
-							<p><strong class="textoNegrita">Duración:</strong> 4 meses (Agosto-Noviembre)</p>
-							<p><strong class="textoNegrita">Modalidad virtual:</strong> Martes de 9.30 a 11hs</p>
-						</div>
-					</article>
-
-					<p>Orientado a cantantes-canalizadores y a toda persona interesada en integrar al canto como medio de lectura y escritura akáshica o cuántica.</p>
-				</article>
-
-				<script>
-					var acc = document.getElementsByClassName("accordionNivelDosVisionario");
-					var i;
-
-					for (i = 0; i < acc.length; i++) {
-						acc[i].addEventListener("click", function() {
-							this.classList.toggle("active");
-							var panelNivelDosVisionario = this.nextElementSibling;
-							if (panelNivelDosVisionario.style.maxHeight) {
-								panelNivelDosVisionario.style.maxHeight = null;
-							} else {
-								panelNivelDosVisionario.style.maxHeight = panelNivelDosVisionario.scrollHeight + 500 + "px";
-							}
-						});
-					}
-				</script>
-
-			</div>
-		</div>
 
 		<article class="links-detalles-formacion">
 			<div class="container-link-pc">
@@ -210,15 +109,6 @@ get_header();
 				<img class="flecha-der-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
 
-			<!--<article class="links-detalles-consultoria">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-consultoria">
-			<div>
-				<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">
-						Si querés solicitar tu consulta hacé click acá
-					</a></p>
-				<img class="trazo-subrayado-contacto-cons" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
-			</div>
-		</article> -->
 			<article class="link-consultas-reserva">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
 				<div class="container-consultas-formacion">

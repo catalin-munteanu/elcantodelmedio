@@ -51,6 +51,10 @@ li {
     font-size: 16px;
 }
 
+.underlineText {
+    text-decoration: underline;
+}
+
 /* Fondo */
 
 /* HEADER */
@@ -337,6 +341,18 @@ section#formacionIntegral {
 #sectConscienteNivelDos p,
 #descripcionVisionarioNivelDos p,
 #sectProgramaCompleto p {
+    margin: 1em 0;
+}
+
+#formacionIntegral .dias-horarios-ubicacion-cursos p {
+    margin: 0;
+}
+
+#formacionIntegral .dias-horarios-ubicacion-cursos p.importantP {
+    margin: 1em 0;
+}
+
+#formacionIntegral .dias-horarios-ubicacion-cursos h4 {
     margin: 1em 0;
 }
 
@@ -1098,7 +1114,8 @@ th {
 }
 
 #contenidosConscienteNivelUno p,
-#contenidosConscienteNivelDos p {
+#contenidosConscienteNivelDos p,
+#contenidosVisionario p {
     margin: 0;
 }
 
