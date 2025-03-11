@@ -141,7 +141,7 @@ get_header();
 
         <div id="descripcionSupervisiones">
             <h2>Supervisiones</h2>
-            <p>Una vez completado el recorrido de aprendizaje en Canto Consciente o en Canto Visionario, contás con la posibilidad de anotarte en las reuniones de supervisión (1 cada 2 meses) en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
+            <p>Una vez completado el recorrido de aprendizaje en Canto Consciente o en Canto SupraConsciente, contás con la posibilidad de anotarte en las reuniones de supervisión (1 cada 2 meses) en donde resolveremos dudas y compartiremos hallazgos o reflexiones surgidas de las experiencias prácticas de los estudiantes.</p>
         </div>
     </section>
 </main>
