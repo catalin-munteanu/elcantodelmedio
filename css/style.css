@@ -294,6 +294,7 @@ section#formacionIntegral {
     min-height: 100vh;
     position: relative;
     scroll-margin-top: 60px;
+    padding-bottom: 100px;
 }
 
 #formacionIntegral h2 {
@@ -325,7 +326,7 @@ section#formacionIntegral {
     display: flex;
     flex-direction: column;
     align-items: center;
-/*    justify-content: space-evenly*/
+    /*    justify-content: space-evenly*/
 }
 
 #formacionIntegral article h3 {
@@ -382,9 +383,14 @@ section#formacionIntegral {
 
 
 .img-asesorias,
-.img-inscripciones-abiertas,
 .foto-formacion-int {
     width: 280px;
+    position: relative;
+    z-index: 2;
+}
+
+.img-inscripciones-abiertas {
+    width: 220px;
     position: relative;
     z-index: 2;
 }
@@ -422,25 +428,32 @@ section#formacionIntegral {
 
 .links-detalles-formacion,
 .links-detalles-consultoria,
-.links-detalles-asesoria {
+.links-detalles-asesoria,
+.conoce-programa {
+    width: 100%;
     z-index: 1;
     padding: 0 5% 5%;
 }
 
+.conoce-programa {
+    margin-top: 5%;
+}
+
 .container-link-pc {
     position: relative;
+    width: 70%;
 }
 
 .flecha-izq-formacion {
     position: absolute;
-    left: -5%;
+    left: -18%;
     width: 24px;
     top: 34%;
 }
 
 .flecha-der-formacion {
     position: absolute;
-    right: -5%;
+    right: -18%;
     width: 24px;
     top: 32%;
 }
@@ -452,7 +465,7 @@ section#formacionIntegral {
 .trazo-subrayado-contacto-form {
     position: absolute;
     left: 0;
-    bottom: 10%;
+    bottom: 0;
     width: 100%;
     height: 3.7904px
 }
@@ -1342,25 +1355,15 @@ div#footer {
     }
 
     .flecha-izq-formacion {
-        left: -2%;
+        left: -15%;
     }
 
     .flecha-der-formacion {
-        right: -2%;
+        right: -15%;
     }
 
     .link-consultas-reserva {
         width: 100%;
-    }
-}
-
-@media (min-width: 426px) {
-    .flecha-izq-formacion {
-        left: -6%;
-    }
-
-    .flecha-der-formacion {
-        right: -6%;
     }
 }
 
@@ -1370,7 +1373,8 @@ div#footer {
         display: block;
     } */
 
-    .links-detalles-formacion {
+    .links-detalles-formacion,
+    .conoce-programa {
         padding: 0 10% 5%;
     }
 
@@ -1378,13 +1382,17 @@ div#footer {
     .links-detalles-asesoria div {
         margin: 10%;
     }
+
+    .img-inscripciones-abiertas {
+        width: 280px;
+    }
 }
 
 @media (min-width: 479px) {
     .flecha-izq-formacion {
         left: -12%;
     }
-    
+
     .flecha-der-formacion {
         right: -12%;
     }
@@ -1408,7 +1416,8 @@ div#footer {
         margin: 20px 0 10px;
     }
 
-    .links-detalles-formacion {
+    .links-detalles-formacion,
+    .conoce-programa {
         padding: 0 15% 5%;
     }
 
@@ -1549,12 +1558,23 @@ div#footer {
         width: 100%;
     }
 
+    .links-detalles-formacion {
+        width: 80%;
+    }
+
+    .container-link-pc {
+        width: 80%;
+        max-width: 500px;
+    }
+
     .flecha-izq-formacion {
         top: 32%;
+        left: 0;
     }
 
     .flecha-der-formacion {
         top: 32%;
+        right: 0;
     }
 
     .trazo-subrayado-contacto-cons {
@@ -1575,7 +1595,8 @@ div#footer {
 
     .links-detalles-formacion,
     .links-detalles-consultoria,
-    .links-detalles-asesoria {
+    .links-detalles-asesoria,
+    .conoce-programa {
         padding: 0 0 5%;
     }
 
@@ -1753,10 +1774,6 @@ div#footer {
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-    }
-
-    .trazo-subrayado-contacto-form {
-        bottom: 16%;
     }
 
     /* CONSULTORÍAS */

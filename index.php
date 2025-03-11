@@ -88,7 +88,7 @@ get_header();
 					<p>OnLine: Lunes de 19.30 a 21hs</p>
 					<p>Presencial: Martes de 19.30 a 21hs en Río Cultural (Río de Janeiro 28, CABA)</p>
 				</div>
-<br>
+				<br>
 				<div>
 					<h4 class="underlineText">Canto SupraConsciente</h4>
 					<h4>Nivel 2</h4>
@@ -96,26 +96,32 @@ get_header();
 				</div>
 				<p class="importantP">Inscripciones abiertas</p>
 
+				<article class="links-detalles-formacion">
+					<div class="container-link-pc">
+					</div>
+
+					<article class="link-consultas-reserva">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
+						<div class="container-consultas-formacion">
+							<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
+							<img class="trazo-subrayado-contacto-form" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
+						</div>
+					</article>
+				</article>
+
 			</article>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/Foto-1.jpeg" class="img-inscripciones-abiertas">
 		</article>
 
 		<img class="trazoDecDos" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-2.svg" alt="" srcset="">
 
-		<article class="links-detalles-formacion">
-			<div class="container-link-pc">
-				<img class="flecha-izq-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
-				<p class="textoNegrita"><a href="../programa-curso" target="_blank">Conocé el programa completo y los contenidos de los cursos</a></p>
-				<img class="flecha-der-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
-			</div>
 
-			<article class="link-consultas-reserva">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-circ-1.svg" alt="" srcset="" class="trazo-circ-reserva">
-				<div class="container-consultas-formacion">
-					<p class="textoNegrita"><a href="https://wa.me/5491136148307" target="_blank">Consultas y reserva de cupos</a></p>
-					<img class="trazo-subrayado-contacto-form" src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-sub-cont.svg">
-				</div>
-			</article>
+		<article class="conoce-programa">
+		<div class="container-link-pc">
+			<img class="flecha-izq-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
+			<p class="textoNegrita"><a href="../programa-curso" target="_blank">Conocé el programa completo y los contenidos de los cursos</a></p>
+			<img class="flecha-der-formacion" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
+		</div>
 		</article>
 
 	</section>
