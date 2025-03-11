@@ -220,8 +220,7 @@ get_header();
 			<p>Es mi deseo que seamos cada vez más quienes conozcamos los beneficios de desarrollarnos artística y creativamente por medio de la Voz.</p>
 		</article>
 
-		<article>
-			<div class="container-link-pc">
+			<div class="container-link-trayectoria">
 				<img class="flecha-izq-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-izq.svg">
 				<div class="container-link-tye">
 					<p class="textoNegrita"><a href="<?php echo esc_url(get_permalink(get_page_by_path('trayectoria-estudios'))); ?>" target="_blank">Ver trayectoria y estudios</a>
@@ -230,7 +229,6 @@ get_header();
 				</div>
 				<img class="flecha-der-bio" src="<?php echo get_template_directory_uri(); ?>/img/mobile/flecha-doble-der.svg">
 			</div>
-		</article>
 
 		<article id="galeriaFotosBioIndex">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/mobile/trazo-scotch-uno.svg" class="trazo-scotch-uno" id="scotch-bio-gruesa-1" loading="lazy">

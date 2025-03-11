@@ -726,17 +726,11 @@ section#bio {
 }
 
 .flecha-izq-bio {
-    position: absolute;
-    left: -7%;
     width: 24px;
-    top: 31%;
 }
 
 .flecha-der-bio {
-    position: absolute;
-    right: -7%;
     width: 24px;
-    top: 27%;
 }
 
 .container-link-tye {
